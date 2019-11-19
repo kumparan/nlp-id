@@ -35,8 +35,12 @@ class lemmatizer:
             return [word[:-3],word[:-2]]
         elif word.endswith('an'):
             return word[:-2]
+        elif word.endswith('isasi'):
+            return word[:-5]
         elif word.endswith('i'):
             return word[:-1]
+        elif word.endswith('isme'):
+            return word[:-4]
         else:
             return word
     
