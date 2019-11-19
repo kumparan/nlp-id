@@ -5,7 +5,7 @@ class lemmatizer:
     def __init__(self):
         with open('kata-dasar.txt') as f:
             self.kata_dasar = set(f.read().splitlines())
-        with open ('generated_dict/final_dict.json') as file:
+        with open ('generated_dict/lemma_dict.json') as file:
             self.lemma_dict = json.load(file)
     
     def stem1(self, word):
