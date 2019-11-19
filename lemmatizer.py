@@ -60,7 +60,7 @@ class lemmatizer:
                 result = word.lower()
             elif word in self.lemma_dict:
                 result = self.lemma_dict[word]
-            else:
+            else:        
                 word1 = self.stem1(word)
                 word2 = self.stem2(word)
                 word13 = self.stem3(word1)
@@ -78,58 +78,66 @@ class lemmatizer:
                     result = word13
                 elif word13 in self.lemma_dict:
                     result = self.lemma_dict[word13]
-                elif len(word134)>0 and len(word134[0]) > 1:
-                    for word in word134:
-                        if word in self.kata_dasar:
-                            result = word
-                        elif word in self.lemma_dict:
-                            result = self.lemma_dict[word]
-                elif word134 in self.kata_dasar:
-                    result = word134
-                elif word134 in self.lemma_dict:
-                    result = self.lemma_dict[word134]
-                elif word25 in self.kata_dasar:
-                    result = word25
-                elif word25 in self.lemma_dict:
-                    result = self.lemma_dict[word25]
-                else:
-                    word12 = self.stem2(word1)
-                    word125 = self.stem1(word25)
-                    if word12 in self.kata_dasar:
-                        result = word12
-                    elif word12 in self.lemma_dict:
-                        result = self.lemma_dict[word12]
-                    elif word125 in self.kata_dasar:
-                        result = word125
-                    elif word125 in self.lemma_dict:
-                        result = self.lemma_dict[word125]
+                elif len(word134)>0:
+                    if len(word134[0]) > 1:
+                        for w in word134:
+                            if w in self.kata_dasar:
+                                result = w
+                            elif w in self.lemma_dict:
+                                result = self.lemma_dict[w]
+                    elif word134 in self.kata_dasar:
+                        result = word134
+                    elif word134 in self.lemma_dict:
+                        result = self.lemma_dict[word134]
+                if result == word.lower():
+                    if word25 in self.kata_dasar:
+                        result = word25
+                    elif word25 in self.lemma_dict:
+                        result = self.lemma_dict[word25]
                     else:
-                        word123 = self.stem3(word12)
-                        word1234 = self.stem4(word123)
-                        word1235 = self.stem5(word123)
-                        if word123 in self.kata_dasar:
-                            result = word123
-                        elif word123 in self.lemma_dict:
-                            result = self.lemma_dict[word123]
-                        elif len(word1234)>0 and len(word1234[0]) > 1:
-                            for word in word1234:
-                                if word in self.kata_dasar:
-                                    result = word
-                                elif word in self.lemma_dict:
-                                    result = self.lemma_dict[word]
-                        elif word1234 in self.kata_dasar:
-                            result = word1234
-                        elif word1234 in self.lemma_dict:
-                            result = self.lemma_dict[word1234]
-                        elif word1235 in self.kata_dasar:
-                            result = word1235
-                        elif word1235 in self.lemma_dict:
-                            result = self.lemma_dict[word1235]
+                        word12 = self.stem2(word1)
+                        word125 = self.stem1(word25)
+                        if word12 in self.kata_dasar:
+                            result = word12
+                        elif word12 in self.lemma_dict:
+                            result = self.lemma_dict[word12]
+                        elif word125 in self.kata_dasar:
+                            result = word125
+                        elif word125 in self.lemma_dict:
+                            result = self.lemma_dict[word125]
                         else:
-                            word12345 = self.stem5(word1234)
-                            if word12345 in self.kata_dasar:
-                                result = word12345
-                            elif word12345 in self.lemma_dict:
-                                result = self.lemma_dict[word12345]
+                            word123 = self.stem3(word12)
+                            word1234 = self.stem4(word123)
+                            word1235 = self.stem5(word123)
+                            if word123 in self.kata_dasar:
+                                result = word123
+                            elif word123 in self.lemma_dict:
+                                result = self.lemma_dict[word123]
+                            elif len(word1234)>0:
+                                if len(word1234[0]) > 1:
+                                    for w in word1234:
+                                        if w in self.kata_dasar:
+                                            result = w
+                                        elif w in self.lemma_dict:
+                                            result = self.lemma_dict[w]
+                                elif word1234 in self.kata_dasar:
+                                    result = word1234
+                                elif word1234 in self.lemma_dict:
+                                    result = self.lemma_dict[word1234]
+                            if result == word.lower():
+                                if word1235 in self.kata_dasar:
+                                    result = word1235
+                                elif word1235 in self.lemma_dict:
+                                    result = self.lemma_dict[word1235]
+                                else:
+                                    word12345 = self.stem5(word1234)
+                                    if word12345 in self.kata_dasar:
+                                        result = word12345
+                                    elif word12345 in self.lemma_dict:
+                                        result = self.lemma_dict[word12345]
+                                    elif '-' in word:
+                                        lemma_list=[self.lemma_dict.get(i,i) for i in word.split('-')]
+                                        if len(set(lemma_list)) == 1 and lemma_list[0] in self.kata_dasar:
+                                            result = lemma_list[0]
             final_result+=' {}'.format(result)
         return final_result.strip()
