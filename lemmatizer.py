@@ -130,12 +130,19 @@ class lemmatizer:
                                 elif word1235 in self.lemma_dict:
                                     result = self.lemma_dict[word1235]
                                 else:
-                                    word12345 = self.stem5(word1234)
-                                    if word12345 in self.kata_dasar:
-                                        result = word12345
-                                    elif word12345 in self.lemma_dict:
-                                        result = self.lemma_dict[word12345]
-                                    elif '-' in word:
+                                    word12345 = self.stem4(word1235)
+                                    if len(word12345)>0:
+                                        if len(word12345[0]) > 1:
+                                            for w in word12345:
+                                                if w in self.kata_dasar:
+                                                    result = w
+                                                elif w in self.lemma_dict:
+                                                    result = self.lemma_dict[w]
+                                        elif word12345 in self.kata_dasar:
+                                            result = word12345
+                                        elif word12345 in self.lemma_dict:
+                                            result = self.lemma_dict[word12345]
+                                    if result == word.lower() and '-' in word:
                                         lemma_list=[self.lemma_dict.get(i,i) for i in word.split('-')]
                                         if len(set(lemma_list)) == 1 and lemma_list[0] in self.kata_dasar:
                                             result = lemma_list[0]
