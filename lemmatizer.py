@@ -52,9 +52,10 @@ class lemmatizer:
     
     def lemmatize(self, text):
         final_result = ''
+        suffix = set(['lah', 'kah', 'pun', 'ku', 'mu', 'nya'])
         text = text.lower()
+        text = re.sub('[^a-zA-Z0-9-]+',' ',text)
         for word in text.split():
-            word = re.sub('[^a-zA-Z0-9-]+','',word)
             result = word.lower()
             if word.isdigit() or len(word)<=3 or word in self.kata_dasar:
                 result = word.lower()
@@ -142,9 +143,12 @@ class lemmatizer:
                                             result = word12345
                                         elif word12345 in self.lemma_dict:
                                             result = self.lemma_dict[word12345]
+                                    # kepada-Nya --> kepada
+                                    # anggota-anggota --> anggota
                                     if result == word.lower() and '-' in word:
                                         lemma_list=[self.lemma_dict.get(i,i) for i in word.split('-')]
-                                        if len(set(lemma_list)) == 1 and lemma_list[0] in self.kata_dasar:
-                                            result = lemma_list[0]
+                                        if (len(set(lemma_list)) == 2 and word.split('-')[1] in suffix) or len(set(lemma_list)) == 1:
+                                            if lemma_list[0] in self.kata_dasar:
+                                                result = lemma_list[0]
             final_result+=' {}'.format(result)
         return final_result.strip()
