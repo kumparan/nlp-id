@@ -1,11 +1,15 @@
+import os
 import json
 import re
 
 class lemmatizer:
     def __init__(self):
-        with open('kata-dasar.txt') as f:
+        current_dir = os.path.dirname(os.path.realpath(__file__))
+        KataDasarFile = current_dir + '/kata-dasar.txt'
+        DictionaryFile = current_dir + '/generated_dict/lemma_dict.json'
+        with open(KataDasarFile) as f:
             self.kata_dasar = set(f.read().splitlines())
-        with open ('generated_dict/lemma_dict.json') as file:
+        with open(DictionaryFile) as file:
             self.lemma_dict = json.load(file)
     
     def stem1(self, word):

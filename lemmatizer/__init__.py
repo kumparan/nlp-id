@@ -1,0 +1,1 @@
+from lemmatizer.lemmatizer import lemmatizer
