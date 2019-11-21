@@ -2,9 +2,9 @@ from distutils.core import setup
 
 # Package details
 setup(
-  name = 'nlp-id',
-  packages = ['nlp-id'],
-  version = '0.0.3',
+  name = 'nlp_id',
+  packages = ['nlp_id'],
+  version = '0.0.4',
   license='MIT',
   description = "Kumparan's NLP Services",
   author = 'Frandy Eddy',

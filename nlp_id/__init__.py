@@ -1,1 +1,1 @@
-from nlp_id.lemmatizer.lemmatizer import lemmatizer
+from nlp_id.lemmatizer import lemmatizer
