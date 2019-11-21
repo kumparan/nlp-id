@@ -10,7 +10,7 @@ To install `nlp-id`, use the following command:
 
 ## Usage
 
-    from nlp_id.lemmatizer import lemmatizer 
-    lemmatizer = lemmatizer() 
+    from nlp_id.lemmatizer import Lemmatizer 
+    lemmatizer = Lemmatizer() 
     lemmatizer.lemmatize('Saya sedang mencoba') 
     # saya sedang coba 
