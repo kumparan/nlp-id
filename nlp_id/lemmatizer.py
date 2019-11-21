@@ -1,10 +1,12 @@
 import os
 import json
 import re
+from pathlib import Path
 
-class lemmatizer:
+class Lemmatizer:
     def __init__(self):
-        parent_dir = os.path.dirname(os.getcwd())
+        current_dir = os.path.dirname(os.path.realpath(__file__))
+        parent_dir = Path(current_dir).parent
         KataDasarFile = parent_dir + '/data/kata-dasar.txt'
         DictionaryFile = parent_dir + '/data/lemma_dict.json'
         with open(KataDasarFile) as f:
