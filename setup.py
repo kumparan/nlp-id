@@ -2,14 +2,14 @@ from distutils.core import setup
 
 # Package details
 setup(
-  name = 'nlp_id',
-  packages = ['nlp_id'],
+  name = 'nlp-id',
+  packages = ['nlp-id'],
   version = '0.0.1',
   license='MIT',
-  description = "Kumparan's NLP Services',
+  description = "Kumparan's NLP Services",
   author = 'Frandy Eddy',
   author_email = 'eddy.frandy@gmail.com',
-  url = 'https://github.com/kumparan/nlp_id',
+  url = 'https://github.com/kumparan/nlp-id',
   keywords = ['Indonesian', 'Bahasa', 'NLP'],
   classifiers=[
     'Development Status :: 3 - Alpha',
