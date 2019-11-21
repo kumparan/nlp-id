@@ -4,7 +4,7 @@ from distutils.core import setup
 setup(
   name = 'nlp_id',
   packages = ['nlp_id'],
-  version = '0.0.5',
+  version = '0.0.6',
   license='MIT',
   description = "Kumparan's NLP Services",
   author = 'Frandy Eddy',
