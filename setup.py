@@ -1,16 +1,18 @@
-from distutils.core import setup
+from setuptools import setup
 
 # Package details
 setup(
-  name = 'nlp_id',
-  packages = ['nlp_id'],
-  version = '0.1.0',
+  name='nlp_id',
+  packages=['nlp_id'],
+  version='0.1.4',
   license='MIT',
-  description = "Kumparan's NLP Services",
-  author = 'Frandy Eddy',
-  author_email = 'eddy.frandy@gmail.com',
-  url = 'https://github.com/kumparan/nlp-id',
-  keywords = ['Indonesian', 'Bahasa', 'NLP'],
+  description="Kumparan's NLP Services",
+  long_description=open("README.md", "r").read(),
+  long_description_content_type="text/markdown",
+  author='Frandy Eddy',
+  author_email='eddy.frandy@gmail.com',
+  url='https://github.com/kumparan/nlp-id',
+  keywords=['Indonesian', 'Bahasa', 'NLP'],
   package_data={
         '': ['data/*'],
     },

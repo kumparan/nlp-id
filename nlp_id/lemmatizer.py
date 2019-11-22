@@ -84,7 +84,7 @@ class Lemmatizer:
                 elif word13 in self.lemma_dict:
                     result = self.lemma_dict[word13]
                 elif len(word134)>0:
-                    if len(word134[0]) > 1:
+                    if isinstance(word134,list):
                         for w in word134:
                             if w in self.kata_dasar:
                                 result = w
@@ -119,7 +119,7 @@ class Lemmatizer:
                             elif word123 in self.lemma_dict:
                                 result = self.lemma_dict[word123]
                             elif len(word1234)>0:
-                                if len(word1234[0]) > 1:
+                                if isinstance(word1234,list):
                                     for w in word1234:
                                         if w in self.kata_dasar:
                                             result = w
@@ -137,7 +137,7 @@ class Lemmatizer:
                                 else:
                                     word12345 = self.stem4(word1235)
                                     if len(word12345)>0:
-                                        if len(word12345[0]) > 1:
+                                        if isinstance(word12345,list):
                                             for w in word12345:
                                                 if w in self.kata_dasar:
                                                     result = w
