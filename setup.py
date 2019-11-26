@@ -4,7 +4,7 @@ from setuptools import setup
 setup(
   name='nlp_id',
   packages=['nlp_id'],
-  version='0.1.4',
+  version='0.1.5',
   license='MIT',
   description="Kumparan's NLP Services",
   long_description=open("README.md", "r").read(),
@@ -25,5 +25,7 @@ setup(
     'Programming Language :: Python :: 3.4',
     'Programming Language :: Python :: 3.5',
     'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
   ],
 )

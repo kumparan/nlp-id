@@ -5,8 +5,8 @@ import re
 class Lemmatizer:
     def __init__(self):
         current_dir = os.path.dirname(os.path.realpath(__file__))
-        KataDasarFile = current_dir + '/data/kata-dasar.txt'
-        DictionaryFile = current_dir + '/data/lemma_dict.json'
+        KataDasarFile = os.path.join(current_dir, 'data', 'kata-dasar.txt')
+        DictionaryFile = os.path.join(current_dir, 'data', 'lemma_dict.json')
         with open(KataDasarFile) as f:
             self.kata_dasar = set(f.read().splitlines())
         with open(DictionaryFile) as file:
