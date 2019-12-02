@@ -31,20 +31,20 @@ class Tokenizer:
                 return False
 
     def normalize_word(self, word):
-        normalize_word = ""
+        normalized_word = ""
         for i in self.punct:
             if i in word:
-                normalize_word = word.split(i)
+                normalized_word = word.split(i)
                 break
-        if normalize_word != "":
-            for j in range(len(normalize_word) - 2, -1, -1):
-                normalize_word.insert(j + 1, i)
+        if normalized_word :
+            for j in range(len(normalized_word) - 2, -1, -1):
+                normalized_word.insert(j + 1, i)
 
-            normalize_word = [i for i in normalize_word if i is not ""]
+            normalized_word = [i for i in normalized_word if i]
 
         else:
-            normalize_word = [word]
-        return normalize_word
+            normalized_word = [word]
+        return normalized_word
 
     def tokenize_postag(self, text):
         splitted_text = text.split()
@@ -66,7 +66,7 @@ class Tokenizer:
             tengah = kata[i:j+1]
             if (not self.is_url(tengah) and not self.is_email(tengah)):
 
-                kata_tengah = self.normalize_word(tengah, self.punct)
+                kata_tengah = self.normalize_word(tengah)
             else:
                 kata_tengah = [tengah]
 
