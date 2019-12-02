@@ -1,5 +1,3 @@
-import os
-import json
 import re
 
 class Tokenizer:
