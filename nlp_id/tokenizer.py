@@ -30,9 +30,9 @@ class Tokenizer:
             else:
                 return False
 
-    def normalize_word(self, word, punct):
+    def normalize_word(self, word):
         normalize_word = ""
-        for i in punct:
+        for i in self.punct:
             if i in word:
                 normalize_word = word.split(i)
                 break
