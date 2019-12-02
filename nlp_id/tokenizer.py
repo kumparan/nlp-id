@@ -22,9 +22,9 @@ class Tokenizer:
 
         return False
 
-    def is_email(self, kata):
-        if ("@" in kata):
-            if (re.search('^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$', kata)):
+    def is_email(self, word):
+        if ("@" in word):
+            if (re.search('^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$', word)):
                 return True
 
             else:
@@ -47,9 +47,9 @@ class Tokenizer:
         return normalize_word
 
     def tokenize_postag(self, text):
-        split_text = text.split()
+        splitted_text = text.split()
         final = []
-        for kata in split_text:
+        for kata in splitted_text:
             awal = []
             akhir = []
 
@@ -58,19 +58,20 @@ class Tokenizer:
                     awal.append(kata[i])
                 else:
                     break
-            if (i != len(kata)-1):
-                for j in range((len(kata) - 1), -1, -1):
-                    if kata[j] in self.punct:
-                        akhir.insert(0, kata[j])
-                    else:
-                        break
-                tengah = kata[i:j+1]
-                if (not self.is_url(tengah) and not self.is_email(tengah)):
-
-                    kata_tengah = self.normalize_word(tengah, self.punct)
+            for j in range((len(kata) - 1), -1, -1):
+                if kata[j] in self.punct:
+                    akhir.insert(0, kata[j])
                 else:
-                    kata_tengah = [tengah]
+                    break
+            tengah = kata[i:j+1]
+            if (not self.is_url(tengah) and not self.is_email(tengah)):
+
+                kata_tengah = self.normalize_word(tengah, self.punct)
             else:
+                kata_tengah = [tengah]
+
+            # for handling word like "......." or ",,,,"
+            if kata_tengah == [""]:
                 kata_tengah = []
                 akhir = []
 
