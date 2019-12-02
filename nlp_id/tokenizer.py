@@ -8,7 +8,6 @@ class Tokenizer:
                       '[', ']', '\\', '^', '`', '{', '}', '|', '~', '"', '“']
 
     def is_url(self, word):
-
         if any(word.startswith(i) for i in self.start_url):
             return True
 
