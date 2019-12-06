@@ -42,7 +42,7 @@ class Tokenizer:
             if i in word:
                 normalized_word = word.split(i)
                 break
-        # handling /
+        # handling / or .
         if (i == "/" or i == "."):
             count = 0
             for each in normalized_word:
@@ -101,5 +101,3 @@ class Tokenizer:
 
             final += awal + kata_tengah + akhir
         return final
-t = Tokenizer()
-print(t.tokenize_postag('Ledakan Terjadi di Monas, 1.000 Orang Terluka Sebuah ledakan terjadi di sekitar Monas, Jakarta Pusat. Kapendam Jaya Kolonel Zulhadrie membenarkan kejadian ini. "Ya (ada ledakan). Semua sedang melakukan penyelidikan. Ada dari polisi juga," kata Zul saat dikonfirmasi kumparan, Selasa (3/12). Belum diketahui penyebab pasti ledakan tersebut. Zul mengatakan polisi masih menyelidiki kejadian tersebut. Lokasi ledakan di Monas, Jakarta Pusat, Selasa (3/12). Foto: Dok. Istimewa "Masih dalam penyelidikan," tuturnya.\ Dalam foto yang beredar, terlihat ada korban luka-luka. Namun Zul masih enggan memastikan kondisi korban saat ini. "Itu cuma sekadar foto. Belum dipastikan," pungkasnya. Hingga saat ini, polisi masih melakukan penjagaan di lokasi. Wartawan belum bisa masuk ke lokasi karena dilarang pihak kepolisian.'))
