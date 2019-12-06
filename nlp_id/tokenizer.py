@@ -6,7 +6,7 @@ class Tokenizer:
         self.start_url = ["www.", "http"]
         self.end_url = [".com", ".id", ".io", ".html", ".org", ".net"]
         self.punct = ['!', '&', '(', ')', '*', '?', ',', '.', '<', '>', '/', ':', ';',
-                      '[', ']', '\\', '^', '`', '{', '}', '|', '~', '"', '“']
+                      '[', ']', '\\', '^', '`', '{', '}', '|', '~', '"', '“', "'"]
 
     def convert_non_ascii(self, text):
         text = re.sub('\u2014|\u2013', '-', text)
@@ -39,6 +39,7 @@ class Tokenizer:
     def normalize_word(self, word):
         normalized_word = ""
         check = False
+        check2 = False
         for i in self.punct:
             if i in word:
                 normalized_word = word.split(i)
@@ -52,6 +53,14 @@ class Tokenizer:
             if count < len(normalized_word):
                 check = True
 
+        if i in ["'"]:
+            count = 0
+            for each in normalized_word:
+                if not each.isalpha():
+                    count += 1
+            if count < len(normalized_word):
+                check2 = True
+
         if normalized_word :
             for j in range(len(normalized_word) - 2, -1, -1):
                 normalized_word.insert(j + 1, i)
@@ -59,7 +68,7 @@ class Tokenizer:
         else:
             normalized_word = [word]
 
-        if check:
+        if check or check2:
             normalized_word = ["".join(normalized_word)]
 
         return normalized_word
