@@ -110,7 +110,7 @@ class PhraseTokenizer:
     def __init__(self):
         self.postagger = postag.PosTag()
     
-    def phrase_tokenize(self, text):
+    def tokenize(self, text):
         phrase_tag = self.postagger.get_phrase_tag(text)
         tokens = [phrase[0] for phrase in phrase_tag]
         return tokens

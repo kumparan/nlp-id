@@ -7,7 +7,7 @@ import nltk
 class PosTag:
     def __init__(self):
         current_dir = os.path.dirname(os.path.realpath(__file__))
-        model_path = os.path.join(current_dir, 'postagger.pkl')
+        model_path = os.path.join(current_dir, 'data', 'postagger.pkl')
         self.clf = self.load_model(model_path)
         self.tokenizer = tokenizer.Tokenizer()
 
@@ -66,7 +66,7 @@ class PosTag:
     def chunk_tag(self, tag):
         result=[]
         chunk_rule = '''
-            NP: {<NUM><NNP><NUM>}
+            DP: {<NUM><NNP><NUM>}
             NP: {<NNP>+<CC><NNP>+}
             NP: {<NN>+<CC><NN>+}
             NP: {<FW>+}
