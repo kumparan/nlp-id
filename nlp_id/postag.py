@@ -64,7 +64,6 @@ class PosTag:
         return result
 
     def chunk_tag(self, tag):
-        result=[]
         chunk_rule = '''
             DP: {<NUM><NNP><NUM>}
             NP: {<NNP>+<CC><NNP>+}
