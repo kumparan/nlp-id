@@ -1,11 +1,18 @@
 import re
+import postag
 
 class Tokenizer:
     def __init__(self):
         self.start_url = ["www.", "http"]
         self.end_url = [".com", ".id", ".io", ".html", ".org", ".net"]
         self.punct = ['!', '&', '(', ')', '*', '?', ',', '.', '<', '>', '/', ':', ';',
-                      '[', ']', '\\', '^', '`', '{', '}', '|', '~', '"', '“']
+                      '[', ']', '\\', '^', '`', '{', '}', '|', '~', '"', '“', "'"]
+
+    def convert_non_ascii(self, text):
+        text = re.sub('\u2014|\u2013', '-', text)
+        text = re.sub('\u2018|\u2019', "'", text)
+        text = re.sub('\u201c|\u201d', '"', text)
+        return text
 
     def is_url(self, word):
         if any(word.startswith(i) for i in self.start_url):
@@ -31,21 +38,43 @@ class Tokenizer:
 
     def normalize_word(self, word):
         normalized_word = ""
+        check = False
+        check2 = False
         for i in self.punct:
             if i in word:
                 normalized_word = word.split(i)
                 break
+        # handling / or .
+        if i in ["/","."]:
+            count = 0
+            for each in normalized_word:
+                if not each.isdigit():
+                    count += 1
+            if count < len(normalized_word):
+                check = True
+
+        if i in ["'"]:
+            count = 0
+            for each in normalized_word:
+                if not each.isalpha():
+                    count += 1
+            if count < len(normalized_word):
+                check2 = True
+
         if normalized_word :
             for j in range(len(normalized_word) - 2, -1, -1):
                 normalized_word.insert(j + 1, i)
-
             normalized_word = [i for i in normalized_word if i]
-
         else:
             normalized_word = [word]
+
+        if check or check2:
+            normalized_word = ["".join(normalized_word)]
+
         return normalized_word
 
-    def tokenize_postag(self, text):
+    def tokenize(self, text):
+        text = self.convert_non_ascii(text)
         splitted_text = text.split()
         final = []
         for kata in splitted_text:
@@ -76,3 +105,12 @@ class Tokenizer:
 
             final += awal + kata_tengah + akhir
         return final
+
+class PhraseTokenizer:
+    def __init__(self):
+        self.postagger = postag.PosTag()
+    
+    def tokenize(self, text):
+        phrase_tag = self.postagger.get_phrase_tag(text)
+        tokens = [phrase[0] for phrase in phrase_tag]
+        return tokens

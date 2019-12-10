@@ -16,6 +16,10 @@ setup(
   package_data={
         '': ['data/*'],
     },
+  install_requires=[
+        "scikit-learn==0.20.1",
+        "nltk==3.4.5"
+    ],
   classifiers=[
     'Development Status :: 3 - Alpha',
     'Intended Audience :: Science/Research',
