@@ -63,6 +63,7 @@ The tokens in **standard POS Tagger** are single-word tokens, while the tokens i
       ('Republik Indonesia', 'NP')]
     
 Description of tagset used for POS Tagger:
+
 | No. | Tag | Description | Example |
 |:-----:|:-----:|:--------|:------------|
 | 1 | ADV | Adverbs. Includes adverb, modal, and auxiliary verb | sangat, hanya, justru, boleh, harus, mesti|
