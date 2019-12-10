@@ -62,3 +62,22 @@ The tokens in **standard POS Tagger** are single-word tokens, while the tokens i
     # [('Joko Widodo', 'NP'), ('kembali', 'VP'), ('terpilih', 'VP'), ('menjadi', 'VP'), ('presiden', 'NN'), 
       ('Republik Indonesia', 'NP')]
     
+Description of tagset used for POS Tagger:
+| No. | Tag | Description | Example |
+|:-----:|:-----:|:--------|:------------|
+| 1 | ADV | Adverbs. Includes adverb, modal, and auxiliary verb | sangat, hanya, justru, boleh, harus, mesti|
+| 2 | CC  | Coordinating conjunction. Coordinating conjunction links two or more syntactically equivalent parts of a sentence. Coordinating conjunction can link independent clauses, phrases, or words. | dan, tetapi, atau |
+| 3 | DT  | Determiner/article. A grammatical unit which limits the potential referent of a noun phrase, whose basic role is to mark noun phrases as either definite or indefinite.| para, sang, si |
+| 4 | IN  | Preposition. A preposition links word or phrase and constituent in front of that preposition and results prepositional phrase. | dalam, dengan, di, ke|
+| 5 | JJ | Adjective. Adjectives are words which describe, modify, or specify some properties of the head noun of the phrase | bersih, panjang, jauh, marah |
+| 6 | NEG | Negation | tidak, belum, jangan |
+| 7 | NN | Noun. Nouns are words which refer to human, animal, thing, concept, or understanding | meja, kursi, monyet, perkumpulan |
+| 8 | NNP | Proper Noun. Proper noun is a specific name of a person, thing, place, event, etc. | Indonesia, Jakarta, Piala Dunia, Idul Fitri, Jokowi |
+| 9 | NUM  | Number. Includes cardinal and ordinal number | 9876, 2019, 0,5, empat |
+| 10 | PR  | Pronoun. Includes personal pronoun and demonstrative pronoun | saya, kami, kita, kalian, ini, itu |
+| 11 | RP  | Particle. Particle which confirms interrogative, imperative, or declarative sentences | pun, lah, kah|
+| 12 | SC  | Subordinating Conjunction. Subordinating conjunction links two or more clauses and one of the clauses is a subordinate clause. | sejak, jika, seandainya, dengan, bahwa, yang|
+| 13 | SYM | Symbols and Punctuations  | +,%,@ |
+| 14 | UH | Interjection. Interjection expresses feeling or state of mind and has no relation with other words syntactically. | ayo, mari, aduh|
+| 15 | VB | Verb. Includes transitive verbs, intransitive verbs, active verbs, passive verbs, and copulas. | tertidur, bekerja, membaca |
+| 16 | WH | Question words | siapa, apa, kapan, bagaimana |
