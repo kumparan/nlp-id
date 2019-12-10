@@ -1,5 +1,5 @@
 from nltk.tree import Tree
-import tokenizer
+from nlp_id import tokenizer
 import pickle
 import os
 import nltk

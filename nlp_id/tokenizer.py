@@ -1,5 +1,5 @@
 import re
-import postag
+from nlp_id import postag
 
 class Tokenizer:
     def __init__(self):
