@@ -6,14 +6,8 @@
 
 To install `nlp-id`, use the following command:
 
-    $ pip install nlp-id 
-    
-## Data
+    $ pip install nlp-id     
 
-There are some data that needs to be downloaded before using the library:
-1. [POS Tag model](https://storage.cloud.google.com/kumparan-public-bucket/nlp-id/postagger.pkl)
-
-After downloading the data, you can place it inside the `nlp_id/data` folder.
 
 ## Usage
 
@@ -36,15 +30,15 @@ The **standard tokenizer** tokenizes the text into separate tokens where the wor
 
     from nlp_id.tokenizer import Tokenizer 
     tokenizer = Tokenizer() 
-    tokenizer.tokenize('Joko Widodo kembali terpilih menjadi presiden Republik Indonesia') 
-    # ['Joko', 'Widodo', 'kembali', 'terpilih', 'menjadi', 'presiden', 'Republik', 'Indonesia'] 
+    tokenizer.tokenize('Lionel Messi pergi ke pasar di area Jakarta Pusat.') 
+    # ['Lionel', 'Messi', 'pergi', 'ke', 'pasar', 'di', 'area', 'Jakarta', 'Pusat', '.']
     
 The **phrase tokenizer** tokenizes the text into separate tokens where the word tokens are phrases (single or multi-word tokens). 
 
     from nlp_id.tokenizer import PhraseTokenizer 
     tokenizer = PhraseTokenizer() 
-    tokenizer.tokenize('Joko Widodo kembali terpilih menjadi presiden Republik Indonesia') 
-    # ['Joko Widodo', 'kembali', 'terpilih', 'menjadi', 'presiden', 'Republik Indonesia']
+    tokenizer.tokenize('Lionel Messi pergi ke pasar di area Jakarta Pusat.') 
+    # ['Lionel Messi', 'pergi', 'ke', 'pasar', 'di', 'area', 'Jakarta Pusat', '.']
     
 ### POS Tagger
 
@@ -54,13 +48,14 @@ The tokens in **standard POS Tagger** are single-word tokens, while the tokens i
 
     from nlp_id.postag import PosTag
     postagger = PosTag() 
-    postagger.get_pos_tag('Joko Widodo kembali terpilih menjadi presiden Republik Indonesia') 
-    # [('Joko', 'NNP'), ('Widodo', 'NNP'), ('kembali', 'VB'), ('terpilih', 'VB'), ('menjadi', 'VB'), ('presiden', 'NN'),
-      ('Republik', 'NNP'), ('Indonesia', 'NNP')]
+    postagger.get_pos_tag('Lionel Messi pergi ke pasar di area Jakarta Pusat.') 
+    # [('Lionel', 'NNP'), ('Messi', 'NNP'), ('pergi', 'VB'), ('ke', 'IN'), ('pasar', 'NN'), ('di', 'IN'), ('area', 'NN'),  
+      ('Jakarta', 'NNP'), ('Pusat', 'NNP')]
     
-    postagger.get_phrase_tag('Joko Widodo kembali terpilih menjadi presiden Republik Indonesia') 
-    # [('Joko Widodo', 'NP'), ('kembali', 'VP'), ('terpilih', 'VP'), ('menjadi', 'VP'), ('presiden', 'NN'), 
-      ('Republik Indonesia', 'NP')]
+    postagger.get_phrase_tag('Lionel Messi pergi ke pasar di area Jakarta Pusat.') 
+    # [('Lionel Messi', 'NP'), ('pergi', 'VP'), ('ke', 'IN'), ('pasar', 'NN'), ('di', 'IN'), ('area', 'NN'), 
+      ('Jakarta Pusat', 'NP'), ('.', 'SYM')]
+
     
 Description of tagset used for POS Tagger:
 
@@ -82,3 +77,7 @@ Description of tagset used for POS Tagger:
 | 14 | UH | Interjection. Interjection expresses feeling or state of mind and has no relation with other words syntactically. | ayo, mari, aduh|
 | 15 | VB | Verb. Includes transitive verbs, intransitive verbs, active verbs, passive verbs, and copulas. | tertidur, bekerja, membaca |
 | 16 | WH | Question words | siapa, apa, kapan, bagaimana |
+| 17 | ADJP | Adjective Phrase. A group of words headed by an adjective that describes a noun or a pronoun | sangat tinggi |
+| 18 | DP | Date Phrase. Date written with whitespaces | 1 Januari 2020 |
+| 19 | NP | Noun Phrase. A phrase that has a noun (or indefinite pronoun) as its head | Jakarta Pusat, Lionel Messi |
+| 20 | VP | Verb Phrase. A syntactic unit composed of at least one verb and its dependents | tidak makan |
