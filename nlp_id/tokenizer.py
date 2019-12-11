@@ -45,7 +45,7 @@ class Tokenizer:
                 normalized_word = word.split(i)
                 break
         # handling / or .
-        if i in ["/","."]:
+        if i in ["/",".",","]:
             count = 0
             for each in normalized_word:
                 if not each.isdigit():

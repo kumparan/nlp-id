@@ -78,10 +78,8 @@ class PosTag:
             DP: {<NUM><NNP><NUM>}
             NP: {<NNP>+<CC><NNP>+}
             NP: {<NN>+<CC><NN>+}
-            NP: {<FW>+}
             NP: {<NNP><NNP>+}
             NP: {<NN>+<JJ>}
-            NP: {<NN><NN>+}
             NP: {<NP><NP>+}
             ADJP: {<JJ><ADV>}
             ADJP: {<ADV><JJ>}
