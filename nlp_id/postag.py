@@ -21,11 +21,6 @@ class PosTag:
         load_data = pickle.load(pickle_in)
         return load_data
 
-    def save_model(self,model_path):
-        pickle_out = open(model_path, "wb")
-        pickle.dump(self.clf, pickle_out)
-        pickle_out.close()
-
     def features(self, sentence, index):
         """ sentence: [w1, w2, ...], index: the index of the word """
         return {
@@ -56,11 +51,12 @@ class PosTag:
         }
 
     def get_pos_tag(self, text):
-        tokenized_word = self.tokenizer.tokenize(text)
-        tags = self.clf.predict([self.features(tokenized_word, index) for index in range(len(tokenized_word))])
         result = []
-        for i in range(len(tags)):
-            result.append((tokenized_word[i], tags[i]))
+        tokenized_word = self.tokenizer.tokenize(text)
+        if text:
+            tags = self.clf.predict([self.features(tokenized_word, index) for index in range(len(tokenized_word))])
+            for i in range(len(tags)):
+                result.append((tokenized_word[i], tags[i]))
         return result
     
     def tree_to_list(self, tree_data):
@@ -93,22 +89,14 @@ class PosTag:
         return result
     
     def get_phrase_tag(self,text):
-        tag = self.get_pos_tag(text)
-        phrase_tag = self.chunk_tag(tag)
+        if text:
+            tag = self.get_pos_tag(text)
+            phrase_tag = self.chunk_tag(tag)
+        else:
+            phrase_tag = []
         return phrase_tag
 
-    def transform_to_dataset(self, sentences, tags):
-        X, y = [], []
-
-        for sentence_idx in range(len(sentences)):
-            for index in range(len(sentences[sentence_idx])):
-                X.append(self.features(sentences[sentence_idx], index))
-                y.append(tags[sentence_idx][index])
-
-        return X, y
-
     def read_dataset(self, dataset_path=None):
-
         if not dataset_path:
             dataset_path = os.path.join(self.current_dir, 'data', 'dataset_postag.txt')
 
@@ -125,11 +113,21 @@ class PosTag:
                 temp_tags.append(file[1]) # get the tag
             else:
                 # check if the temp sentences and temp tags is not null and both of them have the same length
-                if len(temp_sentences) > 0 and len(temp_tags) > 0 and (len(temp_sentences) == len(temp_tags)):
+                if len(temp_sentences) > 0 and (len(temp_sentences) == len(temp_tags)):
                     sentences.append(temp_sentences)
                     tags.append(temp_tags)
                 temp_sentences, temp_tags = [], []
         return sentences, tags
+    
+    def transform_to_dataset(self, sentences, tags):
+        X, y = [], []
+
+        for sentence_idx in range(len(sentences)):
+            for index in range(len(sentences[sentence_idx])):
+                X.append(self.features(sentences[sentence_idx], index))
+                y.append(tags[sentence_idx][index])
+
+        return X, y
 
     def train(self, sentences, tags):
         self.clf = Pipeline([
@@ -138,3 +136,8 @@ class PosTag:
         ])
 
         self.clf.fit(sentences, tags)
+        
+    def save_model(self,model_path):
+        pickle_out = open(model_path, "wb")
+        pickle.dump(self.clf, pickle_out)
+        pickle_out.close()
