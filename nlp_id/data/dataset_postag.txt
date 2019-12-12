@@ -1,4 +1,4 @@
-Ditjen	NN
+Ditjen	NNP
 Bea	NNP
 dan	CC
 Cukai	NNP
@@ -83,7 +83,7 @@ kumparan	NN
 ,	SYM
 Selasa	NNP
 (3/12).	NUM
-Menurutnya	NNP
+Menurutnya	IN
 ,	SYM
 18	NUM
 kotak	NN
@@ -625,7 +625,7 @@ pada	IN
 lalu	CC
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 laporan	NN
 Mashable	NNP
 ,	SYM
@@ -894,7 +894,7 @@ rilisnya	VB
 ,	SYM
 Selasa	NNP
 (3/12).	NUM
-Menurutnya	NNP
+Menurutnya	IN
 ,	SYM
 mereka	PR
 berkomitmen	VB
@@ -1237,13 +1237,13 @@ yaitu	SC
 ,	SYM
 mulai	VB
 dari	IN
-Rp	NNP
+RP	SYM
 400	NUM
 ribu	NUM
 hingga	IN
 lebih	ADV
 dari	IN
-Rp	NNP
+RP	SYM
 800	NUM
 ribu	NUM
 .	SYM
@@ -1473,7 +1473,7 @@ untuk	SC
 handphone	NNP
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 VITO	NNP
 (Visit	NN
 Indonesia	NNP
@@ -1753,7 +1753,7 @@ kumparan	NN
 ,	SYM
 Selasa	NNP
 (3/12).	NUM
-Menurut	NNP
+Menurut	IN
 Ikhsan	NNP
 ,	SYM
 prosedur	NN
@@ -2391,12 +2391,15 @@ pada	IN
 Bali	NNP
 .	SYM
 
-“Tempat	NN
+"	SYM
+Tempat	NN
 yang	SC
 menakjubkan	VB
 !	SYM
 
-,”	NNP
+,	SYM
+"	SYM
+
 tulisnya	VB
 .	SYM
 
@@ -2418,7 +2421,9 @@ bahwa	SC
 Bali	NNP
 bak	NN
 ‘Surga’.	NNP
-“	NNP
+
+"	SYM
+
 Sometimes	NNP
 heaven	NN
 is	NN
@@ -2431,7 +2436,9 @@ itu	PR
 tidak	NEG
 sejauh	JJ
 itu	PR
-,”	NNP
+,	SYM
+"	SYM
+
 tulisnya	VB
 pada	IN
 akun	NN
@@ -2769,7 +2776,7 @@ Tujuan	NNP
 Pembangunan	NNP
 Berkelanjutan	NNP
 (SDGs).	NNP
-Menurut	NNP
+Menurut	IN
 Sustainable	NNP
 Development	NNP
 Investment	NNP
@@ -2851,7 +2858,9 @@ Luky	NNP
 dalam	IN
 diskusi	NN
 bertajuk	VB
-“Mendorong	NNP
+
+"	SYM
+Mendorong	VB
 Pendanaan	NNP
 Infrastruktur	NNP
 Berkelanjutan	NNP
@@ -2859,7 +2868,9 @@ melalui	IN
 Pasar Modal	NN
 dan	CC
 Pertumbuhan	NNP
-Asuransi”	NNP
+Asuransi	NNP
+"	SYM
+
 di	IN
 Gedung	NNP
 Bursa Efek	NN
@@ -2895,7 +2906,7 @@ dan	CC
 Bursa Efek	NN
 Indonesia	NNP
 (BEI).	NNP
-Terkait	NNP
+Terkait	VB
 itu	PR
 ,	SYM
 Luky	NNP
@@ -3141,7 +3152,9 @@ terhadap	IN
 sistem	NN
 di	IN
 Indonesia	NNP
-,”	NNP
+,	SYM
+"	SYM
+
 ujarnya	VB
 .	SYM
 
@@ -3435,7 +3448,7 @@ Zulhadrie	NNP
 Ya	NNP
 (ada	NNP
 ledakan).	NNP
-Semua	NNP
+Semua	NUM
 sedang	ADV
 melakukan	VB
 penyelidikan	NN
@@ -3544,12 +3557,13 @@ Bulog	NNP
 yang	SC
 menumpuk	VB
 hingga	IN
-Rp	NNP
+RP	SYM
 28	NUM
 triliun	NUM
 .	SYM
 
-“Bulog	NNP
+"	SYM
+Bulog	NNP
 sekarang	NN
 mulai	VB
 memajukan	VB
@@ -3579,7 +3593,7 @@ komersial	JJ
 persen	NUM
 .	SYM
 
-Hari	NN
+Hari	NNP
 ini	PR
 baru	JJ
 mencapai	VB
@@ -3594,7 +3608,9 @@ Jadi	JJ
 persen	NUM
 masih	ADV
 PSO	NNP
-,”	NNP
+,	SYM
+"	SYM
+
 kata	NN
 Buwas	NNP
 di	IN
@@ -3643,7 +3659,7 @@ adanya	NN
 panganandotcom	NN
 .	SYM
 
-Menurutnya	NNP
+Menurutnya	IN
 masyarakat	NN
 banyak	NUM
 yang	SC
@@ -3654,7 +3670,8 @@ langkah	NN
 itu	PR
 .	SYM
 
-“Saya	NN
+"	SYM
+Saya	PR
 kerja sama	NN
 dengan	IN
 ritel-ritel	JJ
@@ -3690,7 +3707,9 @@ juga	ADV
 kerja sama	NN
 dengan	IN
 Grabkios	NNP
-,”	NNP
+,	SYM
+"	SYM
+
 ujar	VB
 Buwas	NNP
 .	SYM
@@ -3721,7 +3740,8 @@ dari	IN
 Bulog	NNP
 .	SYM
 
-“Jadi	NN
+"	SYM
+Jadi	JJ
 masyarakat	NN
 kalau	SC
 butuh	VB
@@ -3759,7 +3779,9 @@ dan	CC
 akan	ADV
 dilakukan	VB
 Bulog	NNP
-,”	NNP
+,	SYM
+"	SYM
+
 tutur	NN
 Buwas	NNP
 .	SYM
@@ -3798,7 +3820,7 @@ terluka	VB
 parah	JJ
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 polisi	NN
 setempat	JJ
 ,	SYM
@@ -4293,7 +4315,8 @@ Ria	NNP
 Miranda	NNP
 .	SYM
 
-“Seluruh	NN
+"	SYM
+Seluruh	NUM
 konten	NN
 ,	SYM
 konsep	NN
@@ -4338,7 +4361,9 @@ Store	NNP
 maupun	CC
 Tokopedia	NNP
 Salam	NNP
-,”	NNP
+,	SYM
+"	SYM
+
 begitu	SC
 pernyataan	NN
 dari	IN
@@ -4418,7 +4443,8 @@ yang	SC
 inspiratif	NN
 .	SYM
 
-“Saya	NN
+"	SYM
+Saya	PR
 dan	CC
 tim	NN
 membuat	VB
@@ -4514,7 +4540,9 @@ dan	CC
 menyebarkan	VB
 nilai	NN
 kebaikan	NN
-,”	NNP
+,	SYM
+"	SYM
+
 tulis	VB
 Ria	NNP
 Miranda	NNP
@@ -4561,7 +4589,8 @@ industri	NN
 fashion	NN
 .	SYM
 
-“Kehadiran	NN
+"	SYM
+Kehadiran	NN
 mitra kerja	NN
 korporat	NN
 Tokopedia	NNP
@@ -4604,7 +4633,8 @@ sebagai	IN
 pendukung	NN
 acara	NN
 .	SYM
-”	NNP
+
+"	SYM
 
 Manchester	NNP
 United	NNP
@@ -4750,7 +4780,8 @@ melakukan	VB
 itu	PR
 .	SYM
 
-“Ya	NN
+"	SYM
+Ya	NNP
 ,	SYM
 ini	PR
 sempurna	JJ
@@ -4787,7 +4818,9 @@ Spurs	NNP
 di	IN
 Old	NNP
 Trafford	NNP
-,”	NNP
+,	SYM
+"	SYM
+
 ucap	VB
 Maguire	NNP
 ,	SYM
@@ -5029,7 +5062,8 @@ di	IN
 lapangan	NN
 .	SYM
 
-“Suporter	NNP
+"	SYM
+Suporter	NNP
 kami	PR
 brilian	JJ
 .	SYM
@@ -5083,7 +5117,9 @@ dengan	IN
 hasil	NN
 yang	SC
 positif	NN
-,”	NNP
+,	SYM
+"	SYM
+
 pungkas	NN
 Maguire	NNP
 .	SYM
@@ -6076,7 +6112,8 @@ kepada	IN
 anak	NN
 .	SYM
 
-“Sejak	NN
+"	SYM
+Sejak	SC
 kecil	JJ
 perlu	ADV
 ditanamkan	VB
@@ -6112,7 +6149,9 @@ tidak	NEG
 ada	JJ
 lagi	ADV
 diskriminasi	NN
-,”	NNP
+,	SYM
+"	SYM
+
 kata	NN
 Grace	NNP
 ,	SYM
@@ -6140,7 +6179,8 @@ sangat	ADV
 baik	JJ
 .	SYM
 
-“Saya	NN
+"	SYM
+Saya	PR
 pernah	ADV
 berkunjung	VB
 ke	IN
@@ -6174,7 +6214,9 @@ mereka	PR
 memang	ADV
 diakui	VB
 masyarakat	NN
-,”	NNP
+,	SYM
+"	SYM
+
 kata	NN
 Grace	NNP
 .	SYM
@@ -6205,7 +6247,7 @@ di	IN
 arena	NN
 pameran	NN
 ini	PR
-menurutnya	NN
+menurutnya	IN
 perlu	ADV
 dihubungkan	VB
 dengan	IN
@@ -6223,7 +6265,8 @@ kemandirian	NN
 ekonomi	NN
 .	SYM
 
-“Memang	NN
+"	SYM
+Memang	ADV
 ada	JJ
 sedikit	NUM
 kendala	NN
@@ -6277,7 +6320,9 @@ menambah	VB
 pendapatan	NN
 ekonomi	NN
 mereka	PR
-,”	NNP
+,	SYM
+"	SYM
+
 kata	NN
 Grace	NNP
 .	SYM
@@ -6314,7 +6359,8 @@ peluang	NN
 kerja	NN
 .	SYM
 
-“Saya	NN
+"	SYM
+Saya	PR
 harap	VB
 baik	JJ
 instansi	NN
@@ -6356,7 +6402,9 @@ kira	VB
 ini	PR
 perlu	ADV
 diwujudkan	VB
-,”	NNP
+,	SYM
+"	SYM
+
 pungkasnya	NN
 .	SYM
 
@@ -6610,7 +6658,7 @@ mereka	PR
 ‘Kau	NNP
 Udara	NNP
 Bagiku’.	NNP
-Ketiganya	NNP
+Ketiganya	NUM
 juga	ADV
 berbagi	VB
 kisah	NN
@@ -6618,7 +6666,7 @@ terkait	VB
 album	NN
 ‘Keterkaitan	NN
 Keterikatan’.	NNP
-Lalu	NNP
+Lalu	SC
 ,	SYM
 seperti	IN
 apa	WH
@@ -6761,7 +6809,7 @@ Auschwitz	NNP
 Ia	PR
 akan	ADV
 didampingi	VB
-Perdana Menteri	NNP
+Perdana Menteri	NN
 Polandia	NNP
 Mateusz	NNP
 Morawiecki	NNP
@@ -7521,7 +7569,7 @@ dan	CC
 Tahun Baru	NN
 (Nataru	NNP
 ).	NNP
-Adapun	NNP
+Adapun	RP
 tol	NN
 yang	SC
 digratiskan	VB
@@ -7542,7 +7590,8 @@ secara	JJ
 fungsional	JJ
 .	SYM
 
-“Iya	NN
+"	SYM
+Iya	NNP
 (ada	NNP
 6	NUM
 tol	NN
@@ -7552,7 +7601,9 @@ gratis)	NNP
 saat	NN
 libur	NN
 Nataru	NNP
-,”	NNP
+,	SYM
+"	SYM
+
 jelas	JJ
 Kepala	NNP
 Badan	NNP
@@ -7639,7 +7690,7 @@ dengan	IN
 biaya	NN
 pembangunan	NN
 mencapai	VB
-Rp	NNP
+RP	SYM
 17,34	NUM
 triliun	NUM
 .	SYM
@@ -7774,7 +7825,9 @@ akhir	NN
 tahun	NN
 2019	NUM
 ini	PR
-,”	NNP
+,	SYM
+"	SYM
+
 kata	NN
 Sekretaris	NNP
 Perusahaan	NNP
@@ -7885,7 +7938,7 @@ menelan	VB
 total	NN
 investasi	NN
 sebesar	JJ
-Rp	NNP
+RP	SYM
 9,9	NUM
 triliun	NUM
 .	SYM
@@ -7909,7 +7962,7 @@ pinjaman	NN
 pemerintah	NN
 China	NNP
 sebesar	JJ
-Rp	NNP
+RP	SYM
 848,55	NUM
 miliar	NUM
 ,	SYM
@@ -7954,7 +8007,7 @@ menelan	VB
 biaya	NN
 investasi	NN
 sebesar	JJ
-Rp	NNP
+RP	SYM
 6,19	NUM
 triliun	NUM
 .	SYM
@@ -8306,7 +8359,7 @@ anggota	NN
 TNI	NNP
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 keterangan	NN
 Kapolda	NNP
 Metro	NNP
@@ -8431,7 +8484,7 @@ Tempat	NNP
 Kejadian	NNP
 Perkara	NNP
 (TKP).	NNP
-Garis	NNP
+Garis	NN
 polisi	NN
 masih	ADV
 dipasang	VB
@@ -8439,7 +8492,7 @@ di	IN
 TKP	NNP
 .	SYM
 
-Hari	NN
+Hari	NNP
 itu	PR
 angin	NN
 berhembus	VB
@@ -8774,7 +8827,7 @@ AUD	NNP
 untuk	SC
 dewasa	JJ
 (sekitar	NN
-Rp	NNP
+RP	SYM
 235	NUM
 ribu)	NN
 dan	CC
@@ -8784,7 +8837,7 @@ untuk	SC
 anak-anak	NN
 atau	CC
 sekitar	ADV
-Rp	NNP
+RP	SYM
 147	NUM
 ribu	NUM
 .	SYM
@@ -9019,7 +9072,7 @@ AUD	NNP
 90	NUM
 atau	CC
 sekitar	ADV
-Rp	NNP
+RP	SYM
 980	NUM
 ribu	NUM
 untuk	SC
@@ -9142,7 +9195,8 @@ menyala	VB
 merah	JJ
 .	SYM
 
-“Hasil	NN
+"	SYM
+Hasil	NN
 dari	IN
 pemeriksaan	NN
 kami	PR
@@ -9175,7 +9229,9 @@ berhenti	VB
 
 Alasannya	NN
 nanggung	NN
-,”	NNP
+,	SYM
+"	SYM
+
 kata	NN
 Kasat	NNP
 Lantas	NNP
@@ -9241,7 +9297,8 @@ lalu lintas	NN
 tersebut	PR
 .	SYM
 
-“Bukan	NN
+"	SYM
+Bukan	NEG
 terseret	VB
 (motornya)	NNP
 tapi	CC
@@ -9279,7 +9336,9 @@ atas	NN
 polsek	NN
 melaporkan	VB
 kejadian	NN
-,”	NNP
+,	SYM
+"	SYM
+
 ujar	VB
 Mega	NNP
 .	SYM
@@ -9301,7 +9360,8 @@ atau	CC
 obat-obatan	NN
 .	SYM
 
-“Jadi	NN
+"	SYM
+Jadi	JJ
 kalau	SC
 hasil	NN
 pemeriksaan	NN
@@ -9333,7 +9393,9 @@ di	IN
 dalam	NN
 aturan	NN
 salah	JJ
-,”	NNP
+,	SYM
+"	SYM
+
 kata	NN
 dia	PR
 .	SYM
@@ -9540,7 +9602,7 @@ Energy	NNP
 Trading	NNP
 Limited	NNP
 (Petral).	NNP
-Ia	NNP
+Ia	PR
 sudah	ADV
 dijerat	VB
 sebagai	IN
@@ -9580,7 +9642,7 @@ company	FW
 PT	NNP
 Pertamina	NNP
 (Persero).	NNP
-Uang	NNP
+Uang	NN
 itu	PR
 diduga	VB
 sebagai	IN
@@ -10436,7 +10498,7 @@ people	NN
 explore	FW
 the	NNP
 world	NN
-Menurut	NNP
+Menurut	IN
 Google	NNP
 ,	SYM
 aplikasi	NN
@@ -10970,7 +11032,7 @@ Perkara	NNP
 Sudah	ADV
 sudah	ADV
 (dibuka).	NNP
-Police	NNP
+Police	FW
 line	FW
 sudah	ADV
 kita	PR
@@ -11054,7 +11116,7 @@ ke	IN
 RSPAD	NNP
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 keterangan	NN
 Kapolda	NNP
 Metro	NNP
@@ -11584,7 +11646,8 @@ terbaru	JJ
 ini	PR
 .	SYM
 
-“Sekarang	NN
+"	SYM
+Sekarang	NNP
 NMax	NNP
 memasuki	VB
 babak	NN
@@ -11616,7 +11679,9 @@ teknologi	NN
 dan	CC
 mesin	NN
 baru	JJ
-,”	NNP
+,	SYM
+"	SYM
+
 kata	NN
 Morimoto	NNP
 di	IN
@@ -11860,7 +11925,7 @@ Traction	NNP
 Control	NNP
 System	NNP
 (TCS).	NNP
-Fitur	NNP
+Fitur	NN
 yang	SC
 ada	JJ
 di	IN
@@ -11920,7 +11985,7 @@ pada	IN
 aspal	NN
 (wheelspin	NNP
 ).	NNP
-Nah	NNP
+Nah	PR
 fitur	NN
 yang	SC
 juga	ADV
@@ -12016,7 +12081,7 @@ akan	ADV
 berada	VB
 di	IN
 kisaran	NN
-Rp	NNP
+RP	SYM
 30	NUM
 jutaan	NUM
 .	SYM
@@ -12573,7 +12638,7 @@ dari	IN
 Marks	NNP
 &	SYM
 Spencer	NNP
-Rp	NNP
+RP	SYM
 2,1	NUM
 juta	NUM
 Terbuat	NNP
@@ -12635,7 +12700,7 @@ Knit	NNP
 Sweater	NNP
 dari	IN
 MANGO	NNP
-Rp	NNP
+RP	SYM
 699	NUM
 ribu	NUM
 Knitwear	NNP
@@ -12682,7 +12747,7 @@ Turtleneck	NNP
 Jumper	NNP
 dari	IN
 H&M	NNP
-Rp	NNP
+RP	SYM
 399	NUM
 ribu	NUM
 Ingin	NNP
@@ -12738,7 +12803,7 @@ santai	VB
 Sweatshirt	NNP
 dari	IN
 ZARA	NNP
-Rp	NNP
+RP	SYM
 479	NUM
 ribu	NUM
 Knitwear	NNP
@@ -12804,7 +12869,7 @@ with	NN
 Puff	NNP
 -	SYM
 UNIQLO	NNP
-Rp	NNP
+RP	SYM
 299	NUM
 Memiliki	NNP
 model	NN
@@ -12851,7 +12916,7 @@ Neck	NNP
 Sweater	NNP
 dari	IN
 Stradivarius	NNP
-Rp	NNP
+RP	SYM
 559	NUM
 Knitwear	NNP
 lansiran	NN
@@ -12904,7 +12969,7 @@ Pointelle	NNP
 Jumper	NNP
 dari	IN
 Topshop	NNP
-Rp	NNP
+RP	SYM
 572	NUM
 ribu	NUM
 Bagi	NNP
@@ -12980,7 +13045,7 @@ ini	PR
 Ya	NNP
 (ada	NNP
 ledakan).	NNP
-Semua	NNP
+Semua	NUM
 sedang	ADV
 melakukan	VB
 penyelidikan	NN
@@ -13089,7 +13154,7 @@ pihak	NN
 kepolisian	NN
 .	SYM
 
-Menteri	NNP
+Menteri	NN
 Pertahanan	NNP
 Prabowo	NNP
 Subianto	NNP
@@ -13163,7 +13228,7 @@ mendapat	VB
 jatah	NN
 anggaran	NN
 sebesar	JJ
-Rp	NNP
+RP	SYM
 131	NUM
 triliun	NUM
 .	SYM
@@ -13475,7 +13540,8 @@ orang	NN
 saja	ADV
 .	SYM
 
-“Jika	SC
+"	SYM
+Jika	SC
 gagal	JJ
 untuk	SC
 merencanakan	VB
@@ -13485,7 +13551,9 @@ juga	ADV
 berencana	VB
 untuk	SC
 gagal	JJ
-,”	NNP
+,	SYM
+"	SYM
+
 katanya	NN
 ,	SYM
 Selasa	NNP
@@ -13543,7 +13611,8 @@ yang	SC
 lain	JJ
 .	SYM
 
-“Budaya	NN
+"	SYM
+Budaya	NN
 ini	PR
 mencakup	VB
 segala	NUM
@@ -13561,7 +13630,9 @@ di	IN
 dalam	NN
 perusahaan	NN
 tersebut	PR
-,”	NNP
+,	SYM
+"	SYM
+
 tambah	VB
 Merry	NNP
 .	SYM
@@ -13735,7 +13806,7 @@ Diri	NNP
 Sebagai	NNP
 Pemain	NNP
 Tim	NNP
-Yang	NNP
+Yang	SC
 paling	ADV
 dibutuhkan	VB
 dalam	IN
@@ -15016,7 +15087,7 @@ padahal	CC
 utang	NN
 perseroan	NN
 hampir	ADV
-Rp	NNP
+RP	SYM
 40	NUM
 triliun	NUM
 .	SYM
@@ -15228,7 +15299,7 @@ Karya	NNP
 telah	ADV
 mendapatkan	VB
 PNM	NNP
-Rp	NNP
+RP	SYM
 3,5	NUM
 triliun	NUM
 .	SYM
@@ -15410,7 +15481,7 @@ Coahuila	NNP
 ,	SYM
 Sabtu	NNP
 (30/11).	NUM
-Menurut	NNP
+Menurut	IN
 pemerintah	NN
 Coahuila	NNP
 ,	SYM
@@ -15608,7 +15679,7 @@ Enim	NNP
 dari	IN
 Robi	NNP
 mencapai	VB
-Rp	NNP
+RP	SYM
 4,85	NUM
 miliar	NUM
 .	SYM
@@ -15669,7 +15740,7 @@ menerima	VB
 suap	NN
 senilai	NN
 total	NN
-Rp	NNP
+RP	SYM
 13,9	NUM
 miliar	NUM
 dari	IN
@@ -15918,7 +15989,7 @@ yang	SC
 beredar	VB
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 pengakuan	NN
 Samina	NNP
 ,	SYM
@@ -16032,12 +16103,12 @@ oleh	IN
 ibunya	NN
 ,	SYM
 kadang	ADV
-Rp	NNP
+RP	SYM
 50	NUM
 ribu	NUM
 sampai	IN
 dengan	IN
-Rp	NNP
+RP	SYM
 70	NUM
 ribu	NUM
 per	IN
@@ -16148,7 +16219,7 @@ Sukorambi	NNP
 Jember	NNP
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 Jumari	NNP
 ,	SYM
 Havid	NNP
@@ -16183,7 +16254,7 @@ kantornya	NN
 ,	SYM
 Selasa	NNP
 (3/12).	NUM
-Menurut	NNP
+Menurut	IN
 Jumari	NNP
 ,	SYM
 bagian	NN
@@ -16361,7 +16432,7 @@ Konstruksi	NNP
 dengan	IN
 anggaran	NN
 senilai	NN
-Rp	NNP
+RP	SYM
 2	NUM
 miliar	NUM
 dari	IN
@@ -18044,7 +18115,8 @@ cukup	ADV
 signifikan	JJ
 .	SYM
 
-“Mesin	NN
+"	SYM
+Mesin	NN
 NMax	NNP
 baru	JJ
 ini	PR
@@ -18121,7 +18193,9 @@ ini	PR
 lebih	ADV
 powerfull	NN
 banget	ADV
-,”	NNP
+,	SYM
+"	SYM
+
 ungkap	VB
 M	NNP
 Abidin	NNP
@@ -18177,7 +18251,8 @@ sampai	IN
 kilometer	NN
 .	SYM
 
-“Dia	NNP
+"	SYM
+Dia	PR
 pakai	VB
 Pertamax	NNP
 bisa	ADV
@@ -18227,7 +18302,9 @@ Semua	NUM
 dia	PR
 ketahuan	NN
 di situ	PR
-,”	NNP
+,	SYM
+"	SYM
+
 paparnya	VB
 .	SYM
 
@@ -18259,7 +18336,7 @@ akan	ADV
 berkutat	VB
 di	IN
 kisaran	NN
-Rp	NNP
+RP	SYM
 30	NUM
 jutaan	NUM
 .	SYM
@@ -18277,7 +18354,8 @@ tahun	NN
 mendatang	JJ
 .	SYM
 
-“Belum	NNP
+"	SYM
+Belum	NEG
 bisa	ADV
 dipesan	VB
 seperti	IN
@@ -18305,7 +18383,9 @@ kendaraan	NN
 roda	NN
 dua	NUM
 terbaru	JJ
-,”	NNP
+,	SYM
+"	SYM
+
 kata	NN
 Minoru	NNP
 Morimoto	NNP
@@ -18607,7 +18687,9 @@ Farah	NNP
 Quinn	NNP
 .	SYM
 
-“...	NNP
+"	SYM
+...	NNP
+
 Pihak Kedua	NN
 wajib	JJ
 bekerja	VB
@@ -18620,7 +18702,9 @@ selama	JJ
 belas)	VB
 tahun	NN
 ...	NNP
-”	NNP
+
+"	SYM
+
 Begitulah	NNP
 bunyi	NN
 salah satu	JJ
@@ -18871,7 +18955,7 @@ surat	NN
 PHK	NNP
 dan	CC
 denda	NN
-Rp	NNP
+RP	SYM
 7	NUM
 miliar	NUM
 yang	SC
@@ -18933,7 +19017,8 @@ aturan	NN
 ketenagakerjaan	NN
 .	SYM
 
-“Memang	NN
+"	SYM
+Memang	ADV
 (soal	JJ
 denda)	NN
 tersurat	VB
@@ -18969,7 +19054,9 @@ masa	NN
 kontraknya	NN
 18	NUM
 tahun	NN
-,”	NNP
+,	SYM
+"	SYM
+
 kata	NN
 Daniel	NNP
 usai	SC
@@ -19090,7 +19177,7 @@ Waktu	NNP
 Tidak	NNP
 Tertentu	NNP
 (PKWTT).	NNP
-Artinya	NNP
+Artinya	NN
 ,	SYM
 pegawai	NN
 terkait	VB
@@ -19182,7 +19269,8 @@ taraf	NN
 penjajakan	NN
 .	SYM
 
-“Sementara	NN
+"	SYM
+Sementara	NNP
 pilot	NN
 itu	PR
 kan	RP
@@ -19202,7 +19290,9 @@ tidak boleh	ADV
 masuk	VB
 sistem	NN
 PKWT	NNP
-,”	NNP
+,	SYM
+"	SYM
+
 ujarnya	VB
 .	SYM
 
@@ -19468,7 +19558,7 @@ Kerja	NNP
 Waktu	NNP
 Tertentu	NNP
 (PKWT).	NNP
-Nah	NNP
+Nah	RP
 pilot	NN
 itu	PR
 pekerjaan	NN
@@ -19564,7 +19654,7 @@ waktu	NN
 tidak	NEG
 tertentu	JJ
 (PKWTT).	NNP
-Yang	NNP
+Yang	SC
 awalnya	NN
 dikontrak	VB
 ,	SYM
@@ -19658,7 +19748,7 @@ waktu	NN
 tidak	NEG
 tertentu	JJ
 (PKWTT).	NNP
-Jadi	NNP
+Jadi	JJ
 jika	SC
 sebelumnya	SC
 status	NN
@@ -19687,7 +19777,7 @@ pegawai	NN
 tetap	ADV
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 Lion	NNP
 Air	NNP
 Group	NNP
@@ -19865,7 +19955,7 @@ balik	VB
 Bisa	ADV
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 Anda	NNP
 ,	SYM
 apakah	WH
@@ -19873,7 +19963,7 @@ denda	NN
 atau	CC
 penalti	NN
 hingga	IN
-Rp	NNP
+RP	SYM
 7	NUM
 miliar	NUM
 untuk	SC
@@ -19906,7 +19996,7 @@ perbulan	NN
 .	SYM
 
 Kalau	SC
-Rp	NNP
+RP	SYM
 7	NUM
 miliar	NUM
 itu	PR
@@ -20242,7 +20332,11 @@ dari	IN
 seorang	JJ
 pria	NN
 bernama	VB
-“Billy”	NNP
+
+"	SYM
+Billy	NNP
+"	SYM
+
 Eduard	NNP
 Albert	NNP
 Meier	NNP
@@ -20374,7 +20468,7 @@ Inggris	NNP
 Sotheby	NNP
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 Sotheby	NNP
 ,	SYM
 beberapa	NUM
@@ -20438,10 +20532,14 @@ tiga	NUM
 musim	NN
 dalam	IN
 poster	NN
-“I	NNP
+
+"	SYM
+I	NNP
 Want	NNP
 to	NNP
-Believe”	NNP
+Believe	NNP
+"	SYM
+
 di	IN
 acara	NN
 televisi	NN
@@ -23622,7 +23720,7 @@ gerak	VB
 kendaraan	NN
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 seorang	JJ
 pengendara	NN
 yang	SC
@@ -23647,7 +23745,9 @@ seiring	NN
 adanya	NN
 pengerjaan	NN
 trotoar	NN
-“Ini	NNP
+
+"	SYM
+Ini	PR
 sekarang	NN
 (siang	NN
 hari	NN
@@ -23661,7 +23761,9 @@ biasanya	ADV
 lebih	ADV
 macet	NN
 lagi	ADV
-,”	NNP
+,	SYM
+"	SYM
+
 ungkap	VB
 Wawan	NNP
 kepada	IN
@@ -23727,8 +23829,8 @@ sebulan	JJ
 terakhir	NUM
 .	SYM
 
-“Di	NN
-sini	PR
+"	SYM
+Di sini	PR
 itu	PR
 memang	ADV
 macet	NN
@@ -23748,7 +23850,9 @@ sebulan	JJ
 lebih	ADV
 apa	SC
 ya	NN
-,”	NNP
+,	SYM
+"	SYM
+
 ujar	VB
 Asrul	NNP
 .	SYM
@@ -24012,7 +24116,7 @@ diprediksi	VB
 akan	ADV
 segera	ADV
 ‘pensiun’.	NNP
-Menurut	NNP
+Menurut	IN
 laporan	NN
 terbaru	JJ
 dari	IN
@@ -24114,7 +24218,8 @@ tugas	NN
 kerajaan	NN
 .	SYM
 
-“Skandal	NN
+"	SYM
+Skandal	NN
 seputar	ADV
 Andrew	NNP
 dan	CC
@@ -24139,7 +24244,9 @@ dan	CC
 segera	ADV
 bertindak	VB
 tegas	JJ
-,”	NNP
+,	SYM
+"	SYM
+
 kata	NN
 seorang	JJ
 narasumber	NN
@@ -24295,7 +24402,7 @@ yang	SC
 dimusnahkan	VB
 itu	PR
 mencapai	VB
-Rp	NNP
+RP	SYM
 160	NUM
 miliar	NUM
 dengan	IN
@@ -24305,7 +24412,7 @@ rata-rata	JJ
 pembelian	NN
 di	IN
 petani	NN
-Rp	NNP
+RP	SYM
 8.000	NUM
 per	IN
 kilogram	NN
@@ -24324,7 +24431,7 @@ pemusnahan	NN
 beras	NN
 .	SYM
 
-Menurutnya	NNP
+Menurutnya	IN
 harus	ADV
 ada	JJ
 rekomendasi	NN
@@ -24342,7 +24449,8 @@ penurunan	NN
 mutu	NN
 .	SYM
 
-“Tidak	NN
+"	SYM
+Tidak	NEG
 berarti	VB
 secara	JJ
 keseluruhan	NN
@@ -24361,7 +24469,9 @@ BPOM	NNP
 sama	JJ
 Menteri	NNP
 Pertanian	NNP
-,”	NNP
+,	SYM
+"	SYM
+
 kata	NN
 Buwas	NNP
 ,	SYM
@@ -24428,7 +24538,8 @@ sesuai	JJ
 standar	NN
 .	SYM
 
-“Terus	NN
+"	SYM
+Terus	ADV
 kita	PR
 ubah	VB
 jadi	JJ
@@ -24480,12 +24591,15 @@ bisa	ADV
 dibuat	VB
 untuk	SC
 etanol	NN
-,”	NNP
+,	SYM
+"	SYM
+
 ujar	VB
 Buwas	NNP
 .	SYM
 
-“Dari	NNP
+"	SYM
+Dari	IN
 hal	NN
 ini	PR
 semua	NUM
@@ -24502,19 +24616,21 @@ harga	NN
 jualnya	VB
 umpama	NN
 dulu	NN
-Rp	NNP
+RP	SYM
 8	NUM
 ribu	NUM
 sekarang	NN
 nilainya	NN
-Rp	NNP
+RP	SYM
 5	NUM
 ribu	NUM
 ya	NN
 itu	PR
 diganti	VB
 negara	NN
-,”	NNP
+,	SYM
+"	SYM
+
 tambahnya	VB
 .	SYM
 
@@ -24558,7 +24674,8 @@ Beras	NNP
 Pemerintah	NNP
 .	SYM
 
-“Jadi	NN
+"	SYM
+Jadi	JJ
 bukan	NEG
 berarti	VB
 saya	PR
@@ -24629,7 +24746,9 @@ sama sekali	JJ
 dibuang	VB
 ,	SYM
 tidak	NEG
-,”	NNP
+,	SYM
+"	SYM
+
 tutup	VB
 Buwas	NNP
 .	SYM
@@ -24678,12 +24797,12 @@ pagi	NN
 ini	PR
 naik	VB
 tipis	JJ
-Rp	NNP
+RP	SYM
 1.000	NUM
 per	IN
 gram	NN
 menjadi	VB
-Rp	NNP
+RP	SYM
 747.000	NUM
 per	IN
 gram	NN
@@ -24694,12 +24813,12 @@ harga	NN
 buybacknya	NN
 juga	ADV
 naik	VB
-Rp	NNP
+RP	SYM
 1.500	NUM
 per	IN
 gram	NN
 menjadi	VB
-Rp	NNP
+RP	SYM
 663.000	NUM
 per	IN
 gram	NN
@@ -24760,39 +24879,39 @@ pagi	NN
 ini:	NN
 1	NUM
 gram	NN
-Rp	NNP
+RP	SYM
 747.000	NUM
 5	NUM
 gram	NN
-Rp	NNP
+RP	SYM
 3.555.000	NUM
 10	NUM
 gram	NN
-Rp	NNP
+RP	SYM
 7.045.000	NUM
 25	NUM
 gram	NN
-Rp	NNP
+RP	SYM
 17.505.000	NUM
 50	NUM
 gram	NN
-Rp	NNP
+RP	SYM
 34.935.000	NUM
 100	NUM
 gram	NN
-Rp	NNP
+RP	SYM
 69.800.000	NUM
 250	NUM
 gram	NN
-Rp	NNP
+RP	SYM
 174.250.000	NUM
 500	NUM
 gram	NN
-Rp	NNP
+RP	SYM
 347.800.000	NUM
 1.000	NUM
 gram	NN
-Rp	NNP
+RP	SYM
 696.600.000	NUM
 
 Atlet	NN
@@ -25237,7 +25356,8 @@ yang	SC
 lalu	VB
 .	SYM
 
-“Ada	JJ
+"	SYM
+Ada	JJ
 referensi	NN
 bermain	VB
 catur	NN
@@ -25258,7 +25378,9 @@ catur	NN
 ini	PR
 sangat	ADV
 populer	JJ
-,”	NNP
+,	SYM
+"	SYM
+
 papar	VB
 Oleson	NNP
 dalam	IN
@@ -25271,7 +25393,8 @@ Live	NNP
 Science	NNP
 .	SYM
 
-“Dari	NNP
+"	SYM
+Dari	IN
 India	NNP
 ,	SYM
 permainan	NN
@@ -25300,7 +25423,9 @@ ditemukan	VB
 di	IN
 situs	NN
 ini	PR
-,”	NNP
+,	SYM
+"	SYM
+
 ujar	VB
 Oleson	NNP
 dalam	IN
@@ -25480,7 +25605,7 @@ sebagai	IN
 penerus	NN
 Nabi	NNP
 Muhammad).	NNP
-Selama	NNP
+Selama	JJ
 Keluarga	NNP
 Abbasiyah	NNP
 berkuasa	VB
@@ -25640,7 +25765,8 @@ pass	NN
 -nya	PR
 .	SYM
 
-“Jika	SC
+"	SYM
+Jika	SC
 kamu	PR
 menemukan	VB
 saya	PR
@@ -25681,7 +25807,9 @@ itu	PR
 adalah	VB
 baris	NN
 terakhir	NUM
-,”	NNP
+,	SYM
+"	SYM
+
 ujar	VB
 Gilbert	NNP
 .	SYM
@@ -25911,7 +26039,9 @@ orang	NN
 di	IN
 seluruh	NUM
 AS	NNP
-,”	NNP
+,	SYM
+"	SYM
+
 ungkap	VB
 Gilbert	NNP
 Terkait	NNP
@@ -26004,7 +26134,9 @@ akan	ADV
 tetap	ADV
 menggunakan	VB
 ini	PR
-,”	NNP
+,	SYM
+"	SYM
+
 ungkap	VB
 Gilbert	NNP
 seperti	SC
@@ -26103,7 +26235,7 @@ Gilbert	NNP
 .	SYM
 
 Bagaimana	NNP
-menurutmu	VB
+menurutmu	IN
 ?	SYM
 
 Personel	NN
@@ -26511,7 +26643,7 @@ yuan	NN
 China	NNP
 atau	CC
 sekitar	ADV
-Rp	NNP
+RP	SYM
 20	NUM
 miliar	NUM
 untuk	SC
@@ -26569,7 +26701,7 @@ yuan	NN
 China	NNP
 atau	CC
 sekitar	ADV
-Rp	NNP
+RP	SYM
 8	NUM
 juta	NUM
 saja	ADV
@@ -26673,7 +26805,7 @@ yuan	NN
 China	NNP
 atau	CC
 sekitar	ADV
-Rp	NNP
+RP	SYM
 180	NUM
 juta	NUM
 kepada	IN
@@ -27073,7 +27205,7 @@ Praka	NNP
 Gunawan	NNP
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 Kapolda	NNP
 Metro	NNP
 Jaya	NNP
@@ -27215,7 +27347,7 @@ periode	NN
 .	SYM
 
 "	SYM
-Menurut	NNP
+Menurut	IN
 hemat	JJ
 saya	PR
 ,	SYM
@@ -27608,7 +27740,7 @@ karakter	NN
 Borne	NNP
 .	SYM
 
-Menurutnya	NNP
+Menurutnya	IN
 ,	SYM
 menjalani	VB
 peran	NN
@@ -27971,7 +28103,7 @@ ibu	NN
 (Karina	NNP
 Soewandi	NNP
 ).	NNP
-Dalam	NNP
+Dalam	NN
 perjalanannya	NN
 ,	SYM
 perampokan	NN
@@ -29426,8 +29558,8 @@ utang	NN
 yang	SC
 sudah	ADV
 mencapai	VB
-Rp	NNP
-Rp	NNP
+RP	SYM
+RP	SYM
 28	NUM
 triliun	NUM
 .	SYM
@@ -29441,7 +29573,7 @@ tahun	NN
 lalu	CC
 yang	SC
 sebesar	JJ
-Rp	NNP
+RP	SYM
 13,2	NUM
 triliun	NUM
 .	SYM
@@ -29486,7 +29618,8 @@ Bulog	NNP
 berutang	VB
 .	SYM
 
-“Bulog	NNP
+"	SYM
+Bulog	NNP
 tidak	NEG
 bisa	ADV
 dihindari	VB
@@ -29524,7 +29657,9 @@ bunganya	NN
 kan	RP
 bunga	NN
 berjalan	VB
-,”	NNP
+,	SYM
+"	SYM
+
 kata	NN
 Buwas	NNP
 di	IN
@@ -29563,7 +29698,7 @@ Cadangan	NNP
 Beras	NNP
 Pemerintah	NNP
 (CBP).	NNP
-Stok	NNP
+Stok	NN
 beras	NN
 CBP	NNP
 tak	NEG
@@ -29581,7 +29716,9 @@ Bantuan Pangan	NN
 Non	NNP
 Tunai	NNP
 (BPNT).	NNP
-“Yang	NN
+
+"	SYM
+Yang	SC
 masalah	NN
 adalah	VB
 CBP	NNP
@@ -29619,12 +29756,15 @@ karena	SC
 berubah	VB
 jadi	JJ
 BPNT	NNP
-,”	NNP
+,	SYM
+"	SYM
+
 ujar	VB
 Buwas	NNP
 .	SYM
 
-“Itu	NNP
+"	SYM
+Itu	PR
 (BPNT)	NNP
 pada	IN
 akhirnya	ADV
@@ -29655,7 +29795,9 @@ Bulog	NNP
 yang	SC
 tidak	NEG
 bergeser	VB
-,”	NNP
+,	SYM
+"	SYM
+
 tambahnya	VB
 .	SYM
 
@@ -29717,7 +29859,8 @@ baru	JJ
 persen	NUM
 .	SYM
 
-“Nanti	NN
+"	SYM
+Nanti	VB
 ke depan	ADV
 kita	PR
 harus	ADV
@@ -29780,7 +29923,9 @@ pada	IN
 prinsipnya	NN
 Bulog	NNP
 siap	JJ
-,”	NNP
+,	SYM
+"	SYM
+
 ungkap	VB
 Buwas	NNP
 .	SYM
@@ -30156,7 +30301,8 @@ kunjung	VB
 surut	VB
 .	SYM
 
-“Setelah	NN
+"	SYM
+Setelah	SC
 menikah	VB
 ,	SYM
 kami	PR
@@ -30183,7 +30329,9 @@ Sekalinya	JJ
 ketemu	VB
 ,	SYM
 langsung	JJ
-,”	NNP
+,	SYM
+"	SYM
+
 ucap	VB
 Delon	NNP
 ketika	SC
@@ -30225,20 +30373,24 @@ yang	SC
 sama	JJ
 .	SYM
 
-“Dia	NNP
+"	SYM
+Dia	PR
 makin	ADV
 manja	JJ
 ,	SYM
 minta	VB
 diladenin	VB
-,”	NNP
+,	SYM
+"	SYM
+
 ujar	VB
 Aida	NNP
 sembari	JJ
 tersenyum	VB
 .	SYM
 
-“Karena	NN
+"	SYM
+Karena	IN
 selama	JJ
 ini	PR
 gue	NNP
@@ -30257,7 +30409,9 @@ minta	VB
 ini-itu	VB
 dikasih	VB
 terus	ADV
-,”	NNP
+,	SYM
+"	SYM
+
 timpal	NN
 Delon	NNP
 .	SYM
@@ -30288,7 +30442,8 @@ segala	NUM
 hal	NN
 .	SYM
 
-“Misalnya	NN
+"	SYM
+Misalnya	SC
 ,	SYM
 mau	ADV
 ngapa-ngapain	NN
@@ -30326,8 +30481,10 @@ mana-mana	NN
 ,	SYM
 pakai	VB
 baju	NN
-apa	SC
-,”	NNP
+apa	WH
+,	SYM
+"	SYM
+
 pungkas	NN
 istri	NN
 Delon	NNP
@@ -30708,7 +30865,8 @@ alias	NN
 backstreet	FW
 .	SYM
 
-“Dulu	NN
+"	SYM
+Dulu	NNP
 memang	ADV
 aku	VB
 backstreet	FW
@@ -30720,7 +30878,9 @@ bukan	NEG
 dari	IN
 keluarga	NN
 Dhika	NNP
-,”	NNP
+,	SYM
+"	SYM
+
 kata	NN
 Ussy	NNP
 Sulistiawaty	NNP
@@ -30768,7 +30928,8 @@ keluarga	NN
 Andhika	NNP
 .	SYM
 
-“Orang-orang	NN
+"	SYM
+Orang-orang	NN
 salah	JJ
 kalau	SC
 (bilang)	NNP
@@ -30788,7 +30949,9 @@ kayak	NN
 ‘Benaran	NNP
 ?	SYM
 
-’”	NNP
+’	NNP
+"	SYM
+
 ucap	VB
 Ussy	NNP
 .	SYM
@@ -30851,7 +31014,8 @@ Desember	NNP
 2006	NUM
 .	SYM
 
-“Karena	NN
+"	SYM
+Karena	SC
 aku	VB
 belum	NEG
 siap	JJ
@@ -30880,7 +31044,9 @@ ma	NN
 ,	SYM
 aku	VB
 punya	VB
-pacar’,”	NN
+pacar’,	NN
+"	SYM
+
 tutur	NN
 Ussy	NNP
 .	SYM
@@ -30916,7 +31082,8 @@ dan	CC
 Andhika	NNP
 .	SYM
 
-“Jadi	NN
+"	SYM
+Jadi	JJ
 tiap	NUM
 Dhika	NNP
 anterin	NN
@@ -30930,7 +31097,9 @@ mama	NN
 suka	NN
 ngintip	NN
 doang	ADV
-,”	NNP
+,	SYM
+"	SYM
+
 tutup	VB
 Ussy	NNP
 .	SYM
@@ -31257,7 +31426,8 @@ kembali	VB
 GBHN	NNP
 .	SYM
 
-“Meski	NN
+"	SYM
+Meski	SC
 PDI	NNP
 Perjuangan	NNP
 terdepan	VB
@@ -31625,7 +31795,7 @@ UUD	NNP
 
 Sebab	SC
 ,	SYM
-menurutnya	NN
+menurutnya	IN
 ,	SYM
 saat	NN
 ini	PR
@@ -32574,12 +32744,12 @@ Samsung	NNP
 Store	NNP
 dengan	IN
 harga	NN
-Rp	NNP
+RP	SYM
 4.199.000	NUM
 (ukuran	NN
 40mm)	NUM
 dan	CC
-Rp	NNP
+RP	SYM
 5.499.000	NUM
 (ukuran	NN
 44mm).	NUM
@@ -32601,7 +32771,7 @@ tersebut	PR
 dibuka	VB
 di	IN
 level	NN
-Rp	NNP
+RP	SYM
 14.100	NUM
 .	SYM
 
@@ -32623,7 +32793,7 @@ kemudian	CC
 naik	VB
 tajam	JJ
 ke	IN
-Rp	NNP
+RP	SYM
 14.120	NUM
 .	SYM
 
@@ -32636,7 +32806,7 @@ melemah	VB
 dan	CC
 kembali	VB
 ke	IN
-Rp	NNP
+RP	SYM
 14.100	NUM
 .	SYM
 
@@ -32644,7 +32814,7 @@ Sempat	NNP
 turun	VB
 tipis	JJ
 ke	IN
-Rp	NNP
+RP	SYM
 13.900	NUM
 ,	SYM
 
@@ -32655,7 +32825,7 @@ kembali	VB
 naik	VB
 tajam	JJ
 ke	IN
-Rp	NNP
+RP	SYM
 14.116	NUM
 .	SYM
 
@@ -32667,7 +32837,7 @@ AS	NNP
 kembali	VB
 naik	VB
 ke	IN
-Rp	NNP
+RP	SYM
 14.120	NUM
 .	SYM
 
@@ -32825,7 +32995,7 @@ menyelidikinya	VB
 Ya	NNP
 (ada	NNP
 ledakan).	NNP
-Semua	NNP
+Semua	NUM
 sedang	ADV
 melakukan	VB
 penyelidikan	NN
@@ -32907,7 +33077,8 @@ Kementerian	NNP
 Pertanian	NNP
 .	SYM
 
-“Kalau	SC
+"	SYM
+Kalau	SC
 sudah	ADV
 tidak	NEG
 layak	JJ
@@ -32931,7 +33102,9 @@ masih	ADV
 bisa	ADV
 untuk	SC
 etanol	NN
-,”	NNP
+,	SYM
+"	SYM
+
 kata	NN
 Buwas	NNP
 sapaan	NN
@@ -32986,7 +33159,8 @@ lebih	ADV
 murah	JJ
 .	SYM
 
-“Apakah	NN
+"	SYM
+Apakah	NNP
 bisa	ADV
 digunakan	VB
 dijual	VB
@@ -33000,7 +33174,9 @@ tidak	NEG
 lagi	ADV
 standar	NN
 premium	NN
-,”	NNP
+,	SYM
+"	SYM
+
 ujar	VB
 Buwas	NNP
 .	SYM
@@ -33017,7 +33193,7 @@ awal	NN
 beras	NN
 bisa	ADV
 dihargai	VB
-Rp	NNP
+RP	SYM
 8.000	NUM
 per	IN
 kg	NN
@@ -33033,7 +33209,7 @@ itu	PR
 membuat	VB
 beras	NN
 dijual	VB
-Rp	NNP
+RP	SYM
 5.000	NUM
 per	IN
 kg	NN
@@ -33042,7 +33218,7 @@ kg	NN
 Kekurangan	NN
 atau	CC
 selisih	NN
-Rp	NNP
+RP	SYM
 3.000	NUM
 per	IN
 kg	NN
@@ -33052,7 +33228,7 @@ diganti	VB
 negara	NN
 .	SYM
 
-Menurutnya	NNP
+Menurutnya	IN
 ,	SYM
 keputusan	NN
 penggantian	NN
@@ -33082,7 +33258,8 @@ langsung	JJ
 dimusnahkan	VB
 .	SYM
 
-“Itu	NNP
+"	SYM
+Itu	PR
 sudah	ADV
 ada	JJ
 aturannya	NN
@@ -33115,7 +33292,9 @@ Nanti	VB
 bagaimana	SC
 keputusan	NN
 Menkeu	NNP
-,”	NNP
+,	SYM
+"	SYM
+
 tutur	NN
 Buwas	NNP
 .	SYM
@@ -33154,7 +33333,7 @@ pekan	NN
 lalu	CC
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 laporan	NN
 CNN	NNP
 ,	SYM
@@ -33402,7 +33581,7 @@ membandel	VB
 .	SYM
 
 "	SYM
-Hari	NN
+Hari	NNP
 ini	PR
 ,	SYM
 kami	PR
@@ -33446,7 +33625,9 @@ lanjut	VB
 dan	CC
 tanpa	SC
 melemahkannya	VB
-,”	NNP
+,	SYM
+"	SYM
+
 ujar	VB
 kelompok	NN
 tersebut	PR
@@ -33657,7 +33838,7 @@ sekitar	ADV
 Monas	NNP
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 Pangdam	NNP
 Jaya	NNP
 Mayjen	NNP
@@ -35292,7 +35473,7 @@ terlalu	ADV
 panjang	JJ
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 salah	JJ
 seorang	JJ
 pemandu	NN
@@ -35324,7 +35505,8 @@ andalan	NN
 mereka	PR
 .	SYM
 
-“Semuanya	NN
+"	SYM
+Semuanya	ADV
 benar-benar	ADV
 aman	JJ
 .	SYM
@@ -35352,7 +35534,9 @@ keren	NN
 banget	ADV
 !	SYM
 
-,”	NNP
+,	SYM
+"	SYM
+
 katanya	NN
 memberi	VB
 semangat	NN
@@ -36023,7 +36207,7 @@ perlu	ADV
 dihangatkan	VB
 ?	SYM
 
-Menurut	NNP
+Menurut	IN
 Michelle	NNP
 Roth	NNP
 ,	SYM
@@ -36477,7 +36661,8 @@ ke	IN
 rumah sakit	NN
 .	SYM
 
-“Info	NNP
+"	SYM
+Info	NNP
 dari	IN
 lapangan	NN
 ada	JJ
@@ -36489,7 +36674,9 @@ dirujuk	VB
 ke	IN
 rumah sakit	NN
 terdekat	JJ
-,”	NNP
+,	SYM
+"	SYM
+
 ujar	VB
 Kasatlantas	NNP
 Polres	NNP
@@ -36562,7 +36749,8 @@ dapat	ADV
 dihindarkan	VB
 .	SYM
 
-“Truk	NN
+"	SYM
+Truk	NN
 tersebut	PR
 memang	ADV
 sudah	ADV
@@ -36585,7 +36773,9 @@ oleh	IN
 security	JJ
 Sentul	NNP
 City	NNP
-,”	NNP
+,	SYM
+"	SYM
+
 kata	NN
 Fadil	NNP
 .	SYM
@@ -37639,7 +37829,7 @@ dengan	IN
 santai	VB
 .	SYM
 
-Menurutnya	NNP
+Menurutnya	IN
 ,	SYM
 daripada	SC
 melihat	VB
@@ -37826,7 +38016,8 @@ mesin	NN
 cc	NNP
 .	SYM
 
-“Kami	NN
+"	SYM
+Kami	PR
 sebagai	IN
 Benelli	NNP
 Motor	NNP
@@ -37868,7 +38059,9 @@ dengan	IN
 para	DT
 konsultan	NN
 lain	JJ
-,”	NNP
+,	SYM
+"	SYM
+
 ucap	VB
 Steven	NNP
 Kentjana	NNP
@@ -37908,7 +38101,8 @@ cukup	ADV
 memberatkan	VB
 .	SYM
 
-“Seperti	NN
+"	SYM
+Seperti	IN
 yang	SC
 teman-teman	NN
 ketahui	VB
@@ -37934,7 +38128,9 @@ di	IN
 atas	NN
 250	NUM
 cc	NNP
-,”	NNP
+,	SYM
+"	SYM
+
 ungkapnya	VB
 .	SYM
 
@@ -37966,7 +38162,7 @@ kompetitif	JJ
 .	SYM
 
 Padahal	CC
-menurutnya	NN
+menurutnya	IN
 ,	SYM
 Benelli	NNP
 adalah	VB
@@ -37988,14 +38184,15 @@ di	IN
 pabrik	NN
 sendiri	JJ
 ,	SYM
-menurutnya	NN
+menurutnya	IN
 tak	NEG
 akan	ADV
 berdampak	VB
 signifikan	JJ
 .	SYM
 
-“Orang-orang	NN
+"	SYM
+Orang-orang	NN
 dari	IN
 negara	NN
 lain	JJ
@@ -38033,7 +38230,7 @@ PPnBM	NNP
 kaya	JJ
 di sini	PR
 mungkin	ADV
-Rp	NNP
+RP	SYM
 30	NUM
 juta	NUM
 .	SYM
@@ -38064,7 +38261,9 @@ jadi	JJ
 91	NUM
 persen	NUM
 pajaknya	NN
-,”	NNP
+,	SYM
+"	SYM
+
 ungkap	VB
 Steven	NNP
 .	SYM
@@ -38119,7 +38318,8 @@ per	IN
 tahunnya	NN
 .	SYM
 
-“Masalah	NN
+"	SYM
+Masalah	NN
 investasi	NN
 memang	ADV
 dia	PR
@@ -38139,7 +38339,9 @@ Thailand	NNP
 ,	SYM
 sama	JJ
 Malaysia	NNP
-,”	NNP
+,	SYM
+"	SYM
+
 imbuhnya	NN
 .	SYM
 
@@ -38860,7 +39062,7 @@ kepada	IN
 kumparan	NN
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 Dian	NNP
 ,	SYM
 ide	NN
@@ -39310,14 +39512,14 @@ dengan	SC
 membayar	VB
 mahar	NN
 sebesar	JJ
-Rp	NNP
+RP	SYM
 19,8	NUM
 juta	NUM
 .	SYM
 
 Prospek	NN
 Pasar	NNP
-Menurut	NNP
+Menurut	IN
 Dian	NNP
 ,	SYM
 saat	NN
@@ -39590,7 +39792,7 @@ kumparan	NN
 ,	SYM
 Selasa	NNP
 (3/12).	NUM
-Menurutnya	NNP
+Menurutnya	IN
 ,	SYM
 18	NUM
 kotak	NN
@@ -40165,7 +40367,7 @@ pada	IN
 lalu	CC
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 laporan	NN
 Mashable	NNP
 ,	SYM
@@ -40600,7 +40802,7 @@ rilisi	VB
 ,	SYM
 Selasa	NNP
 (3/12).	NUM
-Menurutnya	NNP
+Menurutnya	IN
 ,	SYM
 mereka	PR
 berkomitmen	VB
@@ -40636,7 +40838,7 @@ rilisnya	VB
 ,	SYM
 Selasa	NNP
 (3/12).	NUM
-Menurutnya	NNP
+Menurutnya	IN
 ,	SYM
 mereka	PR
 komitmeni	VB
@@ -40672,7 +40874,7 @@ rilisnya	VB
 ,	SYM
 Selasa	NNP
 (3/12).	NUM
-Menurutnya	NNP
+Menurutnya	IN
 ,	SYM
 mereka	PR
 berkomitmen	VB
@@ -40708,7 +40910,7 @@ rilisnya	VB
 ,	SYM
 Selasa	NNP
 (3/12).	NUM
-Menurutnya	NNP
+Menurutnya	IN
 ,	SYM
 mereka	PR
 berkomitmen	VB
@@ -41654,7 +41856,7 @@ untuk	SC
 handphone	NNP
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 VITO	NNP
 (Visit	NN
 Indonesia	NNP
@@ -42024,7 +42226,7 @@ kumparan	NN
 ,	SYM
 Selasa	NNP
 (3/12).	NUM
-Menurut	NNP
+Menurut	IN
 Ikhsan	NNP
 ,	SYM
 prosedur	NN
@@ -42844,12 +43046,12 @@ pada	IN
 Bali	NNP
 .	SYM
 
-“Tempat	NN
+"	SYM
+Tempat	NN
 yang	SC
 takjubi	VB
 !	SYM
 
-,”	NNP
 tulisi	VB
 .	SYM
 
@@ -42871,65 +43073,7 @@ bahwa	SC
 Bali	NNP
 bak	NN
 ‘Surga’.	NNP
-“	NNP
-Sometimes	NNP
-heaven	NN
-is	NN
-not	FW
-that	NN
-far	NN
-(terkadang	NN
-surga	NN
-itu	PR
-tidak	NEG
-sejauh	JJ
-itu	PR
-,”	NNP
-tulisnya	VB
-pada	IN
-akun	NN
-Instagramnya	NNP
-pada	IN
-Minggu	NNP
-(1/12)	NUM
-seraya	JJ
-memuji	VB
-keindahan	NN
-Bali	NNP
-.	SYM
 
-Selain	CC
-itu	PR
-,	SYM
-Lorenzo	NNP
-juga	ADV
-lagi-lagi	ADV
-memuji	VB
-keindahan	NN
-Bali	NNP
-dengan	IN
-salah satu	JJ
-postingannya	NN
-yang	SC
-menyebutkan	VB
-bahwa	SC
-Bali	NNP
-bak	NN
-‘Surga’.	NNP
-“	NNP
-Sometimes	NNP
-heaven	NN
-is	NN
-not	FW
-that	NN
-far	NN
-(terkadang	NN
-surga	NN
-itu	PR
-tidak	NEG
-sejauh	JJ
-itu	PR
-,”	NNP
 tulisi	VB
 pada	IN
 akun	NN
@@ -43383,7 +43527,7 @@ Tujuan	NNP
 Pembangunan	NNP
 Berkelanjutan	NNP
 (SDGs).	NNP
-Menurut	NNP
+Menurut	IN
 Sustainable	NNP
 Development	NNP
 Investment	NNP
@@ -43424,7 +43568,7 @@ Tujuan	NNP
 Pembangunan	NNP
 Berkelanjutan	NNP
 (SDGs).	NNP
-Menurut	NNP
+Menurut	IN
 Sustainable	NNP
 Development	NNP
 Investment	NNP
@@ -43465,7 +43609,7 @@ Tujuan	NNP
 Pembangunan	NNP
 Berkelanjutan	NNP
 (SDGs).	NNP
-Menurut	NNP
+Menurut	IN
 Sustainable	NNP
 Development	NNP
 Investment	NNP
@@ -43506,7 +43650,7 @@ Tujuan	NNP
 Pembangunan	NNP
 Berkelanjutan	NNP
 (SDGs).	NNP
-Menurut	NNP
+Menurut	IN
 Sustainable	NNP
 Development	NNP
 Investment	NNP
@@ -43667,78 +43811,9 @@ Luky	NNP
 dalam	IN
 diskusi	NN
 tajuki	VB
-“Mendorong	NNP
-Pendanaan	NNP
-Infrastruktur	NNP
-Berkelanjutan	NNP
-melalui	IN
-Pasar Modal	NN
-dan	CC
-Pertumbuhan	NNP
-Asuransi”	NNP
-di	IN
-Gedung	NNP
-Bursa Efek	NN
-Indonesia	NNP
-,	SYM
-Jakarta	NNP
-,	SYM
-Selasa	NNP
-(3/12).	NUM
-Acara	NNP
-tersebut	PR
-diselenggarakan	VB
-oleh	IN
-Sustainable	NNP
-Development	NNP
-Investment	NNP
-Partnership	NNP
-(SDIP	NNP
-)	SYM
-ASEAN	NNP
-Hub	NNP
-,	SYM
-Asosiasi	NNP
-Asuransi Jiwa	NN
-Indonesia	NNP
-(AAJI),	NNP
-ASEAN	NNP
-Insurance	NNP
-Council	NNP
-(AIC	NNP
-),	NNP
-dan	CC
-Bursa Efek	NN
-Indonesia	NNP
-(BEI).	NNP
-Terkait	NNP
-itu	PR
-,	SYM
-Luky	NNP
-menambahkan	VB
-pemerintah	NN
-ingin	ADV
-melibatkan	VB
-berbagai	NUM
-sektor	NN
-untuk	SC
-bisa	ADV
-menangkap	VB
-peluang	NN
-pembiayaan	NN
-proyek-proyek	NN
-strategis	JJ
-yang	SC
-dijalankan	VB
-ke depan	ADV
-.	SYM
 
-ujar	VB
-Luky	NNP
-dalam	IN
-diskusi	NN
-bertajuk	VB
-“Mendorong	NNP
+"	SYM
+dorongi	VB
 Pendanaan	NNP
 Infrastruktur	NNP
 Berkelanjutan	NNP
@@ -43746,7 +43821,9 @@ melalui	IN
 Pasar Modal	NN
 dan	CC
 Pertumbuhan	NNP
-Asuransi”	NNP
+Asuransi	NNP
+"	SYM
+
 di	IN
 Gedung	NNP
 Bursa Efek	NN
@@ -43782,7 +43859,7 @@ dan	CC
 Bursa Efek	NN
 Indonesia	NNP
 (BEI).	NNP
-Terkait	NNP
+Terkait	VB
 itu	PR
 ,	SYM
 Luky	NNP
@@ -43804,20 +43881,6 @@ dijalankan	VB
 ke depan	ADV
 .	SYM
 
-ujar	VB
-Luky	NNP
-dalam	IN
-diskusi	NN
-bertajuk	VB
-“Mendorong	NNP
-Pendanaan	NNP
-Infrastruktur	NNP
-Berkelanjutan	NNP
-melalui	IN
-Pasar Modal	NN
-dan	CC
-Pertumbuhan	NNP
-Asuransi”	NNP
 di	IN
 Gedung	NNP
 Bursa Efek	NN
@@ -43853,7 +43916,7 @@ dan	CC
 Bursa Efek	NN
 Indonesia	NNP
 (BEI).	NNP
-Terkait	NNP
+Terkait	VB
 itu	PR
 ,	SYM
 Luky	NNP
@@ -43875,20 +43938,6 @@ dijalankan	VB
 ke depan	ADV
 .	SYM
 
-ujar	VB
-Luky	NNP
-dalam	IN
-diskusi	NN
-bertajuk	VB
-“Mendorong	NNP
-Pendanaan	NNP
-Infrastruktur	NNP
-Berkelanjutan	NNP
-melalui	IN
-Pasar Modal	NN
-dan	CC
-Pertumbuhan	NNP
-Asuransi”	NNP
 di	IN
 Gedung	NNP
 Bursa Efek	NN
@@ -43924,7 +43973,7 @@ dan	CC
 Bursa Efek	NN
 Indonesia	NNP
 (BEI).	NNP
-Terkait	NNP
+Terkait	VB
 itu	PR
 ,	SYM
 Luky	NNP
@@ -43946,20 +43995,6 @@ dijalankan	VB
 ke depan	ADV
 .	SYM
 
-ujar	VB
-Luky	NNP
-dalam	IN
-diskusi	NN
-bertajuk	VB
-“Mendorong	NNP
-Pendanaan	NNP
-Infrastruktur	NNP
-Berkelanjutan	NNP
-melalui	IN
-Pasar Modal	NN
-dan	CC
-Pertumbuhan	NNP
-Asuransi”	NNP
 di	IN
 Gedung	NNP
 Bursa Efek	NN
@@ -43995,7 +44030,7 @@ dan	CC
 Bursa Efek	NN
 Indonesia	NNP
 (BEI).	NNP
-Terkait	NNP
+Terkait	VB
 itu	PR
 ,	SYM
 Luky	NNP
@@ -44017,20 +44052,6 @@ dijalankan	VB
 ke depan	ADV
 .	SYM
 
-ujar	VB
-Luky	NNP
-dalam	IN
-diskusi	NN
-bertajuk	VB
-“Mendorong	NNP
-Pendanaan	NNP
-Infrastruktur	NNP
-Berkelanjutan	NNP
-melalui	IN
-Pasar Modal	NN
-dan	CC
-Pertumbuhan	NNP
-Asuransi”	NNP
 di	IN
 Gedung	NNP
 Bursa Efek	NN
@@ -44066,7 +44087,7 @@ dan	CC
 Bursa Efek	NN
 Indonesia	NNP
 (BEI).	NNP
-Terkait	NNP
+Terkait	VB
 itu	PR
 ,	SYM
 Luky	NNP
@@ -44559,9 +44580,8 @@ terhadap	IN
 sistem	NN
 di	IN
 Indonesia	NNP
-,”	NNP
-ujarnya	VB
-.	SYM
+,	SYM
+"	SYM
 
 "	SYM
 Harapan	NN
@@ -44586,34 +44606,9 @@ terhadap	IN
 sistem	NN
 di	IN
 Indonesia	NNP
-,”	NNP
-ujarnya	VB
-.	SYM
-
-"	SYM
-Harapan	NN
-kami	PR
 ,	SYM
-WEF	NNP
-dan	CC
-SDIP	NNP
-dapat	ADV
-menjadi	VB
-platform	NN
-yang	SC
-tepat	JJ
-untuk	SC
-mendorong	VB
-kolaborasi	NN
-tersebut	PR
-dan	CC
-membawa	VB
-perubahan	NN
-terhadap	IN
-sistem	NN
-di	IN
-Indonesia	NNP
-,”	NNP
+"	SYM
+
 ujari	VB
 .	SYM
 
@@ -45163,7 +45158,7 @@ Zulhadrie	NNP
 Ya	NNP
 (ada	NNP
 ledakan).	NNP
-Semua	NNP
+Semua	NUM
 sedang	ADV
 lakui	VB
 penyelidikan	NN
@@ -45257,7 +45252,7 @@ Bulog	NNP
 yang	SC
 menumpuk	VB
 hingga	IN
-Rp	NNP
+RP	SYM
 28	NUM
 triliun	NUM
 .	SYM
@@ -45272,7 +45267,7 @@ Bulog	NNP
 yang	SC
 menumpuk	VB
 hingga	IN
-Rp	NNP
+RP	SYM
 28	NUM
 triliun	NUM
 .	SYM
@@ -45287,12 +45282,13 @@ Bulog	NNP
 yang	SC
 tumpuki	VB
 hingga	IN
-Rp	NNP
+RP	SYM
 28	NUM
 triliun	NUM
 .	SYM
 
-“Bulog	NNP
+"	SYM
+Bulog	NNP
 sekarang	NN
 mulai	VB
 majui	VB
@@ -45303,7 +45299,8 @@ bidang	NN
 komersial	JJ
 .	SYM
 
-“Bulog	NNP
+"	SYM
+Bulog	NNP
 sekarang	NN
 mulai	VB
 memajukan	VB
@@ -45314,12 +45311,6 @@ bidang	NN
 komersial	JJ
 .	SYM
 
-Jadi	JJ
-80	NUM
-persen	NUM
-masih	ADV
-PSO	NNP
-,”	NNP
 kata	NN
 Buwas	NNP
 di	IN
@@ -45350,12 +45341,6 @@ semakin	ADV
 besar	JJ
 .	SYM
 
-Jadi	JJ
-80	NUM
-persen	NUM
-masih	ADV
-PSO	NNP
-,”	NNP
 kata	NN
 Buwas	NNP
 di	IN
@@ -45422,7 +45407,7 @@ adanya	NN
 panganandotcom	NN
 .	SYM
 
-Menurutnya	NNP
+Menurutnya	IN
 masyarakat	NN
 banyak	NUM
 yang	SC
@@ -45433,7 +45418,8 @@ langkah	NN
 itu	PR
 .	SYM
 
-“Saya	NN
+"	SYM
+Saya	PR
 kerja sama	NN
 dengan	IN
 ritel-ritel	JJ
@@ -45490,7 +45476,8 @@ dari	IN
 Bulog	NNP
 .	SYM
 
-“Jadi	NN
+"	SYM
+Jadi	JJ
 masyarakat	NN
 kalau	SC
 butuh	VB
@@ -45528,10 +45515,8 @@ dan	CC
 akan	ADV
 lakui	VB
 Bulog	NNP
-,”	NNP
-tutur	NN
-Buwas	NNP
-.	SYM
+,	SYM
+"	SYM
 
 Tiga	NUM
 pekerja	NN
@@ -45601,7 +45586,7 @@ lukai	VB
 parah	JJ
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 polisi	NN
 setempat	JJ
 ,	SYM
@@ -46494,7 +46479,8 @@ Ria	NNP
 Miranda	NNP
 .	SYM
 
-“Seluruh	NN
+"	SYM
+Seluruh	NUM
 konten	NN
 ,	SYM
 konsep	NN
@@ -46524,7 +46510,8 @@ koleksi	NN
 terbaru	JJ
 ‘Serunai	NN
 
-“Seluruh	NN
+"	SYM
+Seluruh	NUM
 konten	NN
 ,	SYM
 konsep	NN
@@ -46567,32 +46554,9 @@ Store	NNP
 maupun	CC
 Tokopedia	NNP
 Salam	NNP
-,”	NNP
-begitu	SC
-pernyataan	NN
-dari	IN
-pihak	NN
-Tokopedia	NNP
-seperti	SC
-dikutip	VB
-dari	IN
-kumparanTECH	NN
-.	SYM
+,	SYM
+"	SYM
 
-yang	SC
-bisa	ADV
-didapatkan	VB
-masyarakat	NN
-secara	JJ
-eksklusif	JJ
-baik	JJ
-di	IN
-Official	NNP
-Store	NNP
-maupun	CC
-Tokopedia	NNP
-Salam	NNP
-,”	NNP
 begitu	SC
 pernyataan	NN
 dari	IN
@@ -46872,7 +46836,8 @@ yang	SC
 inspiratif	NN
 .	SYM
 
-“Saya	NN
+"	SYM
+Saya	PR
 dan	CC
 tim	NN
 buati	VB
@@ -46903,7 +46868,8 @@ mode	NN
 Indonesia	NNP
 .	SYM
 
-“Saya	NN
+"	SYM
+Saya	PR
 dan	CC
 tim	NN
 membuat	VB
@@ -46963,17 +46929,8 @@ dan	CC
 menyebarkan	VB
 nilai	NN
 kebaikan	NN
-,”	NNP
-tulis	VB
-Ria	NNP
-Miranda	NNP
-dalam	IN
-pernyataan	NN
-pers	NN
-yang	SC
-diterima	VB
-kumparanWOMAN	NN
-.	SYM
+,	SYM
+"	SYM
 
 Sedangkan	CC
 moment	NN
@@ -47004,17 +46961,8 @@ dan	CC
 menyebarkan	VB
 nilai	NN
 kebaikan	NN
-,”	NNP
-tulis	VB
-Ria	NNP
-Miranda	NNP
-dalam	IN
-pernyataan	NN
-pers	NN
-yang	SC
-diterima	VB
-kumparanWOMAN	NN
-.	SYM
+,	SYM
+"	SYM
 
 Sedangkan	CC
 moment	NN
@@ -47045,48 +46993,9 @@ dan	CC
 sebari	VB
 nilai	NN
 kebaikan	NN
-,”	NNP
-tulis	VB
-Ria	NNP
-Miranda	NNP
-dalam	IN
-pernyataan	NN
-pers	NN
-yang	SC
-diterima	VB
-kumparanWOMAN	NN
-.	SYM
+,	SYM
+"	SYM
 
-Sedangkan	CC
-moment	NN
-bersama	VB
-Ustadz	NNP
-Fatih	NNP
-Karim	NNP
-dan	CC
-Ummu	NNP
-Sajjad	NNP
-membahas	VB
-tema	NN
-‘Harmonisasi	NN
-Rumah	NNP
-Tangga’	NNP
-agar	SC
-momen	NN
-acara	NN
-gathering	FW
-ini	PR
-diisi	VB
-dengan	IN
-rangkaian	NN
-acara	NN
-yang	SC
-positif	NN
-dan	CC
-menyebarkan	VB
-nilai	NN
-kebaikan	NN
-,”	NNP
 tulis	VB
 Ria	NNP
 Miranda	NNP
@@ -47180,7 +47089,6 @@ sebagai	IN
 pendukung	NN
 acara	NN
 .	SYM
-”	NNP
 
 Manchester	NNP
 United	NNP
@@ -47484,16 +47392,8 @@ Spurs	NNP
 di	IN
 Old	NNP
 Trafford	NNP
-,”	NNP
-ucap	VB
-Maguire	NNP
 ,	SYM
-dikutip	VB
-dari	IN
-situsweb	NN
-resmi	JJ
-United	NNP
-.	SYM
+"	SYM
 
 Tak	NEG
 ada	JJ
@@ -47510,33 +47410,9 @@ Spurs	NNP
 di	IN
 Old	NNP
 Trafford	NNP
-,”	NNP
-ucap	VB
-Maguire	NNP
 ,	SYM
-dikutip	VB
-dari	IN
-situsweb	NN
-resmi	JJ
-United	NNP
-.	SYM
+"	SYM
 
-Tak	NEG
-ada	JJ
-cara	NN
-yang	SC
-lebih	ADV
-baik	JJ
-untuk	SC
-melakukan	VB
-itu	PR
-ketimbang	SC
-melawan	VB
-Spurs	NNP
-di	IN
-Old	NNP
-Trafford	NNP
-,”	NNP
 ucap	VB
 Maguire	NNP
 ,	SYM
@@ -47847,10 +47723,8 @@ dengan	IN
 hasil	NN
 yang	SC
 positif	NN
-,”	NNP
-pungkas	NN
-Maguire	NNP
-.	SYM
+,	SYM
+"	SYM
 
 Saya	PR
 berharap	VB
@@ -47862,10 +47736,8 @@ dengan	IN
 hasil	NN
 yang	SC
 positif	NN
-,”	NNP
-pungkas	NN
-Maguire	NNP
-.	SYM
+,	SYM
+"	SYM
 
 Semua	NUM
 biaya	NN
@@ -49240,7 +49112,8 @@ kepada	IN
 anak	NN
 .	SYM
 
-“Sejak	NN
+"	SYM
+Sejak	SC
 kecil	JJ
 perlu	ADV
 tanami	VB
@@ -49260,7 +49133,8 @@ dengan	IN
 kita	PR
 .	SYM
 
-“Sejak	NN
+"	SYM
+Sejak	SC
 kecil	JJ
 perlu	ADV
 ditanamkan	VB
@@ -49280,7 +49154,8 @@ dengan	IN
 kita	PR
 .	SYM
 
-“Sejak	NN
+"	SYM
+Sejak	SC
 kecil	JJ
 perlu	ADV
 ditanamkan	VB
@@ -49316,35 +49191,9 @@ tidak	NEG
 ada	JJ
 lagi	ADV
 diskriminasi	NN
-,”	NNP
-kata	NN
-Grace	NNP
 ,	SYM
-dikutip	VB
-dari	IN
-keterangan	NN
-resmi	JJ
-Kementerian	NNP
-Sosial	NNP
-.	SYM
+"	SYM
 
-Kalau	SC
-sejak	IN
-dini	VB
-sudah	ADV
-tertanam	VB
-pandangan	NN
-yang	SC
-baik	JJ
-,	SYM
-mudah-mudahan	NN
-setelah	SC
-dewasa	JJ
-tidak	NEG
-ada	JJ
-lagi	ADV
-diskriminasi	NN
-,”	NNP
 kata	NN
 Grace	NNP
 ,	SYM
@@ -49388,7 +49237,8 @@ sangat	ADV
 baik	JJ
 .	SYM
 
-“Saya	NN
+"	SYM
+Saya	PR
 pernah	ADV
 kunjungi	VB
 ke	IN
@@ -49404,10 +49254,8 @@ mereka	PR
 memang	ADV
 akui	VB
 masyarakat	NN
-,”	NNP
-kata	NN
-Grace	NNP
-.	SYM
+,	SYM
+"	SYM
 
 Ke depan	NNP
 ,	SYM
@@ -49451,7 +49299,7 @@ di	IN
 arena	NN
 pameran	NN
 ini	PR
-menurutnya	NN
+menurutnya	IN
 perlu	ADV
 hubungi	VB
 dengan	IN
@@ -49482,10 +49330,8 @@ menambah	VB
 pendapatan	NN
 ekonomi	NN
 mereka	PR
-,”	NNP
-kata	NN
-Grace	NNP
-.	SYM
+,	SYM
+"	SYM
 
 Jadi	JJ
 kalau	SC
@@ -49500,10 +49346,8 @@ tambahi	VB
 pendapatan	NN
 ekonomi	NN
 mereka	PR
-,”	NNP
-kata	NN
-Grace	NNP
-.	SYM
+,	SYM
+"	SYM
 
 Selain	CC
 itu	PR
@@ -49591,7 +49435,8 @@ peluang	NN
 kerja	NN
 .	SYM
 
-“Saya	NN
+"	SYM
+Saya	PR
 harap	VB
 baik	JJ
 instansi	NN
@@ -49626,9 +49471,8 @@ kira	VB
 ini	PR
 perlu	ADV
 wujudi	VB
-,”	NNP
-pungkasnya	NN
-.	SYM
+,	SYM
+"	SYM
 
 Pada	IN
 kesempatan	NN
@@ -49994,15 +49838,15 @@ mereka	PR
 ‘Kau	NNP
 Udara	NNP
 Bagiku’.	NNP
-Ketiganya	NNP
+Ketiganya	NUM
 juga	ADV
 berbagi	VB
 kisah	NN
 terkait	VB
 album	NN
-‘Keterkaitan	NN
+‘Keterkaitan	NNP
 Keterikatan’.	NNP
-Lalu	NNP
+Lalu	SC
 ,	SYM
 seperti	IN
 apa	WH
@@ -50034,15 +49878,15 @@ mereka	PR
 ‘Kau	NNP
 Udara	NNP
 Bagiku’.	NNP
-Ketiganya	NNP
+Ketiganya	NUM
 juga	ADV
 berbagi	VB
 kisah	NN
 terkait	VB
 album	NN
-‘Keterkaitan	NN
+‘Keterkaitan	NNP
 Keterikatan’.	NNP
-Lalu	NNP
+Lalu	SC
 ,	SYM
 seperti	IN
 apa	WH
@@ -50074,15 +49918,15 @@ mereka	PR
 ‘Kau	NNP
 Udara	NNP
 Bagiku’.	NNP
-Ketiganya	NNP
+Ketiganya	NUM
 juga	ADV
 berbagi	VB
 kisah	NN
 kaiti	VB
 album	NN
-‘Keterkaitan	NN
+‘Keterkaitan	NNP
 Keterikatan’.	NNP
-Lalu	NNP
+Lalu	SC
 ,	SYM
 seperti	IN
 apa	WH
@@ -50114,15 +49958,15 @@ mereka	PR
 ‘Kau	NNP
 Udara	NNP
 Bagiku’.	NNP
-Ketiganya	NNP
+Ketiganya	NUM
 juga	ADV
 berbagi	VB
 kisah	NN
 terkait	VB
 album	NN
-‘Keterkaitan	NN
+‘Keterkaitan	NNP
 Keterikatan’.	NNP
-Lalu	NNP
+Lalu	SC
 ,	SYM
 seperti	IN
 apa	WH
@@ -50273,7 +50117,7 @@ Auschwitz	NNP
 Ia	PR
 akan	ADV
 dampingi	VB
-Perdana Menteri	NNP
+Perdana Menteri	NN
 Polandia	NNP
 Mateusz	NNP
 Morawiecki	NNP
@@ -51271,7 +51115,7 @@ dan	CC
 Tahun Baru	NN
 (Nataru	NNP
 ).	NNP
-Adapun	NNP
+Adapun	RP
 tol	NN
 yang	SC
 digratiskan	VB
@@ -51323,7 +51167,7 @@ dan	CC
 Tahun Baru	NN
 (Nataru	NNP
 ).	NNP
-Adapun	NNP
+Adapun	RP
 tol	NN
 yang	SC
 gratisi	VB
@@ -51375,7 +51219,7 @@ dan	CC
 Tahun Baru	NN
 (Nataru	NNP
 ).	NNP
-Adapun	NNP
+Adapun	RP
 tol	NN
 yang	SC
 digratiskan	VB
@@ -51396,17 +51240,6 @@ secara	JJ
 fungsional	JJ
 .	SYM
 
-“Iya	NN
-(ada	NNP
-6	NUM
-tol	NN
-beroperasi	VB
-secara	JJ
-gratis)	NNP
-saat	NN
-libur	NN
-Nataru	NNP
-,”	NNP
 jelas	JJ
 Kepala	NNP
 Badan	NNP
@@ -51470,7 +51303,7 @@ dengan	IN
 biaya	NN
 pembangunan	NN
 mencapai	VB
-Rp	NNP
+RP	SYM
 17,34	NUM
 triliun	NUM
 .	SYM
@@ -51493,7 +51326,7 @@ dengan	IN
 biaya	NN
 pembangunan	NN
 mencapai	VB
-Rp	NNP
+RP	SYM
 17,34	NUM
 triliun	NUM
 .	SYM
@@ -51559,21 +51392,6 @@ libur	NN
 Nataru	NNP
 .	SYM
 
-"	SYM
-Seksi	VB
-1	NUM
-sepanjang	NN
-9,50	NUM
-km	NN
-,	SYM
-insyaallah	NN
-bisa	ADV
-selesai	JJ
-akhir	NN
-tahun	NN
-2019	NUM
-ini	PR
-,”	NNP
 kata	NN
 Sekretaris	NNP
 Perusahaan	NNP
@@ -51611,21 +51429,6 @@ mencapai	VB
 persen	NUM
 .	SYM
 
-"	SYM
-Seksi	VB
-1	NUM
-sepanjang	NN
-9,50	NUM
-km	NN
-,	SYM
-insyaallah	NN
-bisa	ADV
-selesai	JJ
-akhir	NN
-tahun	NN
-2019	NUM
-ini	PR
-,”	NNP
 kata	NN
 Sekretaris	NNP
 Perusahaan	NNP
@@ -51726,7 +51529,7 @@ telani	VB
 total	NN
 investasi	NN
 sebesar	JJ
-Rp	NNP
+RP	SYM
 9,9	NUM
 triliun	NUM
 .	SYM
@@ -51750,7 +51553,7 @@ pinjaman	NN
 pemerintah	NN
 China	NNP
 sebesar	JJ
-Rp	NNP
+RP	SYM
 848,55	NUM
 miliar	NUM
 ,	SYM
@@ -51774,7 +51577,7 @@ menelan	VB
 biaya	NN
 investasi	NN
 sebesar	JJ
-Rp	NNP
+RP	SYM
 6,19	NUM
 triliun	NUM
 .	SYM
@@ -51790,7 +51593,7 @@ telani	VB
 biaya	NN
 investasi	NN
 sebesar	JJ
-Rp	NNP
+RP	SYM
 6,19	NUM
 triliun	NUM
 .	SYM
@@ -52272,7 +52075,7 @@ anggota	NN
 TNI	NNP
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 keterangan	NN
 Kapolda	NNP
 Metro	NNP
@@ -52407,7 +52210,7 @@ Tempat	NNP
 Kejadian	NNP
 Perkara	NNP
 (TKP).	NNP
-Garis	NNP
+Garis	NN
 polisi	NN
 masih	ADV
 dipasang	VB
@@ -52424,7 +52227,7 @@ Tempat	NNP
 Kejadian	NNP
 Perkara	NNP
 (TKP).	NNP
-Garis	NNP
+Garis	NN
 polisi	NN
 masih	ADV
 pasangi	VB
@@ -52432,7 +52235,7 @@ di	IN
 TKP	NNP
 .	SYM
 
-Hari	NN
+Hari	NNP
 itu	PR
 angin	NN
 hembusi	VB
@@ -52462,7 +52265,7 @@ biru	JJ
 terbentang	VB
 .	SYM
 
-Hari	NN
+Hari	NNP
 itu	PR
 angin	NN
 berhembus	VB
@@ -52492,7 +52295,7 @@ biru	JJ
 terbentang	VB
 .	SYM
 
-Hari	NN
+Hari	NNP
 itu	PR
 angin	NN
 berhembus	VB
@@ -53114,7 +52917,7 @@ AUD	NNP
 untuk	SC
 dewasa	JJ
 (sekitar	NN
-Rp	NNP
+RP	SYM
 235	NUM
 ribu)	NN
 dan	CC
@@ -53124,7 +52927,7 @@ untuk	SC
 anak-anak	NN
 atau	CC
 sekitar	ADV
-Rp	NNP
+RP	SYM
 147	NUM
 ribu	NUM
 .	SYM
@@ -53145,7 +52948,7 @@ AUD	NNP
 untuk	SC
 dewasa	JJ
 (sekitar	NN
-Rp	NNP
+RP	SYM
 235	NUM
 ribu)	NN
 dan	CC
@@ -53155,7 +52958,7 @@ untuk	SC
 anak-anak	NN
 atau	CC
 sekitar	ADV
-Rp	NNP
+RP	SYM
 147	NUM
 ribu	NUM
 .	SYM
@@ -53522,7 +53325,7 @@ AUD	NNP
 90	NUM
 atau	CC
 sekitar	ADV
-Rp	NNP
+RP	SYM
 980	NUM
 ribu	NUM
 untuk	SC
@@ -53546,7 +53349,7 @@ AUD	NNP
 90	NUM
 atau	CC
 sekitar	ADV
-Rp	NNP
+RP	SYM
 980	NUM
 ribu	NUM
 untuk	SC
@@ -53570,7 +53373,7 @@ AUD	NNP
 90	NUM
 atau	CC
 sekitar	ADV
-Rp	NNP
+RP	SYM
 980	NUM
 ribu	NUM
 untuk	SC
@@ -53842,7 +53645,8 @@ nyalai	VB
 merah	JJ
 .	SYM
 
-“Hasil	NN
+"	SYM
+Hasil	NN
 dari	IN
 pemeriksaan	NN
 kami	PR
@@ -53858,7 +53662,8 @@ melihat	VB
 lampu merah	NN
 .	SYM
 
-“Hasil	NN
+"	SYM
+Hasil	NN
 dari	IN
 pemeriksaan	NN
 kami	PR
@@ -53889,9 +53694,6 @@ atau	CC
 berhenti	VB
 .	SYM
 
-Alasannya	NN
-nanggung	NN
-,”	NNP
 kata	NN
 Kasat	NNP
 Lantas	NNP
@@ -53927,9 +53729,6 @@ dikendarai	VB
 AP	NNP
 .	SYM
 
-Alasannya	NN
-nanggung	NN
-,”	NNP
 kata	NN
 Kasat	NNP
 Lantas	NNP
@@ -53965,9 +53764,6 @@ dikendarai	VB
 AP	NNP
 .	SYM
 
-Alasannya	NN
-nanggung	NN
-,”	NNP
 kata	NN
 Kasat	NNP
 Lantas	NNP
@@ -54003,9 +53799,6 @@ dikendarai	VB
 AP	NNP
 .	SYM
 
-Alasannya	NN
-nanggung	NN
-,”	NNP
 kata	NN
 Kasat	NNP
 Lantas	NNP
@@ -54062,7 +53855,8 @@ lalu lintas	NN
 tersebut	PR
 .	SYM
 
-“Bukan	NN
+"	SYM
+Bukan	NEG
 sereti	VB
 (motornya)	NNP
 tapi	CC
@@ -54113,10 +53907,8 @@ atas	NN
 polsek	NN
 lapori	VB
 kejadian	NN
-,”	NNP
-ujar	VB
-Mega	NNP
-.	SYM
+,	SYM
+"	SYM
 
 Dari	IN
 hasil	NN
@@ -54284,7 +54076,7 @@ Energy	NNP
 Trading	NNP
 Limited	NNP
 (Petral).	NNP
-Ia	NNP
+Ia	PR
 sudah	ADV
 dijerat	VB
 sebagai	IN
@@ -54321,7 +54113,7 @@ Energy	NNP
 Trading	NNP
 Limited	NNP
 (Petral).	NNP
-Ia	NNP
+Ia	PR
 sudah	ADV
 jerati	VB
 sebagai	IN
@@ -54358,7 +54150,7 @@ Energy	NNP
 Trading	NNP
 Limited	NNP
 (Petral).	NNP
-Ia	NNP
+Ia	PR
 sudah	ADV
 dijerat	VB
 sebagai	IN
@@ -54408,7 +54200,7 @@ company	FW
 PT	NNP
 Pertamina	NNP
 (Persero).	NNP
-Uang	NNP
+Uang	NN
 itu	PR
 dugai	VB
 sebagai	IN
@@ -54443,7 +54235,7 @@ company	FW
 PT	NNP
 Pertamina	NNP
 (Persero).	NNP
-Uang	NNP
+Uang	NN
 itu	PR
 diduga	VB
 sebagai	IN
@@ -54478,7 +54270,7 @@ company	FW
 PT	NNP
 Pertamina	NNP
 (Persero).	NNP
-Uang	NNP
+Uang	NN
 itu	PR
 diduga	VB
 sebagai	IN
@@ -54513,7 +54305,7 @@ company	FW
 PT	NNP
 Pertamina	NNP
 (Persero).	NNP
-Uang	NNP
+Uang	NN
 itu	PR
 dugai	VB
 sebagai	IN
@@ -54548,7 +54340,7 @@ company	FW
 PT	NNP
 Pertamina	NNP
 (Persero).	NNP
-Uang	NNP
+Uang	NN
 itu	PR
 diduga	VB
 sebagai	IN
@@ -54583,7 +54375,7 @@ company	FW
 PT	NNP
 Pertamina	NNP
 (Persero).	NNP
-Uang	NNP
+Uang	NN
 itu	PR
 diduga	VB
 sebagai	IN
@@ -55885,7 +55677,7 @@ people	NN
 explore	FW
 the	NNP
 world	NN
-Menurut	NNP
+Menurut	IN
 Google	NNP
 ,	SYM
 aplikasi	NN
@@ -56522,7 +56314,7 @@ ke	IN
 RSPAD	NNP
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 keterangan	NN
 Kapolda	NNP
 Metro	NNP
@@ -57364,7 +57156,8 @@ terbaru	JJ
 ini	PR
 .	SYM
 
-“Sekarang	NN
+"	SYM
+Sekarang	NNP
 NMax	NNP
 masuki	VB
 babak	NN
@@ -57396,17 +57189,8 @@ teknologi	NN
 dan	CC
 mesin	NN
 baru	JJ
-,”	NNP
-kata	NN
-Morimoto	NNP
-di	IN
-JIExpo	NNP
 ,	SYM
-Kemayoran	NNP
-,	SYM
-Jakarta	NNP
-Utara	NNP
-.	SYM
+"	SYM
 
 All	SYM
 new	NN
@@ -57682,7 +57466,7 @@ Traction	NNP
 Control	NNP
 System	NNP
 (TCS).	NNP
-Fitur	NNP
+Fitur	NN
 yang	SC
 ada	JJ
 di	IN
@@ -57722,7 +57506,7 @@ pada	IN
 aspal	NN
 (wheelspin	NNP
 ).	NNP
-Nah	NNP
+Nah	PR
 fitur	NN
 yang	SC
 juga	ADV
@@ -57766,7 +57550,7 @@ pada	IN
 aspal	NN
 (wheelspin	NNP
 ).	NNP
-Nah	NNP
+Nah	RP
 fitur	NN
 yang	SC
 juga	ADV
@@ -57810,7 +57594,7 @@ pada	IN
 aspal	NN
 (wheelspin	NNP
 ).	NNP
-Nah	NNP
+Nah	RP
 fitur	NN
 yang	SC
 juga	ADV
@@ -57854,7 +57638,7 @@ pada	IN
 aspal	NN
 (wheelspin	NNP
 ).	NNP
-Nah	NNP
+Nah	RP
 fitur	NN
 yang	SC
 juga	ADV
@@ -57898,7 +57682,7 @@ pada	IN
 aspal	NN
 (wheelspin	NNP
 ).	NNP
-Nah	NNP
+Nah	RP
 fitur	NN
 yang	SC
 juga	ADV
@@ -58022,7 +57806,7 @@ akan	ADV
 adai	VB
 di	IN
 kisaran	NN
-Rp	NNP
+RP	SYM
 30	NUM
 jutaan	NUM
 .	SYM
@@ -58859,7 +58643,7 @@ dari	IN
 Marks	NNP
 &	SYM
 Spencer	NNP
-Rp	NNP
+RP	SYM
 2,1	NUM
 juta	NUM
 Terbuat	NNP
@@ -59150,7 +58934,7 @@ with	NN
 Puff	NNP
 -	SYM
 UNIQLO	NNP
-Rp	NNP
+RP	SYM
 299	NUM
 Memiliki	NNP
 model	NN
@@ -59234,7 +59018,7 @@ Neck	NNP
 Sweater	NNP
 dari	IN
 Stradivarius	NNP
-Rp	NNP
+RP	SYM
 559	NUM
 Knitwear	NNP
 lansiran	NN
@@ -59258,7 +59042,7 @@ Neck	NNP
 Sweater	NNP
 dari	IN
 Stradivarius	NNP
-Rp	NNP
+RP	SYM
 559	NUM
 Knitwear	NNP
 lansiran	NN
@@ -59320,7 +59104,7 @@ Pointelle	NNP
 Jumper	NNP
 dari	IN
 Topshop	NNP
-Rp	NNP
+RP	SYM
 572	NUM
 ribu	NUM
 Bagi	NNP
@@ -59415,7 +59199,7 @@ ini	PR
 Ya	NNP
 (ada	NNP
 ledakan).	NNP
-Semua	NNP
+Semua	NUM
 sedang	ADV
 lakui	VB
 penyelidikan	NN
@@ -59501,7 +59285,7 @@ pihak	NN
 kepolisian	NN
 .	SYM
 
-Menteri	NNP
+Menteri	NN
 Pertahanan	NNP
 Prabowo	NNP
 Subianto	NNP
@@ -59541,7 +59325,7 @@ dapati	VB
 jatah	NN
 anggaran	NN
 sebesar	JJ
-Rp	NNP
+RP	SYM
 131	NUM
 triliun	NUM
 .	SYM
@@ -59931,7 +59715,8 @@ sukses	NN
 sendiri	JJ
 .	SYM
 
-“Jika	SC
+"	SYM
+Jika	SC
 gagal	JJ
 untuk	SC
 rencanai	VB
@@ -59941,15 +59726,11 @@ juga	ADV
 berencana	VB
 untuk	SC
 gagal	JJ
-,”	NNP
-katanya	NN
 ,	SYM
-Selasa	NNP
-(3/12).	NUM
-2	NUM
-.	SYM
+"	SYM
 
-“Jika	SC
+"	SYM
+Jika	SC
 gagal	JJ
 untuk	SC
 merencanakan	VB
@@ -59959,13 +59740,8 @@ juga	ADV
 rencanai	VB
 untuk	SC
 gagal	JJ
-,”	NNP
-katanya	NN
 ,	SYM
-Selasa	NNP
-(3/12).	NUM
-2	NUM
-.	SYM
+"	SYM
 
 ajari	VB
 Budaya	NNP
@@ -60089,7 +59865,8 @@ yang	SC
 lain	JJ
 .	SYM
 
-“Budaya	NN
+"	SYM
+Budaya	NN
 ini	PR
 cakupi	VB
 segala	NN
@@ -60107,10 +59884,8 @@ di	IN
 dalam	NN
 perusahaan	NN
 tersebut	PR
-,”	NNP
-tambah	VB
-Merry	NNP
-.	SYM
+,	SYM
+"	SYM
 
 Bangun	VB
 Citra	NNP
@@ -62340,7 +62115,7 @@ padahal	CC
 utang	NN
 perseroan	NN
 hampir	ADV
-Rp	NNP
+RP	SYM
 40	NUM
 triliun	NUM
 .	SYM
@@ -62362,7 +62137,7 @@ padahal	CC
 utang	NN
 perseroan	NN
 hampir	ADV
-Rp	NNP
+RP	SYM
 40	NUM
 triliun	NUM
 .	SYM
@@ -62757,7 +62532,7 @@ Karya	NNP
 telah	ADV
 dapati	VB
 PNM	NNP
-Rp	NNP
+RP	SYM
 3,5	NUM
 triliun	NUM
 .	SYM
@@ -63001,7 +62776,7 @@ Coahuila	NNP
 ,	SYM
 Sabtu	NNP
 (30/11).	NUM
-Menurut	NNP
+Menurut	IN
 pemerintah	NN
 Coahuila	NNP
 ,	SYM
@@ -63045,7 +62820,7 @@ Coahuila	NNP
 ,	SYM
 Sabtu	NNP
 (30/11).	NUM
-Menurut	NNP
+Menurut	IN
 pemerintah	NN
 Coahuila	NNP
 ,	SYM
@@ -63089,7 +62864,7 @@ Coahuila	NNP
 ,	SYM
 Sabtu	NNP
 (30/11).	NUM
-Menurut	NNP
+Menurut	IN
 pemerintah	NN
 Coahuila	NNP
 ,	SYM
@@ -63383,7 +63158,7 @@ Enim	NNP
 dari	IN
 Robi	NNP
 mencapai	VB
-Rp	NNP
+RP	SYM
 4,85	NUM
 miliar	NUM
 .	SYM
@@ -63400,7 +63175,7 @@ Enim	NNP
 dari	IN
 Robi	NNP
 mencapai	VB
-Rp	NNP
+RP	SYM
 4,85	NUM
 miliar	NUM
 .	SYM
@@ -63449,7 +63224,7 @@ menerima	VB
 suap	NN
 senilai	NN
 total	NN
-Rp	NNP
+RP	SYM
 13,9	NUM
 miliar	NUM
 dari	IN
@@ -63465,7 +63240,7 @@ terimai	VB
 suap	NN
 senilai	NN
 total	NN
-Rp	NNP
+RP	SYM
 13,9	NUM
 miliar	NUM
 dari	IN
@@ -64164,7 +63939,7 @@ yang	SC
 edari	VB
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 pengakuan	NN
 Samina	NNP
 ,	SYM
@@ -64194,7 +63969,7 @@ untuk	IN
 arisan	NN
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 pengakuan	NN
 Samina	NNP
 ,	SYM
@@ -64430,12 +64205,12 @@ oleh	IN
 ibunya	NN
 ,	SYM
 kadang	ADV
-Rp	NNP
+RP	SYM
 50	NUM
 ribu	NUM
 sampai	IN
 dengan	IN
-Rp	NNP
+RP	SYM
 70	NUM
 ribu	NUM
 per	IN
@@ -64451,12 +64226,12 @@ oleh	IN
 ibunya	NN
 ,	SYM
 kadang	ADV
-Rp	NNP
+RP	SYM
 50	NUM
 ribu	NUM
 sampai	IN
 dengan	IN
-Rp	NNP
+RP	SYM
 70	NUM
 ribu	NUM
 per	IN
@@ -64637,7 +64412,7 @@ Sukorambi	NNP
 Jember	NNP
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 Jumari	NNP
 ,	SYM
 Havid	NNP
@@ -66785,11 +66560,6 @@ sampai	IN
 kilometer	NN
 .	SYM
 
-Semua	NUM
-dia	PR
-ketahuan	NN
-di situ	PR
-,”	NNP
 papari	VB
 .	SYM
 
@@ -66821,7 +66591,7 @@ akan	ADV
 berkutat	VB
 di	IN
 kisaran	NN
-Rp	NNP
+RP	SYM
 30	NUM
 jutaan	NUM
 .	SYM
@@ -66839,7 +66609,8 @@ tahun	NN
 mendatang	JJ
 .	SYM
 
-“Belum	NNP
+"	SYM
+Belum	NEG
 bisa	ADV
 pesani	VB
 seperti	IN
@@ -67180,7 +66951,6 @@ bank	NN
 ,	SYM
 "	SYM
 
-“...	NNP
 Pihak Kedua	NN
 wajib	JJ
 kerjai	VB
@@ -67193,20 +66963,6 @@ selama	JJ
 belas)	VB
 tahun	NN
 ...	NNP
-”	NNP
-Begitulah	NNP
-bunyi	NN
-salah satu	JJ
-pasal	NN
-kontrak	NN
-kerja	NN
-Lion	NNP
-Air	NNP
-Group	NNP
-dan	CC
-para	DT
-pilotnya	NN
-.	SYM
 
 Memang	ADV
 ,	SYM
@@ -67698,7 +67454,7 @@ surat	NN
 PHK	NNP
 dan	CC
 denda	NN
-Rp	NNP
+RP	SYM
 7	NUM
 miliar	NUM
 yang	SC
@@ -67723,7 +67479,7 @@ surat	NN
 PHK	NNP
 dan	CC
 denda	NN
-Rp	NNP
+RP	SYM
 7	NUM
 miliar	NUM
 yang	SC
@@ -67748,7 +67504,7 @@ surat	NN
 PHK	NNP
 dan	CC
 denda	NN
-Rp	NNP
+RP	SYM
 7	NUM
 miliar	NUM
 yang	SC
@@ -67795,7 +67551,8 @@ Air	NNP
 Group	NNP
 .	SYM
 
-“Memang	NN
+"	SYM
+Memang	ADV
 (soal	JJ
 denda)	NN
 surati	VB
@@ -67809,7 +67566,8 @@ belah	VB
 pihak	NN
 .	SYM
 
-“Memang	NN
+"	SYM
+Memang	ADV
 (soal	JJ
 denda)	NN
 tersurat	VB
@@ -68001,7 +67759,7 @@ Waktu	NNP
 Tidak	NNP
 Tertentu	NNP
 (PKWTT).	NNP
-Artinya	NNP
+Artinya	NN
 ,	SYM
 pegawai	NN
 terkait	VB
@@ -68023,7 +67781,7 @@ Waktu	NNP
 Tidak	NNP
 Tertentu	NNP
 (PKWTT).	NNP
-Artinya	NNP
+Artinya	NN
 ,	SYM
 pegawai	NN
 kaiti	VB
@@ -68173,12 +67931,6 @@ taraf	NN
 penjajakan	NN
 .	SYM
 
-Jadi	JJ
-tidak boleh	ADV
-masuk	VB
-sistem	NN
-PKWT	NNP
-,”	NNP
 ujari	VB
 .	SYM
 
@@ -68524,7 +68276,7 @@ Kerja	NNP
 Waktu	NNP
 Tertentu	NNP
 (PKWT).	NNP
-Nah	NNP
+Nah	RP
 pilot	NN
 itu	PR
 pekerjaan	NN
@@ -68558,7 +68310,7 @@ Kerja	NNP
 Waktu	NNP
 Tertentu	NNP
 (PKWT).	NNP
-Nah	NNP
+Nah	RP
 pilot	NN
 itu	PR
 pekerjaan	NN
@@ -68592,7 +68344,7 @@ Kerja	NNP
 Waktu	NNP
 Tertentu	NNP
 (PKWT).	NNP
-Nah	NNP
+Nah	RP
 pilot	NN
 itu	PR
 pekerjaan	NN
@@ -68703,7 +68455,7 @@ waktu	NN
 tidak	NEG
 tertentu	JJ
 (PKWTT).	NNP
-Yang	NNP
+Yang	SC
 awalnya	NN
 dikontrak	VB
 ,	SYM
@@ -68751,7 +68503,7 @@ waktu	NN
 tidak	NEG
 tertentu	JJ
 (PKWTT).	NNP
-Yang	NNP
+Yang	SC
 awalnya	NN
 dikontrak	VB
 ,	SYM
@@ -68799,7 +68551,7 @@ waktu	NN
 tidak	NEG
 tertentu	JJ
 (PKWTT).	NNP
-Yang	NNP
+Yang	SC
 awalnya	NN
 kontraki	VB
 ,	SYM
@@ -68847,7 +68599,7 @@ waktu	NN
 tidak	NEG
 tertentu	JJ
 (PKWTT).	NNP
-Yang	NNP
+Yang	SC
 awalnya	NN
 dikontrak	VB
 ,	SYM
@@ -68895,7 +68647,7 @@ waktu	NN
 tidak	NEG
 tertentu	JJ
 (PKWTT).	NNP
-Yang	NNP
+Yang	SC
 awalnya	NN
 kontraki	VB
 ,	SYM
@@ -68985,7 +68737,7 @@ waktu	NN
 tidak	NEG
 tertentu	JJ
 (PKWTT).	NNP
-Jadi	NNP
+Jadi	JJ
 jika	SC
 sebelumnya	SC
 status	NN
@@ -69028,7 +68780,7 @@ waktu	NN
 tidak	NEG
 tertentu	JJ
 (PKWTT).	NNP
-Jadi	NNP
+Jadi	JJ
 jika	SC
 sebelumnya	SC
 status	NN
@@ -69294,7 +69046,7 @@ gugati	VB
 balik	VB
 ?	SYM
 
-Menurut	NNP
+Menurut	IN
 Anda	NNP
 ,	SYM
 apakah	WH
@@ -69302,7 +69054,7 @@ denda	NN
 atau	CC
 penalti	NN
 hingga	IN
-Rp	NNP
+RP	SYM
 7	NUM
 miliar	NUM
 untuk	SC
@@ -69319,7 +69071,7 @@ masuk akal	VB
 ?	SYM
 
 Kalau	SC
-Rp	NNP
+RP	SYM
 7	NUM
 miliar	NUM
 itu	PR
@@ -69739,38 +69491,7 @@ dari	IN
 seorang	JJ
 pria	NN
 namai	VB
-“Billy”	NNP
-Eduard	NNP
-Albert	NNP
-Meier	NNP
-yang	SC
-mengklaim	VB
-dirinya	NN
-sebagai	IN
-nabi	NN
-sekaligus	ADV
-pendiri	NN
-Agama	NNP
-UFO	NNP
-.	SYM
 
-Terlepas	VB
-dari	IN
-perdebatan	NN
-yang	SC
-tak	NEG
-kunjung	VB
-selesai	JJ
-,	SYM
-ada	JJ
-kisah	NN
-menarik	VB
-datang	VB
-dari	IN
-seorang	JJ
-pria	NN
-bernama	VB
-“Billy”	NNP
 Eduard	NNP
 Albert	NNP
 Meier	NNP
@@ -69958,26 +69679,6 @@ tiga	NUM
 musim	NN
 dalam	IN
 poster	NN
-“I	NNP
-Want	NNP
-to	NNP
-Believe”	NNP
-di	IN
-acara	NN
-televisi	NN
-The	NNP
-X-Files	NNP
-,	SYM
-dan	CC
-dipajang	VB
-di	IN
-kantor	NN
-agen	NN
-khusus	JJ
-FBI	NNP
-Fox	NNP
-Mulder	NNP
-.	SYM
 
 Kelompok	NN
 kedua	NUM
@@ -69993,45 +69694,7 @@ tiga	NUM
 musim	NN
 dalam	IN
 poster	NN
-“I	NNP
-Want	NNP
-to	NNP
-Believe”	NNP
-di	IN
-acara	NN
-televisi	NN
-The	NNP
-X-Files	NNP
-,	SYM
-dan	CC
-dipajang	VB
-di	IN
-kantor	NN
-agen	NN
-khusus	JJ
-FBI	NNP
-Fox	NNP
-Mulder	NNP
-.	SYM
 
-Kelompok	NN
-kedua	NUM
-adalah	VB
-beberapa	NUM
-gambar	NN
-terkenal	VB
-yang	SC
-pernah	ADV
-ditampilkan	VB
-selama	JJ
-tiga	NUM
-musim	NN
-dalam	IN
-poster	NN
-“I	NNP
-Want	NNP
-to	NNP
-Believe”	NNP
 di	IN
 acara	NN
 televisi	NN
@@ -70671,7 +70334,7 @@ gerak	VB
 kendaraan	NN
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 seorang	JJ
 pengendara	NN
 yang	SC
@@ -70693,14 +70356,6 @@ seiring	NN
 adanya	NN
 pengerjaan	NN
 trotoar	NN
-“Ini	NNP
-sekarang	NN
-(siang	NN
-hari	NN
-macet)	NN
-masih	ADV
-segini	NN
-.	SYM
 
 Wawan	NNP
 ungkapi	VB
@@ -71199,7 +70854,7 @@ diprediksi	VB
 akan	ADV
 segera	ADV
 ‘pensiun’.	NNP
-Menurut	NNP
+Menurut	IN
 laporan	NN
 terbaru	JJ
 dari	IN
@@ -71246,7 +70901,7 @@ diprediksi	VB
 akan	ADV
 segera	ADV
 ‘pensiun’.	NNP
-Menurut	NNP
+Menurut	IN
 laporan	NN
 terbaru	JJ
 dari	IN
@@ -71397,7 +71052,8 @@ tugas	NN
 kerajaan	NN
 .	SYM
 
-“Skandal	NN
+"	SYM
+Skandal	NN
 seputar	ADV
 Andrew	NNP
 dan	CC
@@ -71416,7 +71072,8 @@ menjalankan	VB
 kekuasaan	NN
 .	SYM
 
-“Skandal	NN
+"	SYM
+Skandal	NN
 seputar	ADV
 Andrew	NNP
 dan	CC
@@ -71435,7 +71092,8 @@ menjalankan	VB
 kekuasaan	NN
 .	SYM
 
-“Skandal	NN
+"	SYM
+Skandal	NN
 seputar	ADV
 Andrew	NNP
 dan	CC
@@ -71460,15 +71118,8 @@ dan	CC
 segera	ADV
 bertindak	VB
 tegas	JJ
-,”	NNP
-kata	NN
-seorang	JJ
-narasumber	NN
-kerajaan	NN
-kepada	IN
-The	NNP
-Sun	NNP
-.	SYM
+,	SYM
+"	SYM
 
 Charles	NNP
 menyadarinya	VB
@@ -71476,15 +71127,8 @@ dan	CC
 segera	ADV
 tindaki	VB
 tegas	JJ
-,”	NNP
-kata	NN
-seorang	JJ
-narasumber	NN
-kerajaan	NN
-kepada	IN
-The	NNP
-Sun	NNP
-.	SYM
+,	SYM
+"	SYM
 
 Lebih	ADV
 lanjut	VB
@@ -71826,7 +71470,7 @@ yang	SC
 musnahi	VB
 itu	PR
 mencapai	VB
-Rp	NNP
+RP	SYM
 160	NUM
 miliar	NUM
 dengan	IN
@@ -71836,7 +71480,7 @@ rata-rata	JJ
 pembelian	NN
 di	IN
 petani	NN
-Rp	NNP
+RP	SYM
 8.000	NUM
 per	IN
 kilogram	NN
@@ -71855,7 +71499,7 @@ pemusnahan	NN
 beras	NN
 .	SYM
 
-Menurutnya	NNP
+Menurutnya	IN
 harus	ADV
 ada	JJ
 rekomendasi	NN
@@ -71873,7 +71517,7 @@ penurunan	NN
 mutu	NN
 .	SYM
 
-Menurutnya	NNP
+Menurutnya	IN
 harus	ADV
 ada	JJ
 rekomendasi	NN
@@ -71891,7 +71535,7 @@ penurunan	NN
 mutu	NN
 .	SYM
 
-Menurutnya	NNP
+Menurutnya	IN
 harus	ADV
 ada	JJ
 rekomendasi	NN
@@ -71909,7 +71553,8 @@ penurunan	NN
 mutu	NN
 .	SYM
 
-“Tidak	NN
+"	SYM
+Tidak	NEG
 berarti	VB
 secara	JJ
 keseluruhan	NN
@@ -71919,16 +71564,6 @@ buangi	VB
 tidak	NEG
 .	SYM
 
-Sesuai	JJ
-nilai	NN
-tafsiran	NN
-laboratorium	NN
-,	SYM
-BPOM	NNP
-sama	JJ
-Menteri	NNP
-Pertanian	NNP
-,”	NNP
 kata	NN
 Buwas	NNP
 ,	SYM
@@ -71965,16 +71600,6 @@ sama	JJ
 kondisinya	NN
 .	SYM
 
-Sesuai	JJ
-nilai	NN
-tafsiran	NN
-laboratorium	NN
-,	SYM
-BPOM	NNP
-sama	JJ
-Menteri	NNP
-Pertanian	NNP
-,”	NNP
 kata	NN
 Buwas	NNP
 ,	SYM
@@ -72011,16 +71636,6 @@ sama	JJ
 kondisinya	NN
 .	SYM
 
-Sesuai	JJ
-nilai	NN
-tafsiran	NN
-laboratorium	NN
-,	SYM
-BPOM	NNP
-sama	JJ
-Menteri	NNP
-Pertanian	NNP
-,”	NNP
 kata	NN
 Buwas	NNP
 ,	SYM
@@ -72106,7 +71721,8 @@ sesuai	JJ
 standar	NN
 .	SYM
 
-“Terus	NN
+"	SYM
+Terus	ADV
 kita	PR
 ubah	VB
 jadi	JJ
@@ -72186,12 +71802,11 @@ bisa	ADV
 buati	VB
 untuk	SC
 etanol	NN
-,”	NNP
-ujar	VB
-Buwas	NNP
-.	SYM
+,	SYM
+"	SYM
 
-“Dari	NNP
+"	SYM
+Dari	IN
 hal	NN
 ini	PR
 semua	NUM
@@ -72208,23 +71823,23 @@ harga	NN
 jualnya	VB
 umpama	NN
 dulu	NN
-Rp	NNP
+RP	SYM
 8	NUM
 ribu	NUM
 sekarang	NN
 nilainya	NN
-Rp	NNP
+RP	SYM
 5	NUM
 ribu	NUM
 ya	NN
 itu	PR
 diganti	VB
 negara	NN
-,”	NNP
-tambahnya	VB
-.	SYM
+,	SYM
+"	SYM
 
-“Dari	NNP
+"	SYM
+Dari	IN
 hal	NN
 ini	PR
 semua	NUM
@@ -72241,23 +71856,23 @@ harga	NN
 jualnya	VB
 umpama	NN
 dulu	NN
-Rp	NNP
+RP	SYM
 8	NUM
 ribu	NUM
 sekarang	NN
 nilainya	NN
-Rp	NNP
+RP	SYM
 5	NUM
 ribu	NUM
 ya	NN
 itu	PR
 diganti	VB
 negara	NN
-,”	NNP
-tambahnya	VB
-.	SYM
+,	SYM
+"	SYM
 
-“Dari	NNP
+"	SYM
+Dari	IN
 hal	NN
 ini	PR
 semua	NUM
@@ -72274,52 +71889,21 @@ harga	NN
 juali	VB
 umpama	NN
 dulu	NN
-Rp	NNP
+RP	SYM
 8	NUM
 ribu	NUM
 sekarang	NN
 nilainya	NN
-Rp	NNP
+RP	SYM
 5	NUM
 ribu	NUM
 ya	NN
 itu	PR
 diganti	VB
 negara	NN
-,”	NNP
-tambahnya	VB
-.	SYM
+,	SYM
+"	SYM
 
-“Dari	NNP
-hal	NN
-ini	PR
-semua	NUM
-karena	SC
-merupakan	VB
-CBP	NNP
-maka	SC
-kita	PR
-ajukan	VB
-selisih harga	NN
-tadi	PR
-dengan	IN
-harga	NN
-jualnya	VB
-umpama	NN
-dulu	NN
-Rp	NNP
-8	NUM
-ribu	NUM
-sekarang	NN
-nilainya	NN
-Rp	NNP
-5	NUM
-ribu	NUM
-ya	NN
-itu	PR
-diganti	VB
-negara	NN
-,”	NNP
 tambahi	VB
 .	SYM
 
@@ -72371,7 +71955,8 @@ pihaknya	NN
 emisi	VB
 .	SYM
 
-“Jadi	NN
+"	SYM
+Jadi	JJ
 bukan	NEG
 berarti	VB
 saya	PR
@@ -72382,7 +71967,8 @@ mengemis	VB
 bukan	NEG
 .	SYM
 
-“Jadi	NN
+"	SYM
+Jadi	JJ
 bukan	NEG
 berarti	VB
 saya	PR
@@ -72497,10 +72083,8 @@ sama sekali	JJ
 buangi	VB
 ,	SYM
 tidak	NEG
-,”	NNP
-tutup	VB
-Buwas	NNP
-.	SYM
+,	SYM
+"	SYM
 
 Hal	NN
 yang	SC
@@ -72530,12 +72114,12 @@ pagi	NN
 ini	PR
 naik	VB
 tipis	JJ
-Rp	NNP
+RP	SYM
 1.000	NUM
 per	IN
 gram	NN
 menjadi	VB
-Rp	NNP
+RP	SYM
 747.000	NUM
 per	IN
 gram	NN
@@ -72609,39 +72193,39 @@ pagi	NN
 ini:	NN
 1	NUM
 gram	NN
-Rp	NNP
+RP	SYM
 747.000	NUM
 5	NUM
 gram	NN
-Rp	NNP
+RP	SYM
 3.555.000	NUM
 10	NUM
 gram	NN
-Rp	NNP
+RP	SYM
 7.045.000	NUM
 25	NUM
 gram	NN
-Rp	NNP
+RP	SYM
 17.505.000	NUM
 50	NUM
 gram	NN
-Rp	NNP
+RP	SYM
 34.935.000	NUM
 100	NUM
 gram	NN
-Rp	NNP
+RP	SYM
 69.800.000	NUM
 250	NUM
 gram	NN
-Rp	NNP
+RP	SYM
 174.250.000	NUM
 500	NUM
 gram	NN
-Rp	NNP
+RP	SYM
 347.800.000	NUM
 1.000	NUM
 gram	NN
-Rp	NNP
+RP	SYM
 696.600.000	NUM
 
 Ia	PR
@@ -73383,7 +72967,8 @@ yang	SC
 lalu	VB
 .	SYM
 
-“Ada	JJ
+"	SYM
+Ada	JJ
 referensi	NN
 maini	VB
 catur	NN
@@ -73404,41 +72989,9 @@ catur	NN
 ini	PR
 sangat	ADV
 populer	JJ
-,”	NNP
-papar	VB
-Oleson	NNP
-dalam	IN
-tulisannya	NN
 ,	SYM
-sebagaimana	SC
-dikutip	VB
-dari	IN
-Live	NNP
-Science	NNP
-.	SYM
+"	SYM
 
-“Ada	JJ
-referensi	NN
-bermain	VB
-catur	NN
-dalam	IN
-teks-teks	NN
-Islam	NNP
-pada	IN
-tahun	NN
-643	NUM
-Masehi	NNP
-,	SYM
-dan	CC
-di	IN
-dunia	NN
-Islam	NNP
-permainan	NN
-catur	NN
-ini	PR
-sangat	ADV
-populer	JJ
-,”	NNP
 papar	VB
 Oleson	NNP
 dalam	IN
@@ -73451,7 +73004,8 @@ Live	NNP
 Science	NNP
 .	SYM
 
-“Dari	NNP
+"	SYM
+Dari	IN
 India	NNP
 ,	SYM
 permainan	NN
@@ -73467,7 +73021,8 @@ dan	CC
 diplomasi	NN
 .	SYM
 
-“Dari	NNP
+"	SYM
+Dari	IN
 India	NNP
 ,	SYM
 permainan	NN
@@ -73496,30 +73051,8 @@ ditemukan	VB
 di	IN
 situs	NN
 ini	PR
-,”	NNP
-ujar	VB
-Oleson	NNP
-dalam	IN
-presentasinya	NN
-di	IN
-American	NNP
-Schools	NNP
-of	NNP
-Oriental	NNP
-Research	NNP
-2019	NUM
-di	IN
-San	NNP
-Diego	NNP
 ,	SYM
-California	NNP
-,	SYM
-AS	NNP
-,	SYM
-pada	IN
-pekan	NN
-lalu	CC
-.	SYM
+"	SYM
 
 Maka	SC
 tidak	NEG
@@ -73534,30 +73067,8 @@ temui	VB
 di	IN
 situs	NN
 ini	PR
-,”	NNP
-ujar	VB
-Oleson	NNP
-dalam	IN
-presentasinya	NN
-di	IN
-American	NNP
-Schools	NNP
-of	NNP
-Oriental	NNP
-Research	NNP
-2019	NUM
-di	IN
-San	NNP
-Diego	NNP
 ,	SYM
-California	NNP
-,	SYM
-AS	NNP
-,	SYM
-pada	IN
-pekan	NN
-lalu	CC
-.	SYM
+"	SYM
 
 Permainan	NN
 ini	PR
@@ -73899,7 +73410,7 @@ sebagai	IN
 penerus	NN
 Nabi	NNP
 Muhammad).	NNP
-Selama	NNP
+Selama	JJ
 Keluarga	NNP
 Abbasiyah	NNP
 berkuasa	VB
@@ -73942,7 +73453,7 @@ sebagai	IN
 penerus	NN
 Nabi	NNP
 Muhammad).	NNP
-Selama	NNP
+Selama	JJ
 Keluarga	NNP
 Abbasiyah	NNP
 berkuasa	VB
@@ -73985,7 +73496,7 @@ sebagai	IN
 penerus	NN
 Nabi	NNP
 Muhammad).	NNP
-Selama	NNP
+Selama	JJ
 Keluarga	NNP
 Abbasiyah	NNP
 berkuasa	VB
@@ -74028,7 +73539,7 @@ sebagai	IN
 penerus	NN
 Nabi	NNP
 Muhammad).	NNP
-Selama	NNP
+Selama	JJ
 Keluarga	NNP
 Abbasiyah	NNP
 kuasai	VB
@@ -74071,7 +73582,7 @@ sebagai	IN
 penerus	NN
 Nabi	NNP
 Muhammad).	NNP
-Selama	NNP
+Selama	JJ
 Keluarga	NNP
 Abbasiyah	NNP
 berkuasa	VB
@@ -74114,7 +73625,7 @@ sebagai	IN
 penerus	NN
 Nabi	NNP
 Muhammad).	NNP
-Selama	NNP
+Selama	JJ
 Keluarga	NNP
 Abbasiyah	NNP
 berkuasa	VB
@@ -74519,7 +74030,8 @@ pass	NN
 -nya	PR
 .	SYM
 
-“Jika	SC
+"	SYM
+Jika	SC
 kamu	PR
 temui	VB
 saya	PR
@@ -74546,7 +74058,8 @@ bandara	NN
 misalnya	SC
 .	SYM
 
-“Jika	SC
+"	SYM
+Jika	SC
 kamu	PR
 menemukan	VB
 saya	PR
@@ -74587,10 +74100,8 @@ itu	PR
 adalah	VB
 baris	NN
 terakhir	NUM
-,”	NNP
-ujar	VB
-Gilbert	NNP
-.	SYM
+,	SYM
+"	SYM
 
 Gilbert	NNP
 katai	VB
@@ -74842,33 +74353,8 @@ orang	NN
 di	IN
 seluruh	NUM
 AS	NNP
-,”	NNP
-ungkap	VB
-Gilbert	NNP
-Terkait	NNP
-dengan	IN
-fasilitas	NN
-yang	SC
-disediakan	VB
-oleh	IN
-maskapai	NN
 ,	SYM
-Gilbert	NNP
-mengatakan	VB
-bahwa	SC
-layanan	NN
-first	NN
-class	NN
-yang	SC
-dimiliki	VB
-Emirates	NNP
-Airline	NNP
-merupakan	VB
-yang	SC
-terbaik	JJ
-saat	NN
-ini	PR
-.	SYM
+"	SYM
 
 "	SYM
 Saya	PR
@@ -74903,33 +74389,8 @@ orang	NN
 di	IN
 seluruh	NUM
 AS	NNP
-,”	NNP
-ungkap	VB
-Gilbert	NNP
-Terkait	NNP
-dengan	IN
-fasilitas	NN
-yang	SC
-disediakan	VB
-oleh	IN
-maskapai	NN
 ,	SYM
-Gilbert	NNP
-mengatakan	VB
-bahwa	SC
-layanan	NN
-first	NN
-class	NN
-yang	SC
-dimiliki	VB
-Emirates	NNP
-Airline	NNP
-merupakan	VB
-yang	SC
-terbaik	JJ
-saat	NN
-ini	PR
-.	SYM
+"	SYM
 
 "	SYM
 Saya	PR
@@ -74964,33 +74425,8 @@ orang	NN
 di	IN
 seluruh	NUM
 AS	NNP
-,”	NNP
-ungkap	VB
-Gilbert	NNP
-Terkait	NNP
-dengan	IN
-fasilitas	NN
-yang	SC
-disediakan	VB
-oleh	IN
-maskapai	NN
 ,	SYM
-Gilbert	NNP
-mengatakan	VB
-bahwa	SC
-layanan	NN
-first	NN
-class	NN
-yang	SC
-dimiliki	VB
-Emirates	NNP
-Airline	NNP
-merupakan	VB
-yang	SC
-terbaik	JJ
-saat	NN
-ini	PR
-.	SYM
+"	SYM
 
 "	SYM
 Saya	PR
@@ -75025,33 +74461,8 @@ orang	NN
 di	IN
 seluruh	NUM
 AS	NNP
-,”	NNP
-ungkap	VB
-Gilbert	NNP
-Terkait	NNP
-dengan	IN
-fasilitas	NN
-yang	SC
-disediakan	VB
-oleh	IN
-maskapai	NN
 ,	SYM
-Gilbert	NNP
-mengatakan	VB
-bahwa	SC
-layanan	NN
-first	NN
-class	NN
-yang	SC
-dimiliki	VB
-Emirates	NNP
-Airline	NNP
-merupakan	VB
-yang	SC
-terbaik	JJ
-saat	NN
-ini	PR
-.	SYM
+"	SYM
 
 "	SYM
 Saya	PR
@@ -75086,33 +74497,8 @@ orang	NN
 di	IN
 seluruh	NUM
 AS	NNP
-,”	NNP
-ungkap	VB
-Gilbert	NNP
-Terkait	NNP
-dengan	IN
-fasilitas	NN
-yang	SC
-disediakan	VB
-oleh	IN
-maskapai	NN
 ,	SYM
-Gilbert	NNP
-mengatakan	VB
-bahwa	SC
-layanan	NN
-first	NN
-class	NN
-yang	SC
-dimiliki	VB
-Emirates	NNP
-Airline	NNP
-merupakan	VB
-yang	SC
-terbaik	JJ
-saat	NN
-ini	PR
-.	SYM
+"	SYM
 
 "	SYM
 Saya	PR
@@ -75147,68 +74533,9 @@ orang	NN
 di	IN
 seluruh	NUM
 AS	NNP
-,”	NNP
-ungkap	VB
-Gilbert	NNP
-Terkait	NNP
-dengan	IN
-fasilitas	NN
-yang	SC
-disediakan	VB
-oleh	IN
-maskapai	NN
 ,	SYM
-Gilbert	NNP
-mengatakan	VB
-bahwa	SC
-layanan	NN
-first	NN
-class	NN
-yang	SC
-dimiliki	VB
-Emirates	NNP
-Airline	NNP
-merupakan	VB
-yang	SC
-terbaik	JJ
-saat	NN
-ini	PR
-.	SYM
-
 "	SYM
-Saya	PR
-meminta	VB
-Capital	NNP
-One	NNP
-untuk	SC
-membantu	VB
-saya	PR
-memesan	VB
-beberapa	NUM
-hotel	NN
-dan	CC
-mereka	PR
-menjawab	VB
-ya	NNP
-,	SYM
-jadi	JJ
-itu	PR
-memungkinkan	VB
-saya	PR
-untuk	SC
-mencoba	VB
-dan	CC
-menjadikannya	VB
-lebih	ADV
-menyenangkan	VB
-bagi	IN
-lebih	ADV
-banyak	NUM
-orang	NN
-di	IN
-seluruh	NUM
-AS	NNP
-,”	NNP
+
 ungkap	VB
 Gilbert	NNP
 Terkait	NNP
@@ -75236,40 +74563,6 @@ saat	NN
 ini	PR
 .	SYM
 
-"	SYM
-Saya	PR
-meminta	VB
-Capital	NNP
-One	NNP
-untuk	SC
-membantu	VB
-saya	PR
-memesan	VB
-beberapa	NUM
-hotel	NN
-dan	CC
-mereka	PR
-menjawab	VB
-ya	NNP
-,	SYM
-jadi	JJ
-itu	PR
-memungkinkan	VB
-saya	PR
-untuk	SC
-mencoba	VB
-dan	CC
-menjadikannya	VB
-lebih	ADV
-menyenangkan	VB
-bagi	IN
-lebih	ADV
-banyak	NUM
-orang	NN
-di	IN
-seluruh	NUM
-AS	NNP
-,”	NNP
 ungkap	VB
 Gilbert	NNP
 Terkait	NNP
@@ -75297,40 +74590,6 @@ saat	NN
 ini	PR
 .	SYM
 
-"	SYM
-Saya	PR
-meminta	VB
-Capital	NNP
-One	NNP
-untuk	SC
-membantu	VB
-saya	PR
-memesan	VB
-beberapa	NUM
-hotel	NN
-dan	CC
-mereka	PR
-menjawab	VB
-ya	NNP
-,	SYM
-jadi	JJ
-itu	PR
-memungkinkan	VB
-saya	PR
-untuk	SC
-mencoba	VB
-dan	CC
-menjadikannya	VB
-lebih	ADV
-menyenangkan	VB
-bagi	IN
-lebih	ADV
-banyak	NUM
-orang	NN
-di	IN
-seluruh	NUM
-AS	NNP
-,”	NNP
 ungkap	VB
 Gilbert	NNP
 Terkait	NNP
@@ -75358,40 +74617,6 @@ saat	NN
 ini	PR
 .	SYM
 
-"	SYM
-Saya	PR
-meminta	VB
-Capital	NNP
-One	NNP
-untuk	SC
-membantu	VB
-saya	PR
-memesan	VB
-beberapa	NUM
-hotel	NN
-dan	CC
-mereka	PR
-menjawab	VB
-ya	NNP
-,	SYM
-jadi	JJ
-itu	PR
-memungkinkan	VB
-saya	PR
-untuk	SC
-mencoba	VB
-dan	CC
-menjadikannya	VB
-lebih	ADV
-menyenangkan	VB
-bagi	IN
-lebih	ADV
-banyak	NUM
-orang	NN
-di	IN
-seluruh	NUM
-AS	NNP
-,”	NNP
 ungkap	VB
 Gilbert	NNP
 Terkait	NNP
@@ -75521,30 +74746,9 @@ akan	ADV
 tetap	ADV
 gunai	VB
 ini	PR
-,”	NNP
-ungkap	VB
-Gilbert	NNP
-seperti	SC
-dikutip	VB
-dari	IN
-Daily	NNP
-Mail	NNP
-.	SYM
-
-Itu	PR
-tidak	NEG
-masuk akal	VB
 ,	SYM
-dan	CC
-untuk	SC
-perjalanan	NN
-panjang	JJ
-saya	PR
-akan	ADV
-tetap	ADV
-menggunakan	VB
-ini	PR
-,”	NNP
+"	SYM
+
 ungkap	VB
 Gilbert	NNP
 seperti	SC
@@ -76159,7 +75363,7 @@ yuan	NN
 China	NNP
 atau	CC
 sekitar	ADV
-Rp	NNP
+RP	SYM
 20	NUM
 miliar	NUM
 untuk	SC
@@ -76191,7 +75395,7 @@ yuan	NN
 China	NNP
 atau	CC
 sekitar	ADV
-Rp	NNP
+RP	SYM
 20	NUM
 miliar	NUM
 untuk	SC
@@ -76223,7 +75427,7 @@ yuan	NN
 China	NNP
 atau	CC
 sekitar	ADV
-Rp	NNP
+RP	SYM
 20	NUM
 miliar	NUM
 untuk	SC
@@ -76294,7 +75498,7 @@ yuan	NN
 China	NNP
 atau	CC
 sekitar	ADV
-Rp	NNP
+RP	SYM
 8	NUM
 juta	NUM
 saja	ADV
@@ -76486,7 +75690,7 @@ yuan	NN
 China	NNP
 atau	CC
 sekitar	ADV
-Rp	NNP
+RP	SYM
 180	NUM
 juta	NUM
 kepada	IN
@@ -76511,7 +75715,7 @@ yuan	NN
 China	NNP
 atau	CC
 sekitar	ADV
-Rp	NNP
+RP	SYM
 180	NUM
 juta	NUM
 kepada	IN
@@ -77157,7 +76361,7 @@ Praka	NNP
 Gunawan	NNP
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 Kapolda	NNP
 Metro	NNP
 Jaya	NNP
@@ -77407,7 +76611,7 @@ periode	NN
 .	SYM
 
 "	SYM
-Menurut	NNP
+Menurut	IN
 hemat	JJ
 saya	PR
 ,	SYM
@@ -77430,7 +76634,7 @@ tidak-tidak	NEG
 .	SYM
 
 "	SYM
-Menurut	NNP
+Menurut	IN
 hemat	JJ
 saya	PR
 ,	SYM
@@ -77982,7 +77186,7 @@ karakter	NN
 Borne	NNP
 .	SYM
 
-Menurutnya	NNP
+Menurutnya	IN
 ,	SYM
 jalani	VB
 peran	NN
@@ -77993,7 +77197,7 @@ yang	SC
 melelahkan	VB
 .	SYM
 
-Menurutnya	NNP
+Menurutnya	IN
 ,	SYM
 menjalani	VB
 peran	NN
@@ -78369,7 +77573,7 @@ ibu	NN
 (Karina	NNP
 Soewandi	NNP
 ).	NNP
-Dalam	NNP
+Dalam	NN
 perjalanannya	NN
 ,	SYM
 perampokan	NN
@@ -78411,7 +77615,7 @@ ibu	NN
 (Karina	NNP
 Soewandi	NNP
 ).	NNP
-Dalam	NNP
+Dalam	NN
 perjalanannya	NN
 ,	SYM
 perampokan	NN
@@ -78453,7 +77657,7 @@ ibu	NN
 (Karina	NNP
 Soewandi	NNP
 ).	NNP
-Dalam	NNP
+Dalam	NN
 perjalanannya	NN
 ,	SYM
 perampokan	NN
@@ -78495,7 +77699,7 @@ ibu	NN
 (Karina	NNP
 Soewandi	NNP
 ).	NNP
-Dalam	NNP
+Dalam	NN
 perjalanannya	NN
 ,	SYM
 perampokan	NN
@@ -78537,7 +77741,7 @@ ibu	NN
 (Karina	NNP
 Soewandi	NNP
 ).	NNP
-Dalam	NNP
+Dalam	NN
 perjalanannya	NN
 ,	SYM
 perampokan	NN
@@ -80226,8 +79430,8 @@ utang	NN
 yang	SC
 sudah	ADV
 mencapai	VB
-Rp	NNP
-Rp	NNP
+RP	SYM
+RP	SYM
 28	NUM
 triliun	NUM
 .	SYM
@@ -80241,7 +79445,7 @@ tahun	NN
 lalu	CC
 yang	SC
 sebesar	JJ
-Rp	NNP
+RP	SYM
 13,2	NUM
 triliun	NUM
 .	SYM
@@ -80255,7 +79459,7 @@ tahun	NN
 lalu	CC
 yang	SC
 sebesar	JJ
-Rp	NNP
+RP	SYM
 13,2	NUM
 triliun	NUM
 .	SYM
@@ -80340,7 +79544,8 @@ Bulog	NNP
 utangi	VB
 .	SYM
 
-“Bulog	NNP
+"	SYM
+Bulog	NNP
 tidak	NEG
 bisa	ADV
 hindari	VB
@@ -80374,43 +79579,9 @@ bunganya	NN
 kan	RP
 bunga	NN
 jalani	VB
-,”	NNP
-kata	NN
-Buwas	NNP
-di	IN
-Kantor Pusat	NN
-Bulog	NNP
 ,	SYM
-Jakarta	NNP
-,	SYM
-Selasa	NNP
-(3/12).	NUM
-Buwas	NNP
-mengatakan	VB
-,	SYM
-sebenarnya	ADV
-untuk	SC
-komersial	JJ
-tidak	NEG
-ada	JJ
-masalah	NN
-yang	SC
-dihadapi	VB
-karena	SC
-proses	NN
-penjualan	NN
-jalani	VB
-lancar	JJ
-.	SYM
+"	SYM
 
-Jadi	JJ
-ada	JJ
-bunganya	NN
-,	SYM
-kan	RP
-bunga	NN
-berjalan	VB
-,”	NNP
 kata	NN
 Buwas	NNP
 di	IN
@@ -80439,14 +79610,6 @@ berjalan	VB
 lancar	JJ
 .	SYM
 
-Jadi	JJ
-ada	JJ
-bunganya	NN
-,	SYM
-kan	RP
-bunga	NN
-berjalan	VB
-,”	NNP
 kata	NN
 Buwas	NNP
 di	IN
@@ -80475,14 +79638,6 @@ berjalan	VB
 lancar	JJ
 .	SYM
 
-Jadi	JJ
-ada	JJ
-bunganya	NN
-,	SYM
-kan	RP
-bunga	NN
-jalani	VB
-,”	NNP
 kata	NN
 Buwas	NNP
 di	IN
@@ -80521,7 +79676,7 @@ Cadangan	NNP
 Beras	NNP
 Pemerintah	NNP
 (CBP).	NNP
-Stok	NNP
+Stok	NN
 beras	NN
 CBP	NNP
 tak	NEG
@@ -80539,11 +79694,6 @@ Bantuan Pangan	NN
 Non	NNP
 Tunai	NNP
 (BPNT).	NNP
-“Yang	NN
-masalah	NN
-adalah	VB
-CBP	NNP
-.	SYM
 
 Ia	PR
 mengungkapkan	VB
@@ -80555,7 +79705,7 @@ Cadangan	NNP
 Beras	NNP
 Pemerintah	NNP
 (CBP).	NNP
-Stok	NNP
+Stok	NN
 beras	NN
 CBP	NNP
 tak	NEG
@@ -80573,11 +79723,6 @@ Bantuan Pangan	NN
 Non	NNP
 Tunai	NNP
 (BPNT).	NNP
-“Yang	NN
-masalah	NN
-adalah	VB
-CBP	NNP
-.	SYM
 
 Kan	NNP
 kita	PR
@@ -80611,10 +79756,8 @@ karena	SC
 berubah	VB
 jadi	JJ
 BPNT	NNP
-,”	NNP
-ujar	VB
-Buwas	NNP
-.	SYM
+,	SYM
+"	SYM
 
 Sebenarnya	ADV
 enggak	NN
@@ -80637,10 +79780,8 @@ karena	SC
 berubah	VB
 jadi	JJ
 BPNT	NNP
-,”	NNP
-ujar	VB
-Buwas	NNP
-.	SYM
+,	SYM
+"	SYM
 
 Sebenarnya	ADV
 enggak	NN
@@ -80663,12 +79804,11 @@ karena	SC
 ubahi	VB
 jadi	JJ
 BPNT	NNP
-,”	NNP
-ujar	VB
-Buwas	NNP
-.	SYM
+,	SYM
+"	SYM
 
-“Itu	NNP
+"	SYM
+Itu	PR
 (BPNT)	NNP
 pada	IN
 akhirnya	ADV
@@ -80688,7 +79828,8 @@ pasar	NN
 bebas	JJ
 .	SYM
 
-“Itu	NNP
+"	SYM
+Itu	PR
 (BPNT)	NNP
 pada	IN
 akhirnya	ADV
@@ -80708,7 +79849,8 @@ pasar	NN
 bebas	JJ
 .	SYM
 
-“Itu	NNP
+"	SYM
+Itu	PR
 (BPNT)	NNP
 pada	IN
 akhirnya	ADV
@@ -80739,9 +79881,8 @@ Bulog	NNP
 yang	SC
 tidak	NEG
 bergeser	VB
-,”	NNP
-tambahnya	VB
-.	SYM
+,	SYM
+"	SYM
 
 Ini	PR
 berdampak	VB
@@ -80754,22 +79895,9 @@ Bulog	NNP
 yang	SC
 tidak	NEG
 geseri	VB
-,”	NNP
-tambahnya	VB
-.	SYM
+,	SYM
+"	SYM
 
-Ini	PR
-berdampak	VB
-pada	IN
-stok	NN
-yang	SC
-ada	JJ
-di	IN
-Bulog	NNP
-yang	SC
-tidak	NEG
-bergeser	VB
-,”	NNP
 tambahi	VB
 .	SYM
 
@@ -80905,7 +80033,8 @@ baru	JJ
 persen	NUM
 .	SYM
 
-“Nanti	NN
+"	SYM
+Nanti	VB
 ke depan	ADV
 kita	PR
 harus	ADV
@@ -81529,7 +80658,8 @@ kunjung	VB
 surut	VB
 .	SYM
 
-“Setelah	NN
+"	SYM
+Setelah	SC
 nikahi	VB
 ,	SYM
 kami	PR
@@ -81552,11 +80682,6 @@ sama	JJ
 dia	PR
 .	SYM
 
-Sekalinya	JJ
-ketemu	VB
-,	SYM
-langsung	JJ
-,”	NNP
 ucap	VB
 Delon	NNP
 ketika	SC
@@ -81587,11 +80712,6 @@ menjadi	VB
 suami istri	NN
 .	SYM
 
-Sekalinya	JJ
-ketemu	VB
-,	SYM
-langsung	JJ
-,”	NNP
 ucap	VB
 Delon	NNP
 ketika	SC
@@ -81633,13 +80753,6 @@ yang	SC
 sama	JJ
 .	SYM
 
-“Dia	NNP
-makin	ADV
-manja	JJ
-,	SYM
-minta	VB
-diladenin	VB
-,”	NNP
 ujar	VB
 Aida	NNP
 sembari	JJ
@@ -81655,10 +80768,8 @@ minta	VB
 ini-itu	VB
 kasihi	VB
 terus	ADV
-,”	NNP
-timpal	NN
-Delon	NNP
-.	SYM
+,	SYM
+"	SYM
 
 Seperti	IN
 istri-istri	NN
@@ -82284,19 +81395,6 @@ alias	NN
 backstreet	FW
 .	SYM
 
-“Dulu	NN
-memang	ADV
-aku	VB
-backstreet	FW
-dari	IN
-keluarga	NN
-aku	VB
-,	SYM
-bukan	NEG
-dari	IN
-keluarga	NN
-Dhika	NNP
-,”	NNP
 kata	NN
 Ussy	NNP
 Sulistiawaty	NNP
@@ -82326,19 +81424,6 @@ dengan	IN
 Andhika	NNP
 .	SYM
 
-“Dulu	NN
-memang	ADV
-aku	VB
-backstreet	FW
-dari	IN
-keluarga	NN
-aku	VB
-,	SYM
-bukan	NEG
-dari	IN
-keluarga	NN
-Dhika	NNP
-,”	NNP
 kata	NN
 Ussy	NNP
 Sulistiawaty	NNP
@@ -82368,19 +81453,6 @@ dengan	IN
 Andhika	NNP
 .	SYM
 
-“Dulu	NN
-memang	ADV
-aku	VB
-backstreet	FW
-dari	IN
-keluarga	NN
-aku	VB
-,	SYM
-bukan	NEG
-dari	IN
-keluarga	NN
-Dhika	NNP
-,”	NNP
 kata	NN
 Ussy	NNP
 Sulistiawaty	NNP
@@ -83149,7 +82221,8 @@ kembali	VB
 GBHN	NNP
 .	SYM
 
-“Meski	NN
+"	SYM
+Meski	SC
 PDI	NNP
 Perjuangan	NNP
 depani	VB
@@ -83190,7 +82263,8 @@ periode	NN
 ,	SYM
 "	SYM
 
-“Meski	NN
+"	SYM
+Meski	SC
 PDI	NNP
 Perjuangan	NNP
 terdepan	VB
@@ -83231,7 +82305,8 @@ periode	NN
 ,	SYM
 "	SYM
 
-“Meski	NN
+"	SYM
+Meski	SC
 PDI	NNP
 Perjuangan	NNP
 terdepan	VB
@@ -83272,7 +82347,8 @@ periode	NN
 ,	SYM
 "	SYM
 
-“Meski	NN
+"	SYM
+Meski	SC
 PDI	NNP
 Perjuangan	NNP
 terdepan	VB
@@ -83313,7 +82389,8 @@ periode	NN
 ,	SYM
 "	SYM
 
-“Meski	NN
+"	SYM
+Meski	SC
 PDI	NNP
 Perjuangan	NNP
 terdepan	VB
@@ -83354,7 +82431,8 @@ periode	NN
 ,	SYM
 "	SYM
 
-“Meski	NN
+"	SYM
+Meski	SC
 PDI	NNP
 Perjuangan	NNP
 terdepan	VB
@@ -84033,7 +83111,7 @@ UUD	NNP
 
 Sebab	SC
 ,	SYM
-menurutnya	NN
+menurutnya	IN
 ,	SYM
 saat	NN
 ini	PR
@@ -84055,7 +83133,7 @@ melebar	VB
 
 Sebab	SC
 ,	SYM
-menurutnya	NN
+menurutnya	IN
 ,	SYM
 saat	NN
 ini	PR
@@ -84077,7 +83155,7 @@ melebar	VB
 
 Sebab	SC
 ,	SYM
-menurutnya	NN
+menurutnya	IN
 ,	SYM
 saat	NN
 ini	PR
@@ -85945,12 +85023,12 @@ Samsung	NNP
 Store	NNP
 dengan	IN
 harga	NN
-Rp	NNP
+RP	SYM
 4.199.000	NUM
 (ukuran	NN
 40mm)	NUM
 dan	CC
-Rp	NNP
+RP	SYM
 5.499.000	NUM
 (ukuran	NN
 44mm).	NUM
@@ -85975,12 +85053,12 @@ Samsung	NNP
 Store	NNP
 dengan	IN
 harga	NN
-Rp	NNP
+RP	SYM
 4.199.000	NUM
 (ukuran	NN
 40mm)	NUM
 dan	CC
-Rp	NNP
+RP	SYM
 5.499.000	NUM
 (ukuran	NN
 44mm).	NUM
@@ -86002,7 +85080,7 @@ tersebut	PR
 bukai	VB
 di	IN
 level	NN
-Rp	NNP
+RP	SYM
 14.100	NUM
 .	SYM
 
@@ -86024,7 +85102,7 @@ kemudian	CC
 naik	VB
 tajam	JJ
 ke	IN
-Rp	NNP
+RP	SYM
 14.120	NUM
 .	SYM
 
@@ -86037,7 +85115,7 @@ melemah	VB
 dan	CC
 kembali	VB
 ke	IN
-Rp	NNP
+RP	SYM
 14.100	NUM
 .	SYM
 
@@ -86050,7 +85128,7 @@ lemahi	VB
 dan	CC
 kembali	VB
 ke	IN
-Rp	NNP
+RP	SYM
 14.100	NUM
 .	SYM
 
@@ -86233,7 +85311,7 @@ selidiki	VB
 Ya	NNP
 (ada	NNP
 ledakan).	NNP
-Semua	NNP
+Semua	NUM
 sedang	ADV
 lakui	VB
 penyelidikan	NN
@@ -86323,7 +85401,8 @@ Kementerian	NNP
 Pertanian	NNP
 .	SYM
 
-“Kalau	SC
+"	SYM
+Kalau	SC
 sudah	ADV
 tidak	NEG
 layak	JJ
@@ -86339,15 +85418,6 @@ untuk	IN
 apa	WH
 ?	SYM
 
-Yang	SC
-paling	ADV
-rendah	JJ
-sekarang	NN
-masih	ADV
-bisa	ADV
-untuk	SC
-etanol	NN
-,”	NNP
 kata	NN
 Buwas	NNP
 sapaan	NN
@@ -86383,15 +85453,6 @@ pakan	NN
 ayam	NN
 .	SYM
 
-Yang	SC
-paling	ADV
-rendah	JJ
-sekarang	NN
-masih	ADV
-bisa	ADV
-untuk	SC
-etanol	NN
-,”	NNP
 kata	NN
 Buwas	NNP
 sapaan	NN
@@ -86465,7 +85526,8 @@ lebih	ADV
 murah	JJ
 .	SYM
 
-“Apakah	NN
+"	SYM
+Apakah	NNP
 bisa	ADV
 gunai	VB
 dijual	VB
@@ -86479,12 +85541,11 @@ tidak	NEG
 lagi	ADV
 standar	NN
 premium	NN
-,”	NNP
-ujar	VB
-Buwas	NNP
-.	SYM
+,	SYM
+"	SYM
 
-“Apakah	NN
+"	SYM
+Apakah	NNP
 bisa	ADV
 digunakan	VB
 juali	VB
@@ -86498,12 +85559,11 @@ tidak	NEG
 lagi	ADV
 standar	NN
 premium	NN
-,”	NNP
-ujar	VB
-Buwas	NNP
-.	SYM
+,	SYM
+"	SYM
 
-“Apakah	NN
+"	SYM
+Apakah	NNP
 bisa	ADV
 digunakan	VB
 dijual	VB
@@ -86517,10 +85577,8 @@ tidak	NEG
 lagi	ADV
 standar	NN
 premium	NN
-,”	NNP
-ujar	VB
-Buwas	NNP
-.	SYM
+,	SYM
+"	SYM
 
 Buwas	NNP
 contohi	VB
@@ -86534,7 +85592,7 @@ awal	NN
 beras	NN
 bisa	ADV
 dihargai	VB
-Rp	NNP
+RP	SYM
 8.000	NUM
 per	IN
 kg	NN
@@ -86552,7 +85610,7 @@ awal	NN
 beras	NN
 bisa	ADV
 hargai	VB
-Rp	NNP
+RP	SYM
 8.000	NUM
 per	IN
 kg	NN
@@ -86568,7 +85626,7 @@ itu	PR
 membuat	VB
 beras	NN
 dijual	VB
-Rp	NNP
+RP	SYM
 5.000	NUM
 per	IN
 kg	NN
@@ -86584,7 +85642,7 @@ itu	PR
 buati	VB
 beras	NN
 dijual	VB
-Rp	NNP
+RP	SYM
 5.000	NUM
 per	IN
 kg	NN
@@ -86600,13 +85658,13 @@ itu	PR
 membuat	VB
 beras	NN
 juali	VB
-Rp	NNP
+RP	SYM
 5.000	NUM
 per	IN
 kg	NN
 .	SYM
 
-Menurutnya	NNP
+Menurutnya	IN
 ,	SYM
 keputusan	NN
 penggantian	NN
@@ -86776,7 +85834,7 @@ pekan	NN
 lalu	CC
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 laporan	NN
 CNN	NNP
 ,	SYM
@@ -86795,7 +85853,7 @@ dari	IN
 pasaran	NN
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 laporan	NN
 CNN	NNP
 ,	SYM
@@ -86814,7 +85872,7 @@ dari	IN
 pasaran	NN
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 laporan	NN
 CNN	NNP
 ,	SYM
@@ -87692,7 +86750,7 @@ bandeli	VB
 .	SYM
 
 "	SYM
-Hari	NN
+Hari	NNP
 ini	PR
 ,	SYM
 kami	PR
@@ -87723,7 +86781,7 @@ mentol	VB
 .	SYM
 
 "	SYM
-Hari	NN
+Hari	NNP
 ini	PR
 ,	SYM
 kami	PR
@@ -87754,7 +86812,7 @@ mentol	VB
 .	SYM
 
 "	SYM
-Hari	NN
+Hari	NNP
 ini	PR
 ,	SYM
 kami	PR
@@ -87798,15 +86856,8 @@ lanjut	VB
 dan	CC
 tanpa	SC
 melemahkannya	VB
-,”	NNP
-ujar	VB
-kelompok	NN
-tersebut	PR
 ,	SYM
-dikutip	VB
-dari	IN
-CNN	NNP
-.	SYM
+"	SYM
 
 Kami	PR
 mendesak	VB
@@ -87822,31 +86873,9 @@ lanjut	VB
 dan	CC
 tanpa	SC
 lemahi	VB
-,”	NNP
-ujar	VB
-kelompok	NN
-tersebut	PR
 ,	SYM
-dikutip	VB
-dari	IN
-CNN	NNP
-.	SYM
+"	SYM
 
-Kami	PR
-mendesak	VB
-pemerintah	NN
-untuk	SC
-mengimplementasikan	VB
-rencana	NN
-ini	PR
-tanpa	IN
-penundaan	NN
-lebih	ADV
-lanjut	VB
-dan	CC
-tanpa	SC
-melemahkannya	VB
-,”	NNP
 ujar	VB
 kelompok	NN
 tersebut	PR
@@ -88120,7 +87149,7 @@ sekitar	ADV
 Monas	NNP
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 Pangdam	NNP
 Jaya	NNP
 Mayjen	NNP
@@ -91185,7 +90214,7 @@ tidak	NEG
 lupai	VB
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 salah	JJ
 seorang	JJ
 pemandu	NN
@@ -91217,7 +90246,7 @@ andalan	NN
 mereka	PR
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 salah	JJ
 seorang	JJ
 pemandu	NN
@@ -92881,7 +91910,8 @@ orang	NN
 lukai	VB
 .	SYM
 
-“Info	NNP
+"	SYM
+Info	NNP
 dari	IN
 lapangan	NN
 ada	JJ
@@ -92893,54 +91923,9 @@ rujuki	VB
 ke	IN
 rumah sakit	NN
 terdekat	JJ
-,”	NNP
-ujar	VB
-Kasatlantas	NNP
-Polres	NNP
-Bogor	NNP
-AKP	NNP
-M	NNP
-Fadli	NNP
-Amri	NNP
-kepada	IN
-kumparan	NN
 ,	SYM
-Selasa	NNP
-(3/12)	NUM
-Fadli	NNP
-menuturkan	VB
-,	SYM
-truk	NN
-yang	SC
-ditabrak	VB
-Innova	NNP
-tersebut	PR
-tengah	ADV
-diparkir	VB
-di	IN
-bahu	VB
-jalan	NN
-lantaran	SC
-mogok	JJ
-sejak	IN
-Senin	NNP
-(2/12)	NUM
-dini hari	JJ
-.	SYM
+"	SYM
 
-“Info	NNP
-dari	IN
-lapangan	NN
-ada	JJ
-satu	NUM
-luka-luka	NN
-dan	CC
-sudah	ADV
-dirujuk	VB
-ke	IN
-rumah sakit	NN
-terdekat	JJ
-,”	NNP
 ujar	VB
 Kasatlantas	NNP
 Polres	NNP
@@ -92975,19 +91960,6 @@ Senin	NNP
 dini hari	JJ
 .	SYM
 
-“Info	NNP
-dari	IN
-lapangan	NN
-ada	JJ
-satu	NUM
-luka-luka	NN
-dan	CC
-sudah	ADV
-dirujuk	VB
-ke	IN
-rumah sakit	NN
-terdekat	JJ
-,”	NNP
 ujar	VB
 Kasatlantas	NNP
 Polres	NNP
@@ -93022,19 +91994,6 @@ Senin	NNP
 dini hari	JJ
 .	SYM
 
-“Info	NNP
-dari	IN
-lapangan	NN
-ada	JJ
-satu	NUM
-luka-luka	NN
-dan	CC
-sudah	ADV
-dirujuk	VB
-ke	IN
-rumah sakit	NN
-terdekat	JJ
-,”	NNP
 ujar	VB
 Kasatlantas	NNP
 Polres	NNP
@@ -93194,7 +92153,8 @@ dapat	ADV
 hindari	VB
 .	SYM
 
-“Truk	NN
+"	SYM
+Truk	NN
 tersebut	PR
 memang	ADV
 sudah	ADV
@@ -93217,10 +92177,8 @@ oleh	IN
 security	JJ
 Sentul	NNP
 City	NNP
-,”	NNP
-kata	NN
-Fadil	NNP
-.	SYM
+,	SYM
+"	SYM
 
 Fadli	NNP
 memastikan	VB
@@ -95513,7 +94471,7 @@ dengan	IN
 santai	VB
 .	SYM
 
-Menurutnya	NNP
+Menurutnya	IN
 ,	SYM
 daripada	SC
 lihati	VB
@@ -95530,7 +94488,7 @@ dengan	IN
 positif	NN
 .	SYM
 
-Menurutnya	NNP
+Menurutnya	IN
 ,	SYM
 daripada	SC
 melihat	VB
@@ -95547,7 +94505,7 @@ dengan	IN
 positif	NN
 .	SYM
 
-Menurutnya	NNP
+Menurutnya	IN
 ,	SYM
 daripada	SC
 melihat	VB
@@ -95671,7 +94629,8 @@ beberapa	NUM
 masalah	NN
 .	SYM
 
-“Kami	NN
+"	SYM
+Kami	PR
 sebagai	IN
 Benelli	NNP
 Motor	NNP
@@ -95713,26 +94672,8 @@ dengan	IN
 para	DT
 konsultan	NN
 lain	JJ
-,”	NNP
-ucap	VB
-Steven	NNP
-Kentjana	NNP
-Putra	NNP
 ,	SYM
-Direktur	NNP
-PT	NNP
-BMI	NNP
-usai	SC
-setelah	SC
-peluncuran	NN
-produk	NN
-baru	JJ
-di	IN
-IIMS	NNP
-MotoBike	NNP
-Expo	NNP
-2019	NUM
-.	SYM
+"	SYM
 
 Steven	NNP
 sebuti	VB
@@ -95791,7 +94732,8 @@ cukup	ADV
 berati	VB
 .	SYM
 
-“Seperti	NN
+"	SYM
+Seperti	IN
 yang	SC
 teman-teman	NN
 tahui	VB
@@ -95817,11 +94759,11 @@ di	IN
 atas	NN
 250	NUM
 cc	NNP
-,”	NNP
-ungkapnya	VB
-.	SYM
+,	SYM
+"	SYM
 
-“Seperti	NN
+"	SYM
+Seperti	IN
 yang	SC
 teman-teman	NN
 ketahui	VB
@@ -95847,11 +94789,11 @@ di	IN
 atas	NN
 250	NUM
 cc	NNP
-,”	NNP
-ungkapnya	VB
-.	SYM
+,	SYM
+"	SYM
 
-“Seperti	NN
+"	SYM
+Seperti	IN
 yang	SC
 teman-teman	NN
 ketahui	VB
@@ -95877,37 +94819,9 @@ di	IN
 atas	NN
 250	NUM
 cc	NNP
-,”	NNP
-ungkapnya	VB
-.	SYM
+,	SYM
+"	SYM
 
-“Seperti	NN
-yang	SC
-teman-teman	NN
-ketahui	VB
-,	SYM
-regulasi	NN
-di	IN
-negara	NN
-tercinta	VB
-kita	PR
-ini	PR
-,	SYM
-kalau	SC
-dibandingkan	VB
-dengan	IN
-negara	NN
-tetangga	NN
-,	SYM
-agak	ADV
-susah	JJ
-untuk	SC
-motor	NN
-di	IN
-atas	NN
-250	NUM
-cc	NNP
-,”	NNP
 ungkapi	VB
 .	SYM
 
@@ -96003,7 +94917,7 @@ di	IN
 pabrik	NN
 sendiri	JJ
 ,	SYM
-menurutnya	NN
+menurutnya	IN
 tak	NEG
 akan	ADV
 berdampak	VB
@@ -96021,7 +94935,7 @@ di	IN
 pabrik	NN
 sendiri	JJ
 ,	SYM
-menurutnya	NN
+menurutnya	IN
 tak	NEG
 akan	ADV
 berdampak	VB
@@ -96039,14 +94953,15 @@ di	IN
 pabrik	NN
 sendiri	JJ
 ,	SYM
-menurutnya	NN
+menurutnya	IN
 tak	NEG
 akan	ADV
 dampaki	VB
 signifikan	JJ
 .	SYM
 
-“Orang-orang	NN
+"	SYM
+Orang-orang	NN
 dari	IN
 negara	NN
 lain	JJ
@@ -96075,7 +94990,7 @@ PPnBM	NNP
 kaya	JJ
 di sini	PR
 mungkin	ADV
-Rp	NNP
+RP	SYM
 30	NUM
 juta	NUM
 .	SYM
@@ -96154,7 +95069,8 @@ per	IN
 tahunnya	NN
 .	SYM
 
-“Masalah	NN
+"	SYM
+Masalah	NN
 investasi	NN
 memang	ADV
 dia	PR
@@ -96174,9 +95090,8 @@ Thailand	NNP
 ,	SYM
 sama	JJ
 Malaysia	NNP
-,”	NNP
-imbuhnya	NN
-.	SYM
+,	SYM
+"	SYM
 
 Sebuah	NNP
 granat	NN
@@ -97121,7 +96036,7 @@ kepada	IN
 kumparan	NN
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 Dian	NNP
 ,	SYM
 ide	NN
@@ -97147,7 +96062,7 @@ yang	SC
 futuristik	JJ
 .	SYM
 
-Menurut	NNP
+Menurut	IN
 Dian	NNP
 ,	SYM
 ide	NN
@@ -97606,14 +96521,14 @@ dengan	SC
 bayari	VB
 mahar	NN
 sebesar	JJ
-Rp	NNP
+RP	SYM
 19,8	NUM
 juta	NUM
 .	SYM
 
 Prospek	NN
 Pasar	NNP
-Menurut	NNP
+Menurut	IN
 Dian	NNP
 ,	SYM
 saat	NN
@@ -97744,3 +96659,4 @@ unit	NN
 
 tutupi	VB
 .	SYM
+

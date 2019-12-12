@@ -76,12 +76,14 @@ class PosTag:
             NP: {<NN>+<CC><NN>+}
             NP: {<NNP><NNP>+}
             NP: {<NN>+<JJ>}
+            NP: {<FW><FW>+}
             NP: {<NP><NP>+}
             ADJP: {<JJ><ADV>}
             ADJP: {<ADV><JJ>}
             ADJP: {<JJ>+}
             ADJP: {<NEG>*<ADJP>}
             VP: {<NEG>*<VB>}
+            NUMP: {<NUM><NUM>+}
             '''
         chunkParser= nltk.RegexpParser(chunk_rule)
         tree = chunkParser.parse(tag)
