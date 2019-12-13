@@ -1237,13 +1237,13 @@ yaitu	SC
 ,	SYM
 mulai	VB
 dari	IN
-RP	SYM
+Rp	SYM
 400	NUM
 ribu	NUM
 hingga	IN
 lebih	ADV
 dari	IN
-RP	SYM
+Rp	SYM
 800	NUM
 ribu	NUM
 .	SYM
@@ -3557,7 +3557,7 @@ Bulog	NNP
 yang	SC
 menumpuk	VB
 hingga	IN
-RP	SYM
+Rp	SYM
 28	NUM
 triliun	NUM
 .	SYM
@@ -7690,7 +7690,7 @@ dengan	IN
 biaya	NN
 pembangunan	NN
 mencapai	VB
-RP	SYM
+Rp	SYM
 17,34	NUM
 triliun	NUM
 .	SYM
@@ -7938,7 +7938,7 @@ menelan	VB
 total	NN
 investasi	NN
 sebesar	JJ
-RP	SYM
+Rp	SYM
 9,9	NUM
 triliun	NUM
 .	SYM
@@ -7962,7 +7962,7 @@ pinjaman	NN
 pemerintah	NN
 China	NNP
 sebesar	JJ
-RP	SYM
+Rp	SYM
 848,55	NUM
 miliar	NUM
 ,	SYM
@@ -8007,7 +8007,7 @@ menelan	VB
 biaya	NN
 investasi	NN
 sebesar	JJ
-RP	SYM
+Rp	SYM
 6,19	NUM
 triliun	NUM
 .	SYM
@@ -8827,7 +8827,7 @@ AUD	NNP
 untuk	SC
 dewasa	JJ
 (sekitar	NN
-RP	SYM
+Rp	SYM
 235	NUM
 ribu)	NN
 dan	CC
@@ -8837,7 +8837,7 @@ untuk	SC
 anak-anak	NN
 atau	CC
 sekitar	ADV
-RP	SYM
+Rp	SYM
 147	NUM
 ribu	NUM
 .	SYM
@@ -9072,7 +9072,7 @@ AUD	NNP
 90	NUM
 atau	CC
 sekitar	ADV
-RP	SYM
+Rp	SYM
 980	NUM
 ribu	NUM
 untuk	SC
@@ -12081,7 +12081,7 @@ akan	ADV
 berada	VB
 di	IN
 kisaran	NN
-RP	SYM
+Rp	SYM
 30	NUM
 jutaan	NUM
 .	SYM
@@ -12638,7 +12638,7 @@ dari	IN
 Marks	NNP
 &	SYM
 Spencer	NNP
-RP	SYM
+Rp	SYM
 2,1	NUM
 juta	NUM
 Terbuat	NNP
@@ -12700,7 +12700,7 @@ Knit	NNP
 Sweater	NNP
 dari	IN
 MANGO	NNP
-RP	SYM
+Rp	SYM
 699	NUM
 ribu	NUM
 Knitwear	NNP
@@ -12747,7 +12747,7 @@ Turtleneck	NNP
 Jumper	NNP
 dari	IN
 H&M	NNP
-RP	SYM
+Rp	SYM
 399	NUM
 ribu	NUM
 Ingin	NNP
@@ -12803,7 +12803,7 @@ santai	VB
 Sweatshirt	NNP
 dari	IN
 ZARA	NNP
-RP	SYM
+Rp	SYM
 479	NUM
 ribu	NUM
 Knitwear	NNP
@@ -12869,7 +12869,7 @@ with	NN
 Puff	NNP
 -	SYM
 UNIQLO	NNP
-RP	SYM
+Rp	SYM
 299	NUM
 Memiliki	NNP
 model	NN
@@ -12916,7 +12916,7 @@ Neck	NNP
 Sweater	NNP
 dari	IN
 Stradivarius	NNP
-RP	SYM
+Rp	SYM
 559	NUM
 Knitwear	NNP
 lansiran	NN
@@ -12969,7 +12969,7 @@ Pointelle	NNP
 Jumper	NNP
 dari	IN
 Topshop	NNP
-RP	SYM
+Rp	SYM
 572	NUM
 ribu	NUM
 Bagi	NNP
@@ -13228,7 +13228,7 @@ mendapat	VB
 jatah	NN
 anggaran	NN
 sebesar	JJ
-RP	SYM
+Rp	SYM
 131	NUM
 triliun	NUM
 .	SYM
@@ -15087,7 +15087,7 @@ padahal	CC
 utang	NN
 perseroan	NN
 hampir	ADV
-RP	SYM
+Rp	SYM
 40	NUM
 triliun	NUM
 .	SYM
@@ -15299,7 +15299,7 @@ Karya	NNP
 telah	ADV
 mendapatkan	VB
 PNM	NNP
-RP	SYM
+Rp	SYM
 3,5	NUM
 triliun	NUM
 .	SYM
@@ -15679,7 +15679,7 @@ Enim	NNP
 dari	IN
 Robi	NNP
 mencapai	VB
-RP	SYM
+Rp	SYM
 4,85	NUM
 miliar	NUM
 .	SYM
@@ -15740,7 +15740,7 @@ menerima	VB
 suap	NN
 senilai	NN
 total	NN
-RP	SYM
+Rp	SYM
 13,9	NUM
 miliar	NUM
 dari	IN
@@ -16103,12 +16103,12 @@ oleh	IN
 ibunya	NN
 ,	SYM
 kadang	ADV
-RP	SYM
+Rp	SYM
 50	NUM
 ribu	NUM
 sampai	IN
 dengan	IN
-RP	SYM
+Rp	SYM
 70	NUM
 ribu	NUM
 per	IN
@@ -16432,7 +16432,7 @@ Konstruksi	NNP
 dengan	IN
 anggaran	NN
 senilai	NN
-RP	SYM
+Rp	SYM
 2	NUM
 miliar	NUM
 dari	IN
@@ -18336,7 +18336,7 @@ akan	ADV
 berkutat	VB
 di	IN
 kisaran	NN
-RP	SYM
+Rp	SYM
 30	NUM
 jutaan	NUM
 .	SYM
@@ -18955,7 +18955,7 @@ surat	NN
 PHK	NNP
 dan	CC
 denda	NN
-RP	SYM
+Rp	SYM
 7	NUM
 miliar	NUM
 yang	SC
@@ -19963,7 +19963,7 @@ denda	NN
 atau	CC
 penalti	NN
 hingga	IN
-RP	SYM
+Rp	SYM
 7	NUM
 miliar	NUM
 untuk	SC
@@ -19996,7 +19996,7 @@ perbulan	NN
 .	SYM
 
 Kalau	SC
-RP	SYM
+Rp	SYM
 7	NUM
 miliar	NUM
 itu	PR
@@ -24402,7 +24402,7 @@ yang	SC
 dimusnahkan	VB
 itu	PR
 mencapai	VB
-RP	SYM
+Rp	SYM
 160	NUM
 miliar	NUM
 dengan	IN
@@ -24412,7 +24412,7 @@ rata-rata	JJ
 pembelian	NN
 di	IN
 petani	NN
-RP	SYM
+Rp	SYM
 8.000	NUM
 per	IN
 kilogram	NN
@@ -24616,12 +24616,12 @@ harga	NN
 jualnya	VB
 umpama	NN
 dulu	NN
-RP	SYM
+Rp	SYM
 8	NUM
 ribu	NUM
 sekarang	NN
 nilainya	NN
-RP	SYM
+Rp	SYM
 5	NUM
 ribu	NUM
 ya	NN
@@ -24797,12 +24797,12 @@ pagi	NN
 ini	PR
 naik	VB
 tipis	JJ
-RP	SYM
+Rp	SYM
 1.000	NUM
 per	IN
 gram	NN
 menjadi	VB
-RP	SYM
+Rp	SYM
 747.000	NUM
 per	IN
 gram	NN
@@ -24813,12 +24813,12 @@ harga	NN
 buybacknya	NN
 juga	ADV
 naik	VB
-RP	SYM
+Rp	SYM
 1.500	NUM
 per	IN
 gram	NN
 menjadi	VB
-RP	SYM
+Rp	SYM
 663.000	NUM
 per	IN
 gram	NN
@@ -24879,39 +24879,39 @@ pagi	NN
 ini:	NN
 1	NUM
 gram	NN
-RP	SYM
+Rp	SYM
 747.000	NUM
 5	NUM
 gram	NN
-RP	SYM
+Rp	SYM
 3.555.000	NUM
 10	NUM
 gram	NN
-RP	SYM
+Rp	SYM
 7.045.000	NUM
 25	NUM
 gram	NN
-RP	SYM
+Rp	SYM
 17.505.000	NUM
 50	NUM
 gram	NN
-RP	SYM
+Rp	SYM
 34.935.000	NUM
 100	NUM
 gram	NN
-RP	SYM
+Rp	SYM
 69.800.000	NUM
 250	NUM
 gram	NN
-RP	SYM
+Rp	SYM
 174.250.000	NUM
 500	NUM
 gram	NN
-RP	SYM
+Rp	SYM
 347.800.000	NUM
 1.000	NUM
 gram	NN
-RP	SYM
+Rp	SYM
 696.600.000	NUM
 
 Atlet	NN
@@ -26643,7 +26643,7 @@ yuan	NN
 China	NNP
 atau	CC
 sekitar	ADV
-RP	SYM
+Rp	SYM
 20	NUM
 miliar	NUM
 untuk	SC
@@ -26701,7 +26701,7 @@ yuan	NN
 China	NNP
 atau	CC
 sekitar	ADV
-RP	SYM
+Rp	SYM
 8	NUM
 juta	NUM
 saja	ADV
@@ -26805,7 +26805,7 @@ yuan	NN
 China	NNP
 atau	CC
 sekitar	ADV
-RP	SYM
+Rp	SYM
 180	NUM
 juta	NUM
 kepada	IN
@@ -29558,8 +29558,8 @@ utang	NN
 yang	SC
 sudah	ADV
 mencapai	VB
-RP	SYM
-RP	SYM
+Rp	SYM
+Rp	SYM
 28	NUM
 triliun	NUM
 .	SYM
@@ -29573,7 +29573,7 @@ tahun	NN
 lalu	CC
 yang	SC
 sebesar	JJ
-RP	SYM
+Rp	SYM
 13,2	NUM
 triliun	NUM
 .	SYM
@@ -32744,12 +32744,12 @@ Samsung	NNP
 Store	NNP
 dengan	IN
 harga	NN
-RP	SYM
+Rp	SYM
 4.199.000	NUM
 (ukuran	NN
 40mm)	NUM
 dan	CC
-RP	SYM
+Rp	SYM
 5.499.000	NUM
 (ukuran	NN
 44mm).	NUM
@@ -32771,7 +32771,7 @@ tersebut	PR
 dibuka	VB
 di	IN
 level	NN
-RP	SYM
+Rp	SYM
 14.100	NUM
 .	SYM
 
@@ -32793,7 +32793,7 @@ kemudian	CC
 naik	VB
 tajam	JJ
 ke	IN
-RP	SYM
+Rp	SYM
 14.120	NUM
 .	SYM
 
@@ -32806,7 +32806,7 @@ melemah	VB
 dan	CC
 kembali	VB
 ke	IN
-RP	SYM
+Rp	SYM
 14.100	NUM
 .	SYM
 
@@ -32814,7 +32814,7 @@ Sempat	NNP
 turun	VB
 tipis	JJ
 ke	IN
-RP	SYM
+Rp	SYM
 13.900	NUM
 ,	SYM
 
@@ -32825,7 +32825,7 @@ kembali	VB
 naik	VB
 tajam	JJ
 ke	IN
-RP	SYM
+Rp	SYM
 14.116	NUM
 .	SYM
 
@@ -32837,7 +32837,7 @@ AS	NNP
 kembali	VB
 naik	VB
 ke	IN
-RP	SYM
+Rp	SYM
 14.120	NUM
 .	SYM
 
@@ -33193,7 +33193,7 @@ awal	NN
 beras	NN
 bisa	ADV
 dihargai	VB
-RP	SYM
+Rp	SYM
 8.000	NUM
 per	IN
 kg	NN
@@ -33209,7 +33209,7 @@ itu	PR
 membuat	VB
 beras	NN
 dijual	VB
-RP	SYM
+Rp	SYM
 5.000	NUM
 per	IN
 kg	NN
@@ -33218,7 +33218,7 @@ kg	NN
 Kekurangan	NN
 atau	CC
 selisih	NN
-RP	SYM
+Rp	SYM
 3.000	NUM
 per	IN
 kg	NN
@@ -38230,7 +38230,7 @@ PPnBM	NNP
 kaya	JJ
 di sini	PR
 mungkin	ADV
-RP	SYM
+Rp	SYM
 30	NUM
 juta	NUM
 .	SYM
@@ -39512,7 +39512,7 @@ dengan	SC
 membayar	VB
 mahar	NN
 sebesar	JJ
-RP	SYM
+Rp	SYM
 19,8	NUM
 juta	NUM
 .	SYM
@@ -45252,7 +45252,7 @@ Bulog	NNP
 yang	SC
 menumpuk	VB
 hingga	IN
-RP	SYM
+Rp	SYM
 28	NUM
 triliun	NUM
 .	SYM
@@ -45267,7 +45267,7 @@ Bulog	NNP
 yang	SC
 menumpuk	VB
 hingga	IN
-RP	SYM
+Rp	SYM
 28	NUM
 triliun	NUM
 .	SYM
@@ -45282,7 +45282,7 @@ Bulog	NNP
 yang	SC
 tumpuki	VB
 hingga	IN
-RP	SYM
+Rp	SYM
 28	NUM
 triliun	NUM
 .	SYM
@@ -51303,7 +51303,7 @@ dengan	IN
 biaya	NN
 pembangunan	NN
 mencapai	VB
-RP	SYM
+Rp	SYM
 17,34	NUM
 triliun	NUM
 .	SYM
@@ -51326,7 +51326,7 @@ dengan	IN
 biaya	NN
 pembangunan	NN
 mencapai	VB
-RP	SYM
+Rp	SYM
 17,34	NUM
 triliun	NUM
 .	SYM
@@ -51529,7 +51529,7 @@ telani	VB
 total	NN
 investasi	NN
 sebesar	JJ
-RP	SYM
+Rp	SYM
 9,9	NUM
 triliun	NUM
 .	SYM
@@ -51553,7 +51553,7 @@ pinjaman	NN
 pemerintah	NN
 China	NNP
 sebesar	JJ
-RP	SYM
+Rp	SYM
 848,55	NUM
 miliar	NUM
 ,	SYM
@@ -51577,7 +51577,7 @@ menelan	VB
 biaya	NN
 investasi	NN
 sebesar	JJ
-RP	SYM
+Rp	SYM
 6,19	NUM
 triliun	NUM
 .	SYM
@@ -51593,7 +51593,7 @@ telani	VB
 biaya	NN
 investasi	NN
 sebesar	JJ
-RP	SYM
+Rp	SYM
 6,19	NUM
 triliun	NUM
 .	SYM
@@ -52917,7 +52917,7 @@ AUD	NNP
 untuk	SC
 dewasa	JJ
 (sekitar	NN
-RP	SYM
+Rp	SYM
 235	NUM
 ribu)	NN
 dan	CC
@@ -52927,7 +52927,7 @@ untuk	SC
 anak-anak	NN
 atau	CC
 sekitar	ADV
-RP	SYM
+Rp	SYM
 147	NUM
 ribu	NUM
 .	SYM
@@ -52948,7 +52948,7 @@ AUD	NNP
 untuk	SC
 dewasa	JJ
 (sekitar	NN
-RP	SYM
+Rp	SYM
 235	NUM
 ribu)	NN
 dan	CC
@@ -52958,7 +52958,7 @@ untuk	SC
 anak-anak	NN
 atau	CC
 sekitar	ADV
-RP	SYM
+Rp	SYM
 147	NUM
 ribu	NUM
 .	SYM
@@ -53325,7 +53325,7 @@ AUD	NNP
 90	NUM
 atau	CC
 sekitar	ADV
-RP	SYM
+Rp	SYM
 980	NUM
 ribu	NUM
 untuk	SC
@@ -53349,7 +53349,7 @@ AUD	NNP
 90	NUM
 atau	CC
 sekitar	ADV
-RP	SYM
+Rp	SYM
 980	NUM
 ribu	NUM
 untuk	SC
@@ -53373,7 +53373,7 @@ AUD	NNP
 90	NUM
 atau	CC
 sekitar	ADV
-RP	SYM
+Rp	SYM
 980	NUM
 ribu	NUM
 untuk	SC
@@ -57806,7 +57806,7 @@ akan	ADV
 adai	VB
 di	IN
 kisaran	NN
-RP	SYM
+Rp	SYM
 30	NUM
 jutaan	NUM
 .	SYM
@@ -58643,7 +58643,7 @@ dari	IN
 Marks	NNP
 &	SYM
 Spencer	NNP
-RP	SYM
+Rp	SYM
 2,1	NUM
 juta	NUM
 Terbuat	NNP
@@ -58934,7 +58934,7 @@ with	NN
 Puff	NNP
 -	SYM
 UNIQLO	NNP
-RP	SYM
+Rp	SYM
 299	NUM
 Memiliki	NNP
 model	NN
@@ -59018,7 +59018,7 @@ Neck	NNP
 Sweater	NNP
 dari	IN
 Stradivarius	NNP
-RP	SYM
+Rp	SYM
 559	NUM
 Knitwear	NNP
 lansiran	NN
@@ -59042,7 +59042,7 @@ Neck	NNP
 Sweater	NNP
 dari	IN
 Stradivarius	NNP
-RP	SYM
+Rp	SYM
 559	NUM
 Knitwear	NNP
 lansiran	NN
@@ -59104,7 +59104,7 @@ Pointelle	NNP
 Jumper	NNP
 dari	IN
 Topshop	NNP
-RP	SYM
+Rp	SYM
 572	NUM
 ribu	NUM
 Bagi	NNP
@@ -59325,7 +59325,7 @@ dapati	VB
 jatah	NN
 anggaran	NN
 sebesar	JJ
-RP	SYM
+Rp	SYM
 131	NUM
 triliun	NUM
 .	SYM
@@ -62115,7 +62115,7 @@ padahal	CC
 utang	NN
 perseroan	NN
 hampir	ADV
-RP	SYM
+Rp	SYM
 40	NUM
 triliun	NUM
 .	SYM
@@ -62137,7 +62137,7 @@ padahal	CC
 utang	NN
 perseroan	NN
 hampir	ADV
-RP	SYM
+Rp	SYM
 40	NUM
 triliun	NUM
 .	SYM
@@ -62532,7 +62532,7 @@ Karya	NNP
 telah	ADV
 dapati	VB
 PNM	NNP
-RP	SYM
+Rp	SYM
 3,5	NUM
 triliun	NUM
 .	SYM
@@ -63158,7 +63158,7 @@ Enim	NNP
 dari	IN
 Robi	NNP
 mencapai	VB
-RP	SYM
+Rp	SYM
 4,85	NUM
 miliar	NUM
 .	SYM
@@ -63175,7 +63175,7 @@ Enim	NNP
 dari	IN
 Robi	NNP
 mencapai	VB
-RP	SYM
+Rp	SYM
 4,85	NUM
 miliar	NUM
 .	SYM
@@ -63224,7 +63224,7 @@ menerima	VB
 suap	NN
 senilai	NN
 total	NN
-RP	SYM
+Rp	SYM
 13,9	NUM
 miliar	NUM
 dari	IN
@@ -63240,7 +63240,7 @@ terimai	VB
 suap	NN
 senilai	NN
 total	NN
-RP	SYM
+Rp	SYM
 13,9	NUM
 miliar	NUM
 dari	IN
@@ -64205,12 +64205,12 @@ oleh	IN
 ibunya	NN
 ,	SYM
 kadang	ADV
-RP	SYM
+Rp	SYM
 50	NUM
 ribu	NUM
 sampai	IN
 dengan	IN
-RP	SYM
+Rp	SYM
 70	NUM
 ribu	NUM
 per	IN
@@ -64226,12 +64226,12 @@ oleh	IN
 ibunya	NN
 ,	SYM
 kadang	ADV
-RP	SYM
+Rp	SYM
 50	NUM
 ribu	NUM
 sampai	IN
 dengan	IN
-RP	SYM
+Rp	SYM
 70	NUM
 ribu	NUM
 per	IN
@@ -66591,7 +66591,7 @@ akan	ADV
 berkutat	VB
 di	IN
 kisaran	NN
-RP	SYM
+Rp	SYM
 30	NUM
 jutaan	NUM
 .	SYM
@@ -67454,7 +67454,7 @@ surat	NN
 PHK	NNP
 dan	CC
 denda	NN
-RP	SYM
+Rp	SYM
 7	NUM
 miliar	NUM
 yang	SC
@@ -67479,7 +67479,7 @@ surat	NN
 PHK	NNP
 dan	CC
 denda	NN
-RP	SYM
+Rp	SYM
 7	NUM
 miliar	NUM
 yang	SC
@@ -67504,7 +67504,7 @@ surat	NN
 PHK	NNP
 dan	CC
 denda	NN
-RP	SYM
+Rp	SYM
 7	NUM
 miliar	NUM
 yang	SC
@@ -69054,7 +69054,7 @@ denda	NN
 atau	CC
 penalti	NN
 hingga	IN
-RP	SYM
+Rp	SYM
 7	NUM
 miliar	NUM
 untuk	SC
@@ -69071,7 +69071,7 @@ masuk akal	VB
 ?	SYM
 
 Kalau	SC
-RP	SYM
+Rp	SYM
 7	NUM
 miliar	NUM
 itu	PR
@@ -71470,7 +71470,7 @@ yang	SC
 musnahi	VB
 itu	PR
 mencapai	VB
-RP	SYM
+Rp	SYM
 160	NUM
 miliar	NUM
 dengan	IN
@@ -71480,7 +71480,7 @@ rata-rata	JJ
 pembelian	NN
 di	IN
 petani	NN
-RP	SYM
+Rp	SYM
 8.000	NUM
 per	IN
 kilogram	NN
@@ -71823,12 +71823,12 @@ harga	NN
 jualnya	VB
 umpama	NN
 dulu	NN
-RP	SYM
+Rp	SYM
 8	NUM
 ribu	NUM
 sekarang	NN
 nilainya	NN
-RP	SYM
+Rp	SYM
 5	NUM
 ribu	NUM
 ya	NN
@@ -71856,12 +71856,12 @@ harga	NN
 jualnya	VB
 umpama	NN
 dulu	NN
-RP	SYM
+Rp	SYM
 8	NUM
 ribu	NUM
 sekarang	NN
 nilainya	NN
-RP	SYM
+Rp	SYM
 5	NUM
 ribu	NUM
 ya	NN
@@ -71889,12 +71889,12 @@ harga	NN
 juali	VB
 umpama	NN
 dulu	NN
-RP	SYM
+Rp	SYM
 8	NUM
 ribu	NUM
 sekarang	NN
 nilainya	NN
-RP	SYM
+Rp	SYM
 5	NUM
 ribu	NUM
 ya	NN
@@ -72114,12 +72114,12 @@ pagi	NN
 ini	PR
 naik	VB
 tipis	JJ
-RP	SYM
+Rp	SYM
 1.000	NUM
 per	IN
 gram	NN
 menjadi	VB
-RP	SYM
+Rp	SYM
 747.000	NUM
 per	IN
 gram	NN
@@ -72193,39 +72193,39 @@ pagi	NN
 ini:	NN
 1	NUM
 gram	NN
-RP	SYM
+Rp	SYM
 747.000	NUM
 5	NUM
 gram	NN
-RP	SYM
+Rp	SYM
 3.555.000	NUM
 10	NUM
 gram	NN
-RP	SYM
+Rp	SYM
 7.045.000	NUM
 25	NUM
 gram	NN
-RP	SYM
+Rp	SYM
 17.505.000	NUM
 50	NUM
 gram	NN
-RP	SYM
+Rp	SYM
 34.935.000	NUM
 100	NUM
 gram	NN
-RP	SYM
+Rp	SYM
 69.800.000	NUM
 250	NUM
 gram	NN
-RP	SYM
+Rp	SYM
 174.250.000	NUM
 500	NUM
 gram	NN
-RP	SYM
+Rp	SYM
 347.800.000	NUM
 1.000	NUM
 gram	NN
-RP	SYM
+Rp	SYM
 696.600.000	NUM
 
 Ia	PR
@@ -75363,7 +75363,7 @@ yuan	NN
 China	NNP
 atau	CC
 sekitar	ADV
-RP	SYM
+Rp	SYM
 20	NUM
 miliar	NUM
 untuk	SC
@@ -75395,7 +75395,7 @@ yuan	NN
 China	NNP
 atau	CC
 sekitar	ADV
-RP	SYM
+Rp	SYM
 20	NUM
 miliar	NUM
 untuk	SC
@@ -75427,7 +75427,7 @@ yuan	NN
 China	NNP
 atau	CC
 sekitar	ADV
-RP	SYM
+Rp	SYM
 20	NUM
 miliar	NUM
 untuk	SC
@@ -75498,7 +75498,7 @@ yuan	NN
 China	NNP
 atau	CC
 sekitar	ADV
-RP	SYM
+Rp	SYM
 8	NUM
 juta	NUM
 saja	ADV
@@ -75690,7 +75690,7 @@ yuan	NN
 China	NNP
 atau	CC
 sekitar	ADV
-RP	SYM
+Rp	SYM
 180	NUM
 juta	NUM
 kepada	IN
@@ -75715,7 +75715,7 @@ yuan	NN
 China	NNP
 atau	CC
 sekitar	ADV
-RP	SYM
+Rp	SYM
 180	NUM
 juta	NUM
 kepada	IN
@@ -79430,8 +79430,8 @@ utang	NN
 yang	SC
 sudah	ADV
 mencapai	VB
-RP	SYM
-RP	SYM
+Rp	SYM
+Rp	SYM
 28	NUM
 triliun	NUM
 .	SYM
@@ -79445,7 +79445,7 @@ tahun	NN
 lalu	CC
 yang	SC
 sebesar	JJ
-RP	SYM
+Rp	SYM
 13,2	NUM
 triliun	NUM
 .	SYM
@@ -79459,7 +79459,7 @@ tahun	NN
 lalu	CC
 yang	SC
 sebesar	JJ
-RP	SYM
+Rp	SYM
 13,2	NUM
 triliun	NUM
 .	SYM
@@ -85023,12 +85023,12 @@ Samsung	NNP
 Store	NNP
 dengan	IN
 harga	NN
-RP	SYM
+Rp	SYM
 4.199.000	NUM
 (ukuran	NN
 40mm)	NUM
 dan	CC
-RP	SYM
+Rp	SYM
 5.499.000	NUM
 (ukuran	NN
 44mm).	NUM
@@ -85053,12 +85053,12 @@ Samsung	NNP
 Store	NNP
 dengan	IN
 harga	NN
-RP	SYM
+Rp	SYM
 4.199.000	NUM
 (ukuran	NN
 40mm)	NUM
 dan	CC
-RP	SYM
+Rp	SYM
 5.499.000	NUM
 (ukuran	NN
 44mm).	NUM
@@ -85080,7 +85080,7 @@ tersebut	PR
 bukai	VB
 di	IN
 level	NN
-RP	SYM
+Rp	SYM
 14.100	NUM
 .	SYM
 
@@ -85102,7 +85102,7 @@ kemudian	CC
 naik	VB
 tajam	JJ
 ke	IN
-RP	SYM
+Rp	SYM
 14.120	NUM
 .	SYM
 
@@ -85115,7 +85115,7 @@ melemah	VB
 dan	CC
 kembali	VB
 ke	IN
-RP	SYM
+Rp	SYM
 14.100	NUM
 .	SYM
 
@@ -85128,7 +85128,7 @@ lemahi	VB
 dan	CC
 kembali	VB
 ke	IN
-RP	SYM
+Rp	SYM
 14.100	NUM
 .	SYM
 
@@ -85592,7 +85592,7 @@ awal	NN
 beras	NN
 bisa	ADV
 dihargai	VB
-RP	SYM
+Rp	SYM
 8.000	NUM
 per	IN
 kg	NN
@@ -85610,7 +85610,7 @@ awal	NN
 beras	NN
 bisa	ADV
 hargai	VB
-RP	SYM
+Rp	SYM
 8.000	NUM
 per	IN
 kg	NN
@@ -85626,7 +85626,7 @@ itu	PR
 membuat	VB
 beras	NN
 dijual	VB
-RP	SYM
+Rp	SYM
 5.000	NUM
 per	IN
 kg	NN
@@ -85642,7 +85642,7 @@ itu	PR
 buati	VB
 beras	NN
 dijual	VB
-RP	SYM
+Rp	SYM
 5.000	NUM
 per	IN
 kg	NN
@@ -85658,7 +85658,7 @@ itu	PR
 membuat	VB
 beras	NN
 juali	VB
-RP	SYM
+Rp	SYM
 5.000	NUM
 per	IN
 kg	NN
@@ -94990,7 +94990,7 @@ PPnBM	NNP
 kaya	JJ
 di sini	PR
 mungkin	ADV
-RP	SYM
+Rp	SYM
 30	NUM
 juta	NUM
 .	SYM
@@ -96521,7 +96521,7 @@ dengan	SC
 bayari	VB
 mahar	NN
 sebesar	JJ
-RP	SYM
+Rp	SYM
 19,8	NUM
 juta	NUM
 .	SYM
