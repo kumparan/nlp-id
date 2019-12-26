@@ -75,6 +75,8 @@ class Tokenizer:
 
     def tokenize(self, text):
         text = self.convert_non_ascii(text)
+        if len(text) == 1:
+            return [text]
         splitted_text = text.split()
         final = []
         for kata in splitted_text:
@@ -102,7 +104,6 @@ class Tokenizer:
             if kata_tengah == [""]:
                 kata_tengah = []
                 akhir = []
-
             final += awal + kata_tengah + akhir
         return final
 

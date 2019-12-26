@@ -52,11 +52,13 @@ class PosTag:
 
     def get_pos_tag(self, text):
         result = []
-        tokenized_word = self.tokenizer.tokenize(text)
-        if text:
-            tags = self.clf.predict([self.features(tokenized_word, index) for index in range(len(tokenized_word))])
-            for i in range(len(tags)):
-                result.append((tokenized_word[i], tags[i]))
+        sents = nltk.sent_tokenize(text)
+        for sent in sents:
+            tokenized_word = self.tokenizer.tokenize(sent)
+            if sent:
+                tags = self.clf.predict([self.features(tokenized_word, index) for index in range(len(tokenized_word))])
+                for i in range(len(tags)):
+                    result.append((tokenized_word[i], tags[i]))
         return result
     
     def tree_to_list(self, tree_data):
@@ -73,7 +75,6 @@ class PosTag:
         chunk_rule = '''
             DP: {<NUM><NNP><NUM>}
             NP: {<NNP>+<CC><NNP>+}
-            NP: {<NN>+<CC><NN>+}
             NP: {<NNP><NNP>+}
             NP: {<NN>+<JJ>}
             NP: {<FW><FW>+}
