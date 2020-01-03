@@ -9,6 +9,14 @@ To install `nlp-id`, use the following command:
     $ pip install nlp-id     
 
 
+## Data
+
+There are some data that needs to be downloaded before using the library:
+1. [POS Tag model](https://storage.cloud.google.com/kumparan-public-bucket/nlp-id/postagger_v4.pkl)
+
+After downloading the data, you can place it inside the `nlp_id/data` folder.
+
+
 ## Usage
 
 Description on how to use the lemmatizer, tokenizer, POS-tagger, etc. will be explained in more detail in this section.
