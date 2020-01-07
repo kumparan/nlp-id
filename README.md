@@ -9,12 +9,6 @@ To install `nlp-id`, use the following command:
     $ pip install nlp-id     
 
 
-## Data
-
-There are some data that needs to be downloaded before using the library:
-1. [POS Tag model](https://storage.cloud.google.com/kumparan-public-bucket/nlp-id/postagger_v4.pkl)
-
-
 ## Usage
 
 Description on how to use the lemmatizer, tokenizer, POS-tagger, etc. will be explained in more detail in this section.
@@ -53,7 +47,7 @@ There are two kinds of POS tagger in this repository, **standard POS tagger** an
 The tokens in **standard POS Tagger** are single-word tokens, while the tokens in **phrase POS Tagger** are phrases (single or multi-word tokens).
 
     from nlp_id.postag import PosTag
-    postagger = PosTag('your/model/path.pkl') 
+    postagger = PosTag() 
     postagger.get_pos_tag('Lionel Messi pergi ke pasar di area Jakarta Pusat.') 
     # [('Lionel', 'NNP'), ('Messi', 'NNP'), ('pergi', 'VB'), ('ke', 'IN'), ('pasar', 'NN'), ('di', 'IN'), ('area', 'NN'),  
       ('Jakarta', 'NNP'), ('Pusat', 'NNP')]

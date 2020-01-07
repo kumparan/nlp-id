@@ -40,12 +40,13 @@ class Tokenizer:
         normalized_word = ""
         check = False
         check2 = False
+        check3 = False
         for i in self.punct:
             if i in word:
                 normalized_word = word.split(i)
                 break
         # handling / or .
-        if i in ["/",".",","]:
+        if i in ["/"]:
             count = 0
             for each in normalized_word:
                 if not each.isdigit():
@@ -60,6 +61,14 @@ class Tokenizer:
                     count += 1
             if count < len(normalized_word):
                 check2 = True
+                
+        if i in [".",","]:
+            count = 0
+            for each in normalized_word:
+                if not each.isdigit():
+                    count += 1
+            if count == 0:
+                check3 = True
 
         if normalized_word :
             for j in range(len(normalized_word) - 2, -1, -1):
@@ -68,7 +77,7 @@ class Tokenizer:
         else:
             normalized_word = [word]
 
-        if check or check2:
+        if check or check2 or check3:
             normalized_word = ["".join(normalized_word)]
 
         return normalized_word

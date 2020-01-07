@@ -3,6 +3,7 @@ from nlp_id import tokenizer
 import pickle
 import os
 import nltk
+import wget
 # default classifier
 from sklearn import ensemble
 from sklearn.feature_extraction import DictVectorizer
@@ -13,7 +14,10 @@ class PosTag:
         self.current_dir = os.path.dirname(os.path.realpath(__file__))
         if not model_path:
             model_path = os.path.join(self.current_dir, 'data', 'postagger.pkl')
-        self.clf = self.load_model(model_path)
+            if not os.path.isfile(model_path):
+                url = "https://storage.googleapis.com/kumparan-public-bucket/nlp-id/postagger_v5.pkl"
+                wget.download(url, model_path)
+            self.clf = self.load_model(model_path)
         self.tokenizer = tokenizer.Tokenizer()
 
     def load_model(self,model_path):
@@ -53,12 +57,17 @@ class PosTag:
     def get_pos_tag(self, text):
         result = []
         sents = nltk.sent_tokenize(text)
+        symbols = ['!', '&', '(', ')', '*', '?', ',', '.', '<', '>', '/', ':', ';',
+                   '[', ']', '\\', '^', '`', '{', '}', '|', '~', '"', '“', "'"]
         for sent in sents:
             tokenized_word = self.tokenizer.tokenize(sent)
             if sent:
                 tags = self.clf.predict([self.features(tokenized_word, index) for index in range(len(tokenized_word))])
                 for i in range(len(tags)):
-                    result.append((tokenized_word[i], tags[i]))
+                    if tokenized_word[i] in symbols:
+                        result.append((tokenized_word[i], 'SYM'))
+                    else:
+                        result.append((tokenized_word[i], tags[i]))
         return result
     
     def tree_to_list(self, tree_data):
