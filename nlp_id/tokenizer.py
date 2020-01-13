@@ -72,14 +72,13 @@ class Tokenizer:
                     if not text:
                         text = normalized_word[j]
                     else:
-                        text += "." + normalized_word[j]
+                        text += i + normalized_word[j]
                 else:
                     fin.append(text)
                     text = ""
                     fin.append(normalized_word[j])
             if normalized_word[j].isdigit():
                 fin.append(normalized_word[j])
-            #    print (fin)
             normalized_word = [x for x in fin if x]
             count = 0
             for each in normalized_word:
