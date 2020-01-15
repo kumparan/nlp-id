@@ -15,7 +15,7 @@ class PosTag:
         if not model_path:
             model_path = os.path.join(self.current_dir, 'data', 'postagger.pkl')
             if not os.path.isfile(model_path):
-                url = "https://storage.googleapis.com/kumparan-public-bucket/nlp-id/postagger_v5.pkl"
+                url = "https://storage.googleapis.com/kumparan-public-bucket/nlp-id/postagger_v6.pkl"
                 wget.download(url, model_path)
             self.clf = self.load_model(model_path)
         self.tokenizer = tokenizer.Tokenizer()
@@ -83,7 +83,6 @@ class PosTag:
     def chunk_tag(self, tag):
         chunk_rule = '''
             DP: {<NUM><NNP><NUM>}
-            NP: {<NNP>+<CC><NNP>+}
             NP: {<NNP><NNP>+}
             NP: {<NN>+<JJ>}
             NP: {<FW><FW>+}
