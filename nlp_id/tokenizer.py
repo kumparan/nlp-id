@@ -1,12 +1,14 @@
 import re
 from nlp_id import postag
 
+
 class Tokenizer:
     def __init__(self):
         self.start_url = ["www.", "http"]
         self.end_url = [".com", ".id", ".io", ".html", ".org", ".net"]
-        self.punct = ['!', '&', '(', ')', '*', '?', ',', '.', '<', '>', '/', ':', ';',
+        self.inside_punct = ['!', '&', '(', ')', '*', '?', ',', '.', '<', '>', '/', ':', ';',
                       '[', ']', '\\', '^', '`', '{', '}', '|', '~', '"', '“', "'"]
+        self.outside_punct = self.inside_punct + ["-", "_"]
 
     def convert_non_ascii(self, text):
         text = re.sub('\u2014|\u2013', '-', text)
@@ -41,7 +43,7 @@ class Tokenizer:
         check = False
         check2 = False
         check3 = False
-        for i in self.punct:
+        for i in self.inside_punct:
             if i in word:
                 normalized_word = word.split(i)
                 break
@@ -63,6 +65,21 @@ class Tokenizer:
                 check2 = True
                 
         if i in [".",","]:
+            fin = []
+            text = ""
+            for j in range(len(normalized_word)):
+                if normalized_word[j].isdigit():
+                    if not text:
+                        text = normalized_word[j]
+                    else:
+                        text += i + normalized_word[j]
+                else:
+                    fin.append(text)
+                    text = ""
+                    fin.append(normalized_word[j])
+            if normalized_word[j].isdigit():
+                fin.append(normalized_word[j])
+            normalized_word = [x for x in fin if x]
             count = 0
             for each in normalized_word:
                 if not each.isdigit():
@@ -93,12 +110,12 @@ class Tokenizer:
             akhir = []
 
             for i in range(len(kata)):
-                if kata[i] in self.punct:
+                if kata[i] in self.outside_punct:
                     awal.append(kata[i])
                 else:
                     break
             for j in range((len(kata) - 1), -1, -1):
-                if kata[j] in self.punct:
+                if kata[j] in self.outside_punct:
                     akhir.insert(0, kata[j])
                 else:
                     break
