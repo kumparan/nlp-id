@@ -40,9 +40,7 @@ class Tokenizer:
 
     def normalize_word(self, word):
         normalized_word = ""
-        check = False
-        check2 = False
-        check3 = False
+        should_join = False
         for i in self.inside_punct:
             if i in word:
                 normalized_word = word.split(i)
@@ -54,7 +52,7 @@ class Tokenizer:
                 if not each.isdigit():
                     count += 1
             if count < len(normalized_word):
-                check = True
+                should_join = True
 
         if i in ["'"]:
             count = 0
@@ -62,10 +60,10 @@ class Tokenizer:
                 if not each.isalpha():
                     count += 1
             if count < len(normalized_word):
-                check2 = True
+                should_join = True
                 
         if i in [".",","]:
-            fin = []
+            pre_norm_word = []
             text = ""
             for j in range(len(normalized_word)):
                 if normalized_word[j].isdigit():
@@ -74,18 +72,18 @@ class Tokenizer:
                     else:
                         text += i + normalized_word[j]
                 else:
-                    fin.append(text)
+                    pre_norm_word.append(text)
                     text = ""
-                    fin.append(normalized_word[j])
+                    pre_norm_word.append(normalized_word[j])
             if normalized_word[j].isdigit():
-                fin.append(normalized_word[j])
-            normalized_word = [x for x in fin if x]
+                pre_norm_word.append(normalized_word[j])
+            normalized_word = [word for word in pre_norm_word if word]
             count = 0
             for each in normalized_word:
                 if not each.isdigit():
                     count += 1
             if count == 0:
-                check3 = True
+                should_join = True
 
         if normalized_word :
             for j in range(len(normalized_word) - 2, -1, -1):
@@ -94,7 +92,7 @@ class Tokenizer:
         else:
             normalized_word = [word]
 
-        if check or check2 or check3:
+        if should_join:
             normalized_word = ["".join(normalized_word)]
 
         return normalized_word
@@ -104,34 +102,34 @@ class Tokenizer:
         if len(text) == 1:
             return [text]
         splitted_text = text.split()
-        final = []
-        for kata in splitted_text:
-            awal = []
-            akhir = []
+        tokens = []
+        for word in splitted_text:
+            start_token = []
+            end_token = []
 
-            for i in range(len(kata)):
-                if kata[i] in self.outside_punct:
-                    awal.append(kata[i])
+            for i in range(len(word)):
+                if word[i] in self.outside_punct:
+                    start_token.append(word[i])
                 else:
                     break
-            for j in range((len(kata) - 1), -1, -1):
-                if kata[j] in self.outside_punct:
-                    akhir.insert(0, kata[j])
+            for j in range((len(word) - 1), -1, -1):
+                if word[j] in self.outside_punct:
+                    end_token.insert(0, word[j])
                 else:
                     break
-            tengah = kata[i:j+1]
-            if (not self.is_url(tengah) and not self.is_email(tengah)):
+            token = word[i:j+1]
+            if (not self.is_url(token) and not self.is_email(token)):
 
-                kata_tengah = self.normalize_word(tengah)
+                token_word = self.normalize_word(token)
             else:
-                kata_tengah = [tengah]
+                token_word = [token]
 
             # for handling word like "......." or ",,,,"
-            if kata_tengah == [""]:
-                kata_tengah = []
-                akhir = []
-            final += awal + kata_tengah + akhir
-        return final
+            if token_word == [""]:
+                token_word = []
+                end_token = []
+            tokens += start_token + token_word + end_token
+        return tokens
 
 class PhraseTokenizer:
     def __init__(self):
