@@ -32,7 +32,7 @@ class Tokenizer:
 
     def is_email(self, word):
         if ("@" in word):
-            if (re.search('^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$', word)):
+            if (re.search('^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$', word)):
                 return True
 
             else:
