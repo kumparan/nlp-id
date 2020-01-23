@@ -49,11 +49,11 @@ The tokens in **standard POS Tagger** are single-word tokens, while the tokens i
     from nlp_id.postag import PosTag
     postagger = PosTag() 
     postagger.get_pos_tag('Lionel Messi pergi ke pasar di area Jakarta Pusat.') 
-    # [('Lionel', 'NNP'), ('Messi', 'NNP'), ('pergi', 'VB'), ('ke', 'IN'), ('pasar', 'NN'), ('di', 'IN'), ('area', 'NN'),  
+    # [('Lionel', 'NNP'), ('Messi', 'NNP'), ('pergi', 'VB'), ('ke', 'IN'), ('pasar', 'NN'), ('di', 'IN'), ('daerah', 'NN'),  
       ('Jakarta', 'NNP'), ('Pusat', 'NNP')]
     
     postagger.get_phrase_tag('Lionel Messi pergi ke pasar di area Jakarta Pusat.') 
-    # [('Lionel Messi', 'NP'), ('pergi', 'VP'), ('ke', 'IN'), ('pasar', 'NN'), ('di', 'IN'), ('area', 'NN'), 
+    # [('Lionel Messi', 'NP'), ('pergi', 'VP'), ('ke', 'IN'), ('pasar', 'NN'), ('di', 'IN'), ('daerah', 'NN'), 
       ('Jakarta Pusat', 'NP'), ('.', 'SYM')]
 
     

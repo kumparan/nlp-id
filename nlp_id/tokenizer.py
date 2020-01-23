@@ -45,7 +45,7 @@ class Tokenizer:
             if i in word:
                 normalized_word = word.split(i)
                 break
-        # handling / or .
+        # handling punctuations
         if i in ["/"]:
             count = 0
             for each in normalized_word:
