@@ -9,15 +9,16 @@ from sklearn import ensemble
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.pipeline import Pipeline
 
+
 class PosTag:
     def __init__(self, model_path=None):
         self.current_dir = os.path.dirname(os.path.realpath(__file__))
         if not model_path:
             model_path = os.path.join(self.current_dir, 'data', 'postagger.pkl')
             if not os.path.isfile(model_path):
-                url = "https://storage.googleapis.com/kumparan-public-bucket/nlp-id/postagger_v6.pkl"
+                url = "https://storage.googleapis.com/kumparan-public-bucket/nlp-id/postagger_research_svm.pkl"
                 wget.download(url, model_path)
-            self.clf = self.load_model(model_path)
+        self.clf = self.load_model(model_path)
         self.tokenizer = tokenizer.Tokenizer()
 
     def load_model(self,model_path):
