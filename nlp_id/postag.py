@@ -5,7 +5,7 @@ import os
 import nltk
 import wget
 # default classifier
-from sklearn import ensemble
+from sklearn.svm import LinearSVC
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.pipeline import Pipeline
 
@@ -16,7 +16,9 @@ class PosTag:
         if not model_path:
             model_path = os.path.join(self.current_dir, 'data', 'postagger.pkl')
             if not os.path.isfile(model_path):
-                url = "https://storage.googleapis.com/kumparan-public-bucket/nlp-id/postagger_research_svm.pkl"
+                import warnings
+                warnings.warn("Model not found in cache. Downloading model ..")
+                url = "https://storage.googleapis.com/kumparan-public-bucket/nlp-id/postagger_svm_research.pkl"
                 wget.download(url, model_path)
         self.clf = self.load_model(model_path)
         self.tokenizer = tokenizer.Tokenizer()
@@ -144,7 +146,7 @@ class PosTag:
     def train(self, sentences, tags):
         self.clf = Pipeline([
             ('vectorizer', DictVectorizer(sparse=True)),
-            ('classifier', ensemble.RandomForestClassifier(criterion='gini', n_estimators=15))
+            ('classifier', LinearSVC(C=4, dual=False, random_state=2020))
         ])
 
         self.clf.fit(sentences, tags)
