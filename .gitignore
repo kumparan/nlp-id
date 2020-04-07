@@ -3,3 +3,5 @@
 /venv/
 __pycache__/
 .idea/
+.python-version
+*.ipynb
