@@ -6,10 +6,10 @@ import re
 class Lemmatizer:
     def __init__(self):
         current_dir = os.path.dirname(os.path.realpath(__file__))
-        KataDasarFile = os.path.join(current_dir, "data", "kata-dasar.txt")
+        RootWordFile = os.path.join(current_dir, "data", "root-word.txt")
         DictionaryFile = os.path.join(current_dir, "data", "lemma_dict.json")
-        with open(KataDasarFile) as f:
-            self.kata_dasar = set(f.read().splitlines())
+        with open(RootWordFile) as f:
+            self.root_word = set(f.read().splitlines())
         with open(DictionaryFile) as file:
             self.lemma_dict = json.load(file)
 
@@ -62,7 +62,7 @@ class Lemmatizer:
         text = re.sub("[^a-zA-Z0-9-]+", " ", text)
         for word in text.split():
             result = word.lower()
-            if word.isdigit() or len(word) <= 3 or word in self.kata_dasar:
+            if word.isdigit() or len(word) <= 3 or word in self.root_word:
                 result = word.lower()
             elif word in self.lemma_dict:
                 result = self.lemma_dict[word]
@@ -72,42 +72,42 @@ class Lemmatizer:
                 word13 = self.stem3(word1)
                 word134 = self.stem4(word13)
                 word25 = self.stem5(word2)
-                if word1 in self.kata_dasar:
+                if word1 in self.root_word:
                     result = word1
                 elif word1 in self.lemma_dict:
                     result = self.lemma_dict[word1]
-                elif word2 in self.kata_dasar:
+                elif word2 in self.root_word:
                     result = word2
                 elif word2 in self.lemma_dict:
                     result = self.lemma_dict[word2]
-                elif word13 in self.kata_dasar:
+                elif word13 in self.root_word:
                     result = word13
                 elif word13 in self.lemma_dict:
                     result = self.lemma_dict[word13]
                 elif len(word134) > 0:
                     if isinstance(word134, list):
                         for w in word134:
-                            if w in self.kata_dasar:
+                            if w in self.root_word:
                                 result = w
                             elif w in self.lemma_dict:
                                 result = self.lemma_dict[w]
-                    elif word134 in self.kata_dasar:
+                    elif word134 in self.root_word:
                         result = word134
                     elif word134 in self.lemma_dict:
                         result = self.lemma_dict[word134]
                 if result == word.lower():
-                    if word25 in self.kata_dasar:
+                    if word25 in self.root_word:
                         result = word25
                     elif word25 in self.lemma_dict:
                         result = self.lemma_dict[word25]
                     else:
                         word12 = self.stem2(word1)
                         word125 = self.stem1(word25)
-                        if word12 in self.kata_dasar:
+                        if word12 in self.root_word:
                             result = word12
                         elif word12 in self.lemma_dict:
                             result = self.lemma_dict[word12]
-                        elif word125 in self.kata_dasar:
+                        elif word125 in self.root_word:
                             result = word125
                         elif word125 in self.lemma_dict:
                             result = self.lemma_dict[word125]
@@ -115,23 +115,23 @@ class Lemmatizer:
                             word123 = self.stem3(word12)
                             word1234 = self.stem4(word123)
                             word1235 = self.stem5(word123)
-                            if word123 in self.kata_dasar:
+                            if word123 in self.root_word:
                                 result = word123
                             elif word123 in self.lemma_dict:
                                 result = self.lemma_dict[word123]
                             elif len(word1234) > 0:
                                 if isinstance(word1234, list):
                                     for w in word1234:
-                                        if w in self.kata_dasar:
+                                        if w in self.root_word:
                                             result = w
                                         elif w in self.lemma_dict:
                                             result = self.lemma_dict[w]
-                                elif word1234 in self.kata_dasar:
+                                elif word1234 in self.root_word:
                                     result = word1234
                                 elif word1234 in self.lemma_dict:
                                     result = self.lemma_dict[word1234]
                             if result == word.lower():
-                                if word1235 in self.kata_dasar:
+                                if word1235 in self.root_word:
                                     result = word1235
                                 elif word1235 in self.lemma_dict:
                                     result = self.lemma_dict[word1235]
@@ -140,13 +140,13 @@ class Lemmatizer:
                                     if len(word12345) > 0:
                                         if isinstance(word12345, list):
                                             for w in word12345:
-                                                if w in self.kata_dasar:
+                                                if w in self.root_word:
                                                     result = w
                                                 elif w in self.lemma_dict:
                                                     result = self.lemma_dict[
                                                         w
                                                     ]
-                                        elif word12345 in self.kata_dasar:
+                                        elif word12345 in self.root_word:
                                             result = word12345
                                         elif word12345 in self.lemma_dict:
                                             result = self.lemma_dict[
@@ -165,7 +165,7 @@ class Lemmatizer:
                                         ) or len(set(lemma_list)) == 1:
                                             if (
                                                 lemma_list[0]
-                                                in self.kata_dasar
+                                                in self.root_word
                                             ):
                                                 result = lemma_list[0]
             final_result += " {}".format(result)
