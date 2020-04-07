@@ -7,13 +7,13 @@ class Tokenizer:
         self.start_url = ["www.", "http"]
         self.end_url = [".com", ".id", ".io", ".html", ".org", ".net"]
         self.inside_punct = ['!', '&', '(', ')', '*', '?', ',', '.', '<', '>', '/', ':', ';',
-                      '[', ']', '\\', '^', '`', '{', '}', '|', '~', '"', '“', "'"]
+                             '[', ']', '\\', '^', '`', '{', '}', '|', '~', '"', '“', "'"]
         self.outside_punct = self.inside_punct + ["-", "_"]
 
     def convert_non_ascii(self, text):
-        text = re.sub('\u2014|\u2013', '-', text)
-        text = re.sub('\u2018|\u2019', "'", text)
-        text = re.sub('\u201c|\u201d', '"', text)
+        text = re.sub("\u2014|\u2013", "-", text)
+        text = re.sub("\u2018|\u2019", "'", text)
+        text = re.sub("\u201c|\u201d", '"', text)
         return text
 
     def is_url(self, word):
@@ -31,8 +31,10 @@ class Tokenizer:
         return False
 
     def is_email(self, word):
-        if ("@" in word):
-            if (re.search('^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$', word)):
+        if "@" in word:
+            if re.search(
+                "^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$", word
+            ):
                 return True
 
             else:
@@ -61,8 +63,8 @@ class Tokenizer:
                     count += 1
             if count < len(normalized_word):
                 should_join = True
-                
-        if i in [".",","]:
+
+        if i in [".", ","]:
             pre_norm_word = []
             text = ""
             for j in range(len(normalized_word)):
@@ -85,7 +87,7 @@ class Tokenizer:
             if count == 0:
                 should_join = True
 
-        if normalized_word :
+        if normalized_word:
             for j in range(len(normalized_word) - 2, -1, -1):
                 normalized_word.insert(j + 1, i)
             normalized_word = [i for i in normalized_word if i]
@@ -118,7 +120,7 @@ class Tokenizer:
                 else:
                     break
             token = word[i:j+1]
-            if (not self.is_url(token) and not self.is_email(token)):
+            if not self.is_url(token) and not self.is_email(token):
 
                 token_word = self.normalize_word(token)
             else:
@@ -131,10 +133,11 @@ class Tokenizer:
             tokens += start_token + token_word + end_token
         return tokens
 
+
 class PhraseTokenizer:
     def __init__(self):
         self.postagger = postag.PosTag()
-    
+
     def tokenize(self, text):
         phrase_tag = self.postagger.get_phrase_tag(text)
         tokens = [phrase[0] for phrase in phrase_tag]
