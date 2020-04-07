@@ -4,7 +4,6 @@ import pickle
 import os
 import nltk
 import wget
-# default classifier
 from sklearn.svm import LinearSVC
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.pipeline import Pipeline
@@ -18,7 +17,7 @@ class PosTag:
             if not os.path.isfile(model_path):
                 import warnings
                 warnings.warn("Model not found in cache. Downloading model ..")
-                url = "https://storage.googleapis.com/kumparan-public-bucket/nlp-id/postagger_svm_research.pkl"
+                url = "https://storage.googleapis.com/kumparan-public-bucket/nlp-id/postagger_v7.pkl"
                 wget.download(url, model_path)
         self.clf = self.load_model(model_path)
         self.tokenizer = tokenizer.Tokenizer()
@@ -65,7 +64,10 @@ class PosTag:
         for sent in sents:
             tokenized_word = self.tokenizer.tokenize(sent)
             if sent:
-                tags = self.clf.predict([self.features(tokenized_word, index) for index in range(len(tokenized_word))])
+                tags = self.clf.predict(
+                    [self.features(tokenized_word, index)
+                     for index in range(len(tokenized_word))]
+                )
                 for i in range(len(tags)):
                     if tokenized_word[i] in symbols:
                         result.append((tokenized_word[i], 'SYM'))
@@ -97,8 +99,8 @@ class PosTag:
             VP: {<NEG>*<VB>}
             NUMP: {<NUM><NUM>+}
             '''
-        chunkParser= nltk.RegexpParser(chunk_rule)
-        tree = chunkParser.parse(tag)
+        chunkparser= nltk.RegexpParser(chunk_rule)
+        tree = chunkparser.parse(tag)
         result = self.tree_to_list(tree)
         return result
     
@@ -112,7 +114,8 @@ class PosTag:
 
     def read_dataset(self, dataset_path=None):
         if not dataset_path:
-            dataset_path = os.path.join(self.current_dir, 'data', 'dataset_postag.txt')
+            dataset_path = os.path.join(self.current_dir, 'data',
+                                        'dataset_postag.txt')
 
         with open(dataset_path) as f:
             raw_file = f.read().split("\n")
@@ -126,7 +129,8 @@ class PosTag:
                 temp_sentences.append(file[0]) # get the sentences
                 temp_tags.append(file[1]) # get the tag
             else:
-                # check if the temp sentences and temp tags is not null and both of them have the same length
+                # check if the temp sentences and temp tags is not null
+                # and both of them have the same length
                 if len(temp_sentences) > 0 and (len(temp_sentences) == len(temp_tags)):
                     sentences.append(temp_sentences)
                     tags.append(temp_tags)
