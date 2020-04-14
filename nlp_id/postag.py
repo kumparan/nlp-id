@@ -4,7 +4,7 @@ import pickle
 import os
 import nltk
 import wget
-from sklearn.svm import LinearSVC
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.pipeline import Pipeline
 
@@ -22,7 +22,7 @@ class PosTag:
                 warnings.warn(
                     "Model not found in cache. Downloading model .."
                 )
-                url = "https://storage.googleapis.com/kumparan-public-bucket/nlp-id/postagger_v7.pkl"
+                url = "https://storage.googleapis.com/kumparan-public-bucket/nlp-id/postagger_v8.pkl"
                 wget.download(url, model_path)
         self.clf = self.load_model(model_path)
         self.tokenizer = tokenizer.Tokenizer()
@@ -35,32 +35,34 @@ class PosTag:
     def features(self, sentence, index):
         """ sentence: [w1, w2, ...], index: the index of the word """
         return {
-            "word": sentence[index],
-            "is_first": index == 0,
-            "is_last": index == len(sentence) - 1,
-            "is_capitalized": sentence[index][0].upper() == sentence[index][0],
-            "is_all_caps": sentence[index].upper() == sentence[index],
-            "is_all_lower": sentence[index].lower() == sentence[index],
-            "has_hyphen": "-" in sentence[index],
-            "is_numeric": sentence[index].isdigit(),
-            "capitals_inside": sentence[index][1:].lower() != sentence[index][1:],
-            "prefix-1": sentence[index][0],
-            "prefix-1-lower": sentence[index][0].lower(),
-            "prefix-2": sentence[index][:2],
-            "prefix-2-lower": sentence[index][:2].lower(),
-            "prefix-3": sentence[index][:3],
-            "prefix-3-lower": sentence[index][:3].lower(),
-            "suffix-1": sentence[index][-1],
-            "suffix-1-lower": sentence[index][-1].lower(),
-            "suffix-2": sentence[index][-2:],
-            "suffix-2-lower": sentence[index][-2:].lower(),
-            "suffix-3": sentence[index][-3:],
-            "suffix-3-lower": sentence[index][-3:].lower(),
-            "lowercase_word": sentence[index].lower(),
-            "prev_word": "" if index == 0 else sentence[index - 1],
-            "next_word": ""
-            if index == len(sentence) - 1
-            else sentence[index + 1],
+            'word': sentence[index],
+            'is_first': index == 0,
+            'is_last': index == len(sentence) - 1,
+            'is_capitalized': sentence[index][0].upper() == sentence[index][0],
+            'is_all_caps': sentence[index].upper() == sentence[index],
+            'is_all_lower': sentence[index].lower() == sentence[index],
+            'has_hyphen': '-' in sentence[index],
+            'is_numeric': sentence[index].isdigit(),
+            'capitals_inside': sentence[index][1:].lower() != sentence[index][1:],
+            'prefix-1': sentence[index][0],
+            'prefix-1-lower': sentence[index][0].lower(),
+            'prefix-2': sentence[index][:2],
+            'prefix-2-lower': sentence[index][:2].lower(),
+            'prefix-3': sentence[index][:3],
+            'prefix-3-lower': sentence[index][:3].lower(),
+            'suffix-1': sentence[index][-1],
+            'suffix-1-lower': sentence[index][-1].lower(),
+            'suffix-2': sentence[index][-2:],
+            'suffix-2-lower': sentence[index][-2:].lower(),
+            'suffix-3': sentence[index][-3:],
+            'suffix-3-lower': sentence[index][-3:].lower(),
+            'lowercase_word': sentence[index].lower(),
+            'prev_word': '' if index == 0 else sentence[index - 1],
+            'next_word': '' if index == len(sentence) - 1 else sentence[index + 1],
+            'prev_word_is_capitalized': False if index == 0 else sentence[index - 1][0].upper() == sentence[index - 1][0],
+            'next_word_is_capitalized': False if index == len(sentence) - 1 else sentence[index + 1][0].upper() == sentence[index + 1][0],
+            '2-prev-word': '' if index <= 1 else sentence[index - 2],
+            '2-next-word': '' if index >= len(sentence) - 2 else sentence[index + 2]
         }
 
     def get_pos_tag(self, text):
@@ -163,7 +165,11 @@ class PosTag:
         self.clf = Pipeline(
             [
                 ("vectorizer", DictVectorizer(sparse=True)),
-                ("classifier", LinearSVC(C=4, dual=False, random_state=2020)),
+                ("classifier", RandomForestClassifier(
+                    criterion='gini',
+                    n_estimators=15,
+                    random_state=2020
+                )),
             ]
         )
 
