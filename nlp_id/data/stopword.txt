@@ -1144,10 +1144,6 @@ tiga
 tinggi
 toh
 ton
-tribun
-tribun jabar
-tribunnews
-tribunstyle
 tunjuk
 turut
 tutur
@@ -1162,7 +1158,6 @@ umpamanya
 umum
 umum-nya
 umumnya
-un
 ungkap
 ungkapnya
 untuk
