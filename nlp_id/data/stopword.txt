@@ -7,7 +7,6 @@ agak
 agak-agak
 agaknya
 agar
-agustus
 aja
 akan
 akankah
@@ -48,7 +47,6 @@ apanya
 apasaja
 apatah
 apesnya
-april
 arah
 artinya
 asal
@@ -246,7 +244,6 @@ demonstran
 dengan
 depan
 depan-depan
-desember
 detail
 di
 dia
@@ -356,7 +353,6 @@ entah
 entahlah
 enyahlah
 exsitu
-februari
 gitu
 gitu-gitu
 gua
@@ -400,7 +396,6 @@ inikah
 inilah
 insitu
 insyaallah
-interest
 itu
 itu-begitu
 itu-itu
@@ -413,7 +408,6 @@ jadinya
 jangan
 jangankan
 janganlah
-januari
 jarang
 jarang-jarang
 jauh
@@ -428,11 +422,9 @@ jika
 jikalau
 jikapun
 juga
-juli
 jumat
 jumlah
 jumlahnya
-juni
 juru
 justru
 kabarin
@@ -549,7 +541,6 @@ lima
 lt
 luar
 lur
-m
 macam
 mah
 maka
@@ -578,7 +569,6 @@ mau
 mau-mau
 maupun
 mba
-mei
 melainkan
 melakukan
 melalui
@@ -698,13 +688,11 @@ nantinya
 nanya
 nanya-nanya
 netralitas
-november
 nya
 nyaris
 nyata-nyatanya
 nyatanya
 oke
-oktober
 oleh
 olehnya
 pada
@@ -725,7 +713,6 @@ penting
 pentingnya
 per
 percuma
-perhaps
 perihal
 perlu
 perlu-perlu
@@ -988,7 +975,6 @@ seperti
 sepertihalnya
 sepertinya
 sepihak
-september
 seputar
 seputarannya
 seputarnya
@@ -1058,7 +1044,6 @@ soal
 soalnya
 suara
 suatu
-such
 sudah
 sudah-sudah
 sudahkah
@@ -1174,9 +1159,6 @@ walau
 walaupun
 walhasil
 walopun
-wib
-wit
-wita
 wow
 www
 ya
