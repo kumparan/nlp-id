@@ -1,6 +1,6 @@
 import os
 
-class Stopword:
+class StopWord:
     def __init__(self, stopword_path=None):
         self.current_dir = os.path.dirname(os.path.realpath(__file__))
         if not stopword_path:

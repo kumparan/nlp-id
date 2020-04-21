@@ -17,15 +17,14 @@ class PosTag:
             folder_name = "data"
             file_name = "postagger_v8.pkl"
 
-            model_path = os.path.join(
-                self.current_dir, folder_name, file_name
-            )
+            folder_path = os.path.join(self.current_dir, folder_name)
+            model_path = os.path.join(folder_path, file_name)
 
             if not os.path.isfile(model_path):
-                listdir_data = os.listdir(folder_name)
+                listdir_data = os.listdir(folder_path)
                 # Find any file which ends with .pkl
                 all_pickle = [
-                    folder_name + "/" + file_path
+                    os.path.join(folder_path, file_path)
                     for file_path in listdir_data
                     if file_path.endswith(".pkl")
                     and file_path.startswith("postagger")
