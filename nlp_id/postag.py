@@ -24,13 +24,18 @@ class PosTag:
                 listdir_data = os.listdir(folder_name)
 
                 #find any file which ends with .pkl
-                all_pickle = [folder_name + "/" + file_path for file_path in listdir_data if file_path.endswith(".pkl")]
+                all_pickle = [
+                    folder_name + "/" + file_path
+                    for file_path in listdir_data
+                    if file_path.endswith(".pkl") and file_path.startswith("postagger")
+                ]
+                print(all_pickle)
 
                 #removing all .pkl file
                 if all_pickle:
                     for each_pickle in all_pickle:
                         os.remove(each_pickle)
-                        print("removed",each_pickle)
+                        print("remove",each_pickle)
                 else:
                     print ("no model removed")
 
