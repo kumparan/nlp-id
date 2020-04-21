@@ -106,31 +106,34 @@ class Tokenizer:
         splitted_text = text.split()
         tokens = []
         for word in splitted_text:
-            start_token = []
-            end_token = []
-
-            for i in range(len(word)):
-                if word[i] in self.outside_punct:
-                    start_token.append(word[i])
-                else:
-                    break
-            for j in range((len(word) - 1), -1, -1):
-                if word[j] in self.outside_punct:
-                    end_token.insert(0, word[j])
-                else:
-                    break
-            token = word[i:j+1]
-            if not self.is_url(token) and not self.is_email(token):
-
-                token_word = self.normalize_word(token)
+            if len(word) == 1:
+                tokens += word
             else:
-                token_word = [token]
-
-            # for handling word like "......." or ",,,,"
-            if token_word == [""]:
-                token_word = []
+                start_token = []
                 end_token = []
-            tokens += start_token + token_word + end_token
+
+                for i in range(len(word)):
+                    if word[i] in self.outside_punct:
+                        start_token.append(word[i])
+                    else:
+                        break
+                for j in range((len(word) - 1), -1, -1):
+                    if word[j] in self.outside_punct:
+                        end_token.insert(0, word[j])
+                    else:
+                        break
+                token = word[i:j+1]
+                if not self.is_url(token) and not self.is_email(token):
+
+                    token_word = self.normalize_word(token)
+                else:
+                    token_word = [token]
+
+                # for handling word like "......." or ",,,,"
+                if token_word == [""]:
+                    token_word = []
+                    end_token = []
+                tokens += start_token + token_word + end_token
         return tokens
 
 
