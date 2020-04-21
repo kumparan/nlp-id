@@ -13,16 +13,38 @@ class PosTag:
     def __init__(self, model_path=None):
         self.current_dir = os.path.dirname(os.path.realpath(__file__))
         if not model_path:
+            folder_name = "data"
+            file_name = "postagger_v8.pkl"
+
             model_path = os.path.join(
-                self.current_dir, "data", "postagger.pkl"
+                self.current_dir, folder_name, file_name
             )
+
             if not os.path.isfile(model_path):
+                listdir_data = os.listdir(folder_name)
+
+                #find any file which ends with .pkl
+                all_pickle = [
+                    folder_name + "/" + file_path
+                    for file_path in listdir_data
+                    if file_path.endswith(".pkl") and file_path.startswith("postagger")
+                ]
+                print(all_pickle)
+
+                #removing all .pkl file
+                if all_pickle:
+                    for each_pickle in all_pickle:
+                        os.remove(each_pickle)
+                        print("remove",each_pickle)
+                else:
+                    print ("no model removed")
+
                 import warnings
 
                 warnings.warn(
-                    "Model not found in cache. Downloading model .."
+                    "Downloading model .."
                 )
-                url = "https://storage.googleapis.com/kumparan-public-bucket/nlp-id/postagger_v8.pkl"
+                url = "https://storage.googleapis.com/kumparan-public-bucket/nlp-id/{}".format(file_name)
                 wget.download(url, model_path)
         self.clf = self.load_model(model_path)
         self.tokenizer = tokenizer.Tokenizer()
