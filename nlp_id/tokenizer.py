@@ -77,13 +77,33 @@ class Tokenizer:
                     pre_norm_word.append(text)
                     text = ""
                     pre_norm_word.append(normalized_word[j])
-            if normalized_word[j].isdigit():
-                pre_norm_word.append(normalized_word[j])
+                if len(normalized_word)-1 == j:
+                    pre_norm_word.append(text)
+
             normalized_word = [word for word in pre_norm_word if word]
             count = 0
+            check = 0
+            index_tobe_popped = 0
+            new_word = ""
             for each in normalized_word:
-                if not each.isdigit():
-                    count += 1
+                if i == ".":
+                    if each.isdigit() or each.isalpha():
+                        if not each.isdigit():
+                            count += 1
+                    else:
+                        if check > 0 or \
+                                (normalized_word[check-1].isdigit() or
+                                 normalized_word[check-1].isalpha()):
+                            new_word = normalized_word[check-1] + i + each
+                            index_tobe_popped = check
+                    check += 1
+                else:
+                    if not each.isdigit():
+                        count += 1
+            if index_tobe_popped > 0:
+                normalized_word.pop(index_tobe_popped)
+                normalized_word.pop(index_tobe_popped-1)
+                normalized_word.insert(index_tobe_popped-1,new_word)
             if count == 0:
                 should_join = True
 
