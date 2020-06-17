@@ -30,15 +30,15 @@ The **standard tokenizer** tokenizes the text into separate tokens where the wor
 
     from nlp_id.tokenizer import Tokenizer 
     tokenizer = Tokenizer() 
-    tokenizer.tokenize('Lionel Messi pergi ke pasar di area Jakarta Pusat.') 
-    # ['Lionel', 'Messi', 'pergi', 'ke', 'pasar', 'di', 'area', 'Jakarta', 'Pusat', '.']
+    tokenizer.tokenize('Lionel Messi pergi ke pasar di daerah Jakarta Pusat.') 
+    # ['Lionel', 'Messi', 'pergi', 'ke', 'pasar', 'di', 'daerah', 'Jakarta', 'Pusat', '.']
     
 The **phrase tokenizer** tokenizes the text into separate tokens where the word tokens are phrases (single or multi-word tokens). 
 
     from nlp_id.tokenizer import PhraseTokenizer 
     tokenizer = PhraseTokenizer() 
-    tokenizer.tokenize('Lionel Messi pergi ke pasar di area Jakarta Pusat.') 
-    # ['Lionel Messi', 'pergi', 'ke', 'pasar', 'di', 'area', 'Jakarta Pusat', '.']
+    tokenizer.tokenize('Lionel Messi pergi ke pasar di daerah Jakarta Pusat.') 
+    # ['Lionel Messi', 'pergi', 'ke', 'pasar', 'di', 'daerah', 'Jakarta Pusat', '.']
     
 ### POS Tagger
 
@@ -48,11 +48,11 @@ The tokens in **standard POS Tagger** are single-word tokens, while the tokens i
 
     from nlp_id.postag import PosTag
     postagger = PosTag() 
-    postagger.get_pos_tag('Lionel Messi pergi ke pasar di area Jakarta Pusat.') 
+    postagger.get_pos_tag('Lionel Messi pergi ke pasar di daerah Jakarta Pusat.') 
     # [('Lionel', 'NNP'), ('Messi', 'NNP'), ('pergi', 'VB'), ('ke', 'IN'), ('pasar', 'NN'), ('di', 'IN'), ('daerah', 'NN'),  
       ('Jakarta', 'NNP'), ('Pusat', 'NNP')]
     
-    postagger.get_phrase_tag('Lionel Messi pergi ke pasar di area Jakarta Pusat.') 
+    postagger.get_phrase_tag('Lionel Messi pergi ke pasar di daerah Jakarta Pusat.') 
     # [('Lionel Messi', 'NP'), ('pergi', 'VP'), ('ke', 'IN'), ('pasar', 'NN'), ('di', 'IN'), ('daerah', 'NN'), 
       ('Jakarta Pusat', 'NP'), ('.', 'SYM')]
 
