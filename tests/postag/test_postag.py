@@ -6,7 +6,6 @@ postagger = PosTag()
 def test_pos_tag():
     """
     test for standard POS tagger
-    :return:
     """
     text = 'Lionel Messi pergi ke pasar di area Jakarta Pusat.'
     expected_result = [
@@ -28,7 +27,6 @@ def test_pos_tag():
 def test_phrase_tag():
     """
     test for phrase POS tagger
-    :return:
     """
     text = 'Lionel Messi pergi ke pasar di area Jakarta Pusat.'
     expected_result =[
