@@ -4,7 +4,6 @@ from nlp_id.lemmatizer import Lemmatizer
 def test_lemmatizer():
     """
     test for Lemmatizer
-    :return:
     """
     lemmatizer = Lemmatizer()
     text = 'Saya sedang mencoba'
