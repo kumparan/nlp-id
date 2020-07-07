@@ -50,7 +50,7 @@ The tokens in **standard POS Tagger** are single-word tokens, while the tokens i
     postagger = PosTag() 
     postagger.get_pos_tag('Lionel Messi pergi ke pasar di daerah Jakarta Pusat.') 
     # [('Lionel', 'NNP'), ('Messi', 'NNP'), ('pergi', 'VB'), ('ke', 'IN'), ('pasar', 'NN'), ('di', 'IN'), ('daerah', 'NN'),  
-      ('Jakarta', 'NNP'), ('Pusat', 'NNP')]
+      ('Jakarta', 'NNP'), ('Pusat', 'NNP'), ('.', 'SYM')]
     
     postagger.get_phrase_tag('Lionel Messi pergi ke pasar di daerah Jakarta Pusat.') 
     # [('Lionel Messi', 'NP'), ('pergi', 'VP'), ('ke', 'IN'), ('pasar', 'NN'), ('di', 'IN'), ('daerah', 'NN'), 
