@@ -4,7 +4,6 @@ from nlp_id.tokenizer import Tokenizer, PhraseTokenizer
 def test_tokenizer():
     """
     test for Tokenizer
-    :return:
     """
     tokenizer = Tokenizer()
     text = 'Lionel Messi pergi ke pasar di area Jakarta Pusat.'
@@ -26,7 +25,6 @@ def test_tokenizer():
 def test_phrase_tokenizer():
     """
     test for PhraseTokenizer
-    :return:
     """
     phrase_tokenizer = PhraseTokenizer()
     text = 'Lionel Messi pergi ke pasar di area Jakarta Pusat.'
