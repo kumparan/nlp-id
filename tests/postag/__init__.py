@@ -1,0 +1,1 @@
+from nlp_id.postag import PosTag
