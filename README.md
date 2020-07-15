@@ -83,3 +83,20 @@ Description of tagset used for POS Tagger:
 | 20 | NP | Noun Phrase. A phrase that has a noun (or indefinite pronoun) as its head | Jakarta Pusat, Lionel Messi |
 | 21 | NUMP | Number Phrase.  | 10 juta |
 | 22 | VP | Verb Phrase. A syntactic unit composed of at least one verb and its dependents | tidak makan |
+
+### Stopword
+
+`nlp-id` also provide list of Indonesian stopword.
+
+    from nlp_id.stopword import StopWord 
+    stopword = StopWord() 
+    stopword.get_stopword() 
+    # [{list_of_nlp_id_stopword}]    
+
+Stopword Removal is used to remove every Indonesian stopword from the given text.
+
+    from nlp_id.stopword import StopWord 
+    text = "Lionel Messi pergi Ke pasar di area Jakarta Pusat."
+    stopword = StopWord() 
+    stopword.remove_stopword(text)
+    # Lionel Messi pergi pasar area Jakarta Pusat.  
