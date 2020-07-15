@@ -87,10 +87,9 @@ class Tokenizer:
             new_word = ""
             for each in normalized_word:
                 if i == ".":
-                    if each.isdigit() or each.isalpha():
-                        if not each.isdigit():
-                            count += 1
-                    else:
+                    if each.isalpha():
+                        count += 1
+                    elif not each.isdigit():
                         if check > 0 or \
                                 (normalized_word[check-1].isdigit() or
                                  normalized_word[check-1].isalpha()):
