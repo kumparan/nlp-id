@@ -1,5 +1,6 @@
 import os
 
+
 class StopWord:
     def __init__(self, stopword_path=None):
         self.current_dir = os.path.dirname(os.path.realpath(__file__))
@@ -12,3 +13,13 @@ class StopWord:
 
     def get_stopword(self):
         return self.stopwords
+
+    def remove_stopword(self, text):
+        given_words = text.split(' ')
+        stopword = self.get_stopword()
+        result = []
+        for word in given_words:
+            if word.casefold() not in stopword:
+                result.append(word)
+
+        return ' '.join(result)
