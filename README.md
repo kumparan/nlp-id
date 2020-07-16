@@ -96,7 +96,11 @@ Description of tagset used for POS Tagger:
 Stopword Removal is used to remove every Indonesian stopword from the given text.
 
     from nlp_id.stopword import StopWord 
-    text = "Lionel Messi pergi Ke pasar di area Jakarta Pusat."
+    text = "Lionel Messi pergi Ke pasar di area Jakarta Pusat" # single sentence
     stopword = StopWord() 
     stopword.remove_stopword(text)
-    # Lionel Messi pergi pasar area Jakarta Pusat.  
+    # Lionel Messi pergi pasar area Jakarta Pusat  
+    
+    paragraph = "Lionel Messi pergi Ke pasar di area Jakarta Pusat itu. Sedangkan Cristiano Ronaldo ke pasar Di area Jakarta Selatan. Dan mereka tidak bertemu begini-begitu."
+    stopword.remove_stopword(text)
+    # Lionel Messi pergi pasar area Jakarta Pusat. Cristiano Ronaldo pasar area Jakarta Selatan. bertemu.
