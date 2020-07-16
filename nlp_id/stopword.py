@@ -1,5 +1,5 @@
 import os
-
+import re
 
 class StopWord:
     def __init__(self, stopword_path=None):
@@ -15,11 +15,18 @@ class StopWord:
         return self.stopwords
 
     def remove_stopword(self, text):
-        given_words = text.split(' ')
         stopword = self.get_stopword()
-        result = []
-        for word in given_words:
-            if word.casefold() not in stopword:
-                result.append(word)
+        temp_result = []
+        parts = []
 
-        return ' '.join(result)
+        for match in re.finditer(r'[^.,?!\s]+|[.,?!]', text):
+            parts.append(match.group())
+
+        for word in parts:
+            if word.casefold() not in stopword:
+                temp_result.append(word)
+
+        result_cand = ' '.join(temp_result)
+        result = re.sub(r' ([^A-Za-z0-9])', r'\1', result_cand)
+
+        return result
