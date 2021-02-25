@@ -105,5 +105,9 @@ Stopword Removal is used to remove every Indonesian stopword from the given text
     stopword.remove_stopword(text)
     # Lionel Messi pergi pasar area Jakarta Pusat. Cristiano Ronaldo pasar area Jakarta Selatan. bertemu.
     
+## Training and Evaluation
+
+Our model is trained using stories from kumparan as the dataset. We managed to get ~95% accuracy on our test set.
+    
 ## Citation
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4556870.svg)](https://doi.org/10.5281/zenodo.4556870)
