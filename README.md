@@ -27,11 +27,15 @@ Lemmatizer is used to get the root words from every word in a sentence.
 Tokenizer is used to convert text into tokens of word, punctuation, number, date, email, URL, etc. 
 There are two kinds of tokenizer in this repository, **standard tokenizer** and **phrase tokenizer**. 
 The **standard tokenizer** tokenizes the text into separate tokens where the word tokens are single-word tokens.
+Tokens that started with *ku-* or ended with *-ku*, *-mu*, *-nya*, *-lah*, *-kah* will be split if it is personal pronoun or particle.
 
     from nlp_id.tokenizer import Tokenizer 
     tokenizer = Tokenizer() 
     tokenizer.tokenize('Lionel Messi pergi ke pasar di daerah Jakarta Pusat.') 
     # ['Lionel', 'Messi', 'pergi', 'ke', 'pasar', 'di', 'daerah', 'Jakarta', 'Pusat', '.']
+
+    tokenizer.tokenize('Lionel Messi pergi ke rumahmu di daerah Jakarta Pusat.') 
+    # ['Lionel', 'Messi', 'pergi', 'ke', 'rumah', 'mu', 'di', 'daerah', 'Jakarta', 'Pusat', '.']
     
 The **phrase tokenizer** tokenizes the text into separate tokens where the word tokens are phrases (single or multi-word tokens). 
 
