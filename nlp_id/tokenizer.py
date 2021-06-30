@@ -1,5 +1,6 @@
+import os
 import re
-from nlp_id import postag
+from nlp_id import Lemmatizer, postag
 
 
 class Tokenizer:
@@ -9,6 +10,11 @@ class Tokenizer:
         self.inside_punct = ['!', '&', '(', ')', '*', '?', ',', '.', '<', '>', '/', ':', ';',
                              '[', ']', '\\', '^', '`', '{', '}', '|', '~', '"', '“', "'"]
         self.outside_punct = self.inside_punct + ["-", "_"]
+        self.current_dir = os.path.dirname(os.path.realpath(__file__))
+        self.lemmatizer = Lemmatizer()
+        CliticsFile = os.path.join(self.current_dir, "data", "non_clitics.txt")
+        with open(CliticsFile) as f:
+            self.non_clitics = set(f.read().splitlines())
 
     def convert_non_ascii(self, text):
         text = re.sub("\u2014|\u2013", "-", text)
@@ -102,7 +108,7 @@ class Tokenizer:
             if index_tobe_popped > 0:
                 normalized_word.pop(index_tobe_popped)
                 normalized_word.pop(index_tobe_popped-1)
-                normalized_word.insert(index_tobe_popped-1,new_word)
+                normalized_word.insert(index_tobe_popped-1, new_word)
             if count == 0:
                 should_join = True
 
@@ -117,6 +123,54 @@ class Tokenizer:
             normalized_word = ["".join(normalized_word)]
 
         return normalized_word
+
+    def clitic_tokenize(self, word):
+        tokens = []
+        start_clitic = ("ku", "Ku")
+        end_clitic = ("ku", "mu", "Mu")
+        end_clitic2 = ("Nya", "nya", "lah", "kah")
+        if (
+            not word.startswith(start_clitic)
+            and not word.endswith(end_clitic)
+            and not word.endswith(end_clitic2)
+        ):
+            tokens += [word]
+        elif word.lower() not in self.non_clitics:
+            lemma = self.lemmatizer.lemmatize(word)
+            if lemma != word.lower():
+                if word.startswith(start_clitic):
+                    new_lemma = self.lemmatizer.lemmatize(word[2:])
+                    if word.startswith(start_clitic) and new_lemma == lemma:
+                        tokens += [word[:2]]
+                        word = word[2:]
+                        if not word.endswith(
+                            end_clitic
+                        ) and not word.endswith(end_clitic2):
+                            tokens += [word]
+                if word.endswith(end_clitic2):
+                    new_lemma = self.lemmatizer.lemmatize(word[:-3])
+                    if word.endswith(end_clitic2) and new_lemma == lemma:
+                        if word[:-3].endswith(end_clitic):
+                            new_lemma2 = self.lemmatizer.lemmatize(word[:-3][:-2])
+                            if word[:-3].endswith(end_clitic) and new_lemma2 == new_lemma:
+                                tokens += [word[:-3][:-2], word[:-3][-2:], word[-3:]]
+                            else:
+                                tokens += [word[:-3], word[-3:]]
+                        else:
+                            tokens += [word[:-3], word[-3:]]
+                    else:
+                        tokens += [word]
+                if word.endswith(end_clitic):
+                    new_lemma = self.lemmatizer.lemmatize(word[:-2])
+                    if word.endswith(end_clitic) and new_lemma == lemma:
+                        tokens += [word[:-2], word[-2:]]
+                    else:
+                        tokens += [word]
+            else:
+                tokens += [word]
+        else:
+            tokens += [word]
+        return tokens
 
     def tokenize(self, text):
         text = self.convert_non_ascii(text)
@@ -143,8 +197,10 @@ class Tokenizer:
                         break
                 token = word[i:j+1]
                 if not self.is_url(token) and not self.is_email(token):
-
-                    token_word = self.normalize_word(token)
+                    norm_word = self.normalize_word(token)
+                    token_word = []
+                    for word in norm_word:
+                        token_word += self.clitic_tokenize(word)
                 else:
                     token_word = [token]
 
