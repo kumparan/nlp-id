@@ -155,18 +155,30 @@ class Lemmatizer:
                                     # kepada-Nya --> kepada
                                     # anggota-anggota --> anggota
                                     if result == word.lower() and "-" in word:
+                                        split_word = word.split("-")
                                         lemma_list = [
                                             self.lemma_dict.get(i, i)
-                                            for i in word.split("-")
+                                            for i in split_word
                                         ]
                                         if (
                                             len(set(lemma_list)) == 2
-                                            and word.split("-")[1] in suffix
+                                            and (
+                                                split_word[1] in suffix
+                                                or self.stem3(split_word[1])
+                                                == split_word[0]
+                                            )
                                         ) or len(set(lemma_list)) == 1:
                                             if (
                                                 lemma_list[0]
                                                 in self.root_word
                                             ):
                                                 result = lemma_list[0]
+                                        elif len(set(lemma_list)) == 2 and (
+                                            self.stem2(split_word[0])
+                                            == split_word[1]
+                                            and lemma_list[1]
+                                            in self.root_word
+                                        ):
+                                            result = lemma_list[1]
             final_result += " {}".format(result)
         return final_result.strip()

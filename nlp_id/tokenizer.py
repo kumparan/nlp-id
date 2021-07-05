@@ -127,8 +127,10 @@ class Tokenizer:
     def clitic_tokenize(self, word):
         tokens = []
         start_clitic = ("ku", "Ku")
-        end_clitic = ("ku", "mu", "Mu")
-        end_clitic2 = ("Nya", "nya", "lah", "kah")
+        end_clitic = ("ku", "mu", "Ku", "Mu")
+        end_clitic2 = ("-ku", "-mu", "-Ku", "-Mu", "Nya", "nya", "lah", "kah")
+        end_clitic3 = ("-Nya", "-nya")
+        end_clitic4 = ("-kulah", "-mulah", "-nyalah")
         if (
             not word.startswith(start_clitic)
             and not word.endswith(end_clitic)
@@ -137,32 +139,54 @@ class Tokenizer:
             tokens += [word]
         elif word.lower() not in self.non_clitics:
             lemma = self.lemmatizer.lemmatize(word)
-            if lemma != word.lower():
+            if lemma != word.lower() or lemma.endswith(end_clitic4):
                 if word.startswith(start_clitic):
                     new_lemma = self.lemmatizer.lemmatize(word[2:])
-                    if word.startswith(start_clitic) and new_lemma == lemma:
+                    if new_lemma == lemma:
                         tokens += [word[:2]]
                         word = word[2:]
                         if not word.endswith(
                             end_clitic
                         ) and not word.endswith(end_clitic2):
                             tokens += [word]
-                if word.endswith(end_clitic2):
+                    elif not word.endswith(
+                        end_clitic
+                    ) and not word.endswith(end_clitic2):
+                        tokens += [word]
+                if word.endswith(end_clitic3):
+                    tokens += [word[:-4], word[-4:]]
+                elif word.endswith(end_clitic2):
                     new_lemma = self.lemmatizer.lemmatize(word[:-3])
-                    if word.endswith(end_clitic2) and new_lemma == lemma:
-                        if word[:-3].endswith(end_clitic):
+                    if new_lemma == lemma or word[:-3].endswith(
+                        ("-ku", "-Ku", "-mu", "-Mu", "-nya", "-Nya")
+                    ):
+                        if word[:-3].endswith(end_clitic3):
+                            tokens += [word[:-3][:-4], word[:-3][-4:], word[-3:]]
+                        elif word[:-3].endswith(end_clitic2):
+                            new_lemma2 = self.lemmatizer.lemmatize(word[:-3][:-3])
+                            if new_lemma2 == new_lemma:
+                                tokens += [word[:-3][:-3], word[:-3][-3:], word[-3:]]
+                            else:
+                                tokens += [word[:-3], word[-3:]]
+                        elif word[:-3].endswith(end_clitic):
                             new_lemma2 = self.lemmatizer.lemmatize(word[:-3][:-2])
-                            if word[:-3].endswith(end_clitic) and new_lemma2 == new_lemma:
+                            if new_lemma2 == new_lemma:
                                 tokens += [word[:-3][:-2], word[:-3][-2:], word[-3:]]
                             else:
                                 tokens += [word[:-3], word[-3:]]
+                        elif (
+                            word.startswith(("se", "Se"))
+                            and word.endswith("nya")
+                            and self.lemmatizer.lemmatize(word[2:]) == lemma
+                        ):
+                            tokens += [word]
                         else:
                             tokens += [word[:-3], word[-3:]]
                     else:
                         tokens += [word]
-                if word.endswith(end_clitic):
+                elif word.endswith(end_clitic):
                     new_lemma = self.lemmatizer.lemmatize(word[:-2])
-                    if word.endswith(end_clitic) and new_lemma == lemma:
+                    if new_lemma == lemma:
                         tokens += [word[:-2], word[-2:]]
                     else:
                         tokens += [word]

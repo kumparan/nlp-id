@@ -7,10 +7,8 @@ def test_tokenizer():
     """
     tokenizer = Tokenizer()
     text = "Lionel Messi pergi ke pasar di area Jakarta Pusat."
-    text2 = (
-        "Pada akhirnya, kucobalah apakah benar masakanmu enaknya seperti yang kukira."
-    )
-    text3 = "semuanya pemukulnya adalah kamulah kepadamulah inilah siapakah sepatutnya temukanlah kumenemukanmu kumenemukannya nyonya nyonyamu"
+    text2 = "Pada akhirnya, kucobalah apakah benar masakanmu enaknya seperti yang kukira."
+    text3 = "semuanya pemukulnya adalah kamulah kepadamulah inilah siapakah sepatutnya temukanlah kumenemukanmu kumenemukannya nyonya nyonyamu nyonyaMu nyonya-mu nyonya-Mu nyonyaku nyonya-Ku nyonyanya kumparan kepadanyalah kepada-Mulah kepada-Nyalah secepat-cepatnya sendoknya semestinya kata-katanya angan-anganku kupikir-pikir kulkasku kulkas-kulkasku kulkas"
     text4 = "kemauanmu terakhirku miliknya pemiliknya kupukul dipukul"
     res = [
         "Lionel",
@@ -44,8 +42,7 @@ def test_tokenizer():
         ".",
     ]
     res3 = [
-        "semua",
-        "nya",
+        "semuanya",
         "pemukul",
         "nya",
         "adalah",
@@ -70,6 +67,43 @@ def test_tokenizer():
         "nyonya",
         "nyonya",
         "mu",
+        "nyonya",
+        "Mu",
+        "nyonya",
+        "-mu",
+        "nyonya",
+        "-Mu",
+        "nyonya",
+        "ku",
+        "nyonya",
+        "-Ku",
+        "nyonya",
+        "nya",
+        "kumparan",
+        "kepada",
+        "nya",
+        "lah",
+        "kepada",
+        "-Mu",
+        "lah",
+        "kepada",
+        "-Nya",
+        "lah",
+        "secepat-cepatnya",
+        "sendok",
+        "nya",
+        "semestinya",
+        "kata-kata",
+        "nya",
+        "angan-angan",
+        "ku",
+        "ku",
+        "pikir-pikir",
+        "kulkas",
+        "ku",
+        "kulkas-kulkas",
+        "ku",
+        "kulkas",
     ]
     res4 = [
         "kemauan",
