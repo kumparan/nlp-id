@@ -166,6 +166,11 @@ class Tokenizer:
                             new_lemma2 = self.lemmatizer.lemmatize(word[:-3][:-3])
                             if new_lemma2 == new_lemma:
                                 tokens += [word[:-3][:-3], word[:-3][-3:], word[-3:]]
+                            elif (
+                                word[:-3].startswith(("se", "Se")) 
+                                and self.lemmatizer.lemmatize(word[:-3][2:]) == new_lemma
+                            ):
+                                tokens += [word]
                             else:
                                 tokens += [word[:-3], word[-3:]]
                         elif word[:-3].endswith(end_clitic):

@@ -8,7 +8,7 @@ def test_tokenizer():
     tokenizer = Tokenizer()
     text = "Lionel Messi pergi ke pasar di area Jakarta Pusat."
     text2 = "Pada akhirnya, kucobalah apakah benar masakanmu enaknya seperti yang kukira."
-    text3 = "semuanya pemukulnya adalah kamulah kepadamulah inilah siapakah sepatutnya temukanlah kumenemukanmu kumenemukannya nyonya nyonyamu nyonyaMu nyonya-mu nyonya-Mu nyonyaku nyonya-Ku nyonyanya kumparan kepadanyalah kepada-Mulah kepada-Nyalah secepat-cepatnya sendoknya semestinya kata-katanya angan-anganku kupikir-pikir kulkasku kulkas-kulkasku kulkas"
+    text3 = "semuanya pemukulnya adalah kamulah kepadamulah inilah siapakah sepatutnya temukanlah kumenemukanmu kumenemukannya nyonya nyonyamu nyonyaMu nyonya-mu nyonya-Mu nyonyaku nyonya-Ku nyonyanya kumparan kepadanyalah kepada-Mulah kepada-Nyalah secepat-cepatnya sendoknya semestinya sepenuhnya setelahnya sebelum-sebelumnya setelah-setelahnya kata-katanya angan-anganku kupikir-pikir kulkasku kulkas-kulkasku kulkas"
     text4 = "kemauanmu terakhirku miliknya pemiliknya kupukul dipukul"
     res = [
         "Lionel",
@@ -93,6 +93,10 @@ def test_tokenizer():
         "sendok",
         "nya",
         "semestinya",
+        "sepenuhnya",
+        "setelahnya",
+        "sebelum-sebelumnya",
+        "setelah-setelahnya",
         "kata-kata",
         "nya",
         "angan-angan",
