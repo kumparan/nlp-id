@@ -166,6 +166,10 @@ class Lemmatizer:
                                                 split_word[1] in suffix
                                                 or self.stem3(split_word[1])
                                                 == split_word[0]
+                                                or self.stem3(
+                                                    self.stem5(split_word[1])
+                                                )
+                                                == split_word[0]
                                             )
                                         ) or len(set(lemma_list)) == 1:
                                             if (
