@@ -4,13 +4,13 @@ from setuptools import setup
 setup(
   name='nlp_id',
   packages=['nlp_id'],
-  version='0.1.11.0',
+  version='0.1.12.0',
   license='MIT',
   description="Kumparan's NLP Services",
   long_description=open("README.md", "r").read(),
   long_description_content_type="text/markdown",
-  author='Frandy Eddy',
-  author_email='eddy.frandy@gmail.com',
+  author='Frandy Eddy,Dhanang Hadhi Sasmita',
+  author_email='eddy.frandy@gmail.com,dhananghadhi@gmail.com',
   url='https://github.com/kumparan/nlp-id',
   keywords=['Indonesian', 'Bahasa', 'NLP'],
   package_data={
