@@ -15,7 +15,7 @@ class PosTag:
         self.current_dir = os.path.dirname(os.path.realpath(__file__))
         if not model_path:
             folder_name = "data"
-            file_name = "postagger_v8.pkl"
+            file_name = "postagger_v9.pkl"
 
             folder_path = os.path.join(self.current_dir, folder_name)
             model_path = os.path.join(folder_path, file_name)
