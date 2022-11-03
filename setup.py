@@ -16,7 +16,7 @@ setup(
     package_data={
         "": ["data/*"],
     },
-    install_requires=["scikit-learn==1.1.0", "nltk==3.4.5", "wget==3.2"],
+    install_requires=["scikit-learn==1.1.0", "nltk==3.6.6", "wget==3.2"],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Science/Research",
