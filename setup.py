@@ -4,7 +4,7 @@ from setuptools import setup
 setup(
     name="nlp_id",
     packages=["nlp_id"],
-    version="0.1.12.0",
+    version="0.1.13.0",
     license="MIT",
     description="Kumparan's NLP Services",
     long_description=open("README.md", "r").read(),
@@ -16,7 +16,7 @@ setup(
     package_data={
         "": ["data/*"],
     },
-    install_requires=["scikit-learn==0.22", "nltk==3.4.5", "wget==3.2"],
+    install_requires=["scikit-learn==1.1.0", "nltk==3.4.5", "wget==3.2"],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Science/Research",
@@ -28,5 +28,6 @@ setup(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
     ],
 )
