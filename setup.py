@@ -4,7 +4,7 @@ from setuptools import setup
 setup(
     name="nlp_id",
     packages=["nlp_id"],
-    version="0.1.14.0",
+    version="0.1.15.0",
     license="MIT",
     description="Kumparan's NLP Services",
     long_description=open("README.md", "r").read(),
