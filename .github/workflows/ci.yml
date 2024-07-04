@@ -1,0 +1,46 @@
+name: python
+
+on: [pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Setup Python 3.11
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install Poetry
+      run: |
+        pip install poetry==1.8.2
+
+    - name: Install dependencies
+      run: |
+        poetry config virtualenvs.create false && poetry install
+        python -m nltk.downloader punkt  
+
+    - name: Vulnerabilities checker
+      run: |
+        poetry export --without-hashes --format=requirements.txt > requirements.txt
+        poetry run pip-audit -r requirements.txt
+
+    - name: Build package
+      run: |
+        poetry build
+
+    - name: Verify dist directory
+      run: |
+        ls -l dist
+
+    - name: Install built package
+      run: |
+        pip install dist/*.whl
+
+    - name: Run tests
+      run: |
+        make test

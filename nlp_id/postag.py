@@ -1,8 +1,8 @@
 import nltk
 import os
 import pickle
-import warnings
-import wget
+import logging
+from huggingface_hub import hf_hub_download
 from nlp_id import tokenizer
 from nltk.tree import Tree
 from sklearn.ensemble import RandomForestClassifier
@@ -15,7 +15,8 @@ class PosTag:
         self.current_dir = os.path.dirname(os.path.realpath(__file__))
         if not model_path:
             folder_name = "data"
-            file_name = "postagger_v9.pkl"
+            repo_id = "kumparanai/postagger"
+            file_name = "postagger_v10.pkl"
 
             folder_path = os.path.join(self.current_dir, folder_name)
             model_path = os.path.join(folder_path, file_name)
@@ -33,14 +34,11 @@ class PosTag:
                 if all_pickle:
                     for pickle_file in all_pickle:
                         os.remove(pickle_file)
-                        print("Removed", pickle_file)
+                        logging.info("Removed", pickle_file)
                 else:
-                    print("No model removed")
-                warnings.warn("Downloading model ..")
-                url = "https://storage.googleapis.com/kumparan-public-bucket/nlp-id/{}".format(
-                    file_name
-                )
-                wget.download(url, model_path)
+                    logging.info("No model removed")
+                logging.info("Downloading model ..")
+                model_path = hf_hub_download(repo_id=repo_id, filename=file_name)
         self.clf = self.load_model(model_path)
         self.tokenizer = tokenizer.Tokenizer()
 
