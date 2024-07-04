@@ -15,7 +15,7 @@ class PosTag:
         self.current_dir = os.path.dirname(os.path.realpath(__file__))
         if not model_path:
             folder_name = "data"
-            repo_id = "zavliju/tes_upload" # need to change
+            repo_id = "zavliju/tes_upload"  # TODO need to change
             file_name = "postagger_v10.pkl"
 
             folder_path = os.path.join(self.current_dir, folder_name)
@@ -43,7 +43,6 @@ class PosTag:
         self.tokenizer = tokenizer.Tokenizer()
 
     def load_model(self, model_path):
-        print(model_path)
         pickle_in = open(model_path, "rb")
         load_data = pickle.load(pickle_in)
         return load_data
