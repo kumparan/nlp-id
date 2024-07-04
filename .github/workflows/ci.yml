@@ -22,7 +22,7 @@ jobs:
     - name: Install dependencies
       run: |
         poetry config virtualenvs.create false && poetry install
-        poetry python -m nltk.downloader punkt  
+        python -m nltk.downloader punkt  
 
     - name: Build package
       run: |
