@@ -34,9 +34,9 @@ class PosTag:
                 if all_pickle:
                     for pickle_file in all_pickle:
                         os.remove(pickle_file)
-                        print("Removed", pickle_file)
+                        logging.info("Removed", pickle_file)
                 else:
-                    print("No model removed")
+                    logging.info("No model removed")
                 logging.info("Downloading model ..")
                 model_path = hf_hub_download(repo_id=repo_id, filename=file_name)
         self.clf = self.load_model(model_path)
