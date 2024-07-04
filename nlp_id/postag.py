@@ -15,7 +15,7 @@ class PosTag:
         self.current_dir = os.path.dirname(os.path.realpath(__file__))
         if not model_path:
             folder_name = "data"
-            repo_id = "zavliju/tes_upload"  # TODO need to change
+            repo_id = "kumparanai/postagger"
             file_name = "postagger_v10.pkl"
 
             folder_path = os.path.join(self.current_dir, folder_name)
