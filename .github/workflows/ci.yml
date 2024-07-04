@@ -21,7 +21,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        poetry config virtualenvs.create false && poetry install --only main
+        poetry config virtualenvs.create false && poetry install
 
     - name: Build package
       run: |
