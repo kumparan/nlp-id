@@ -18,6 +18,7 @@ python = ">=3.9,<3.12"
 scikit-learn = "1.5.1"
 nltk = "3.8.1"
 wget = "3.2"
+huggingface-hub = "0.23.4"
 
 
 [tool.poetry.group.dev.dependencies]
