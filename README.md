@@ -1,4 +1,4 @@
-# Kumparan's NLP Services
+# kumparan's NLP Services
 
 `nlp-id` is a collection of modules which provides various functions for Natural Language Processing for Bahasa Indonesia. This repository contains all source code related to NLP services.
 
