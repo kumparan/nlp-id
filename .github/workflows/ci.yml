@@ -22,7 +22,7 @@ jobs:
     - name: Install dependencies
       run: |
         poetry config virtualenvs.create false && poetry install
-        python -m nltk.downloader punkt  
+        python -m nltk.downloader punkt_tab
 
     - name: Vulnerabilities checker
       run: |
