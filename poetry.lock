@@ -215,13 +215,13 @@ files = [
 
 [[package]]
 name = "cyclonedx-python-lib"
-version = "7.5.1"
+version = "7.6.0"
 description = "Python library for CycloneDX"
 optional = false
 python-versions = "<4.0,>=3.8"
 files = [
-    {file = "cyclonedx_python_lib-7.5.1-py3-none-any.whl", hash = "sha256:9fc2c2e5facfd9530ede1f4525c903d29d91945688c5689b6d5fab46381dcab9"},
-    {file = "cyclonedx_python_lib-7.5.1.tar.gz", hash = "sha256:00cfe1e58452698650ae08b8f4389f7b1ec203a3e1c50cbf6ca6d320941dfb3f"},
+    {file = "cyclonedx_python_lib-7.6.0-py3-none-any.whl", hash = "sha256:30655e89e5f987dc8d57835919748d71589fafeb33ff1dec45048eb72eda3cf9"},
+    {file = "cyclonedx_python_lib-7.6.0.tar.gz", hash = "sha256:fa481d5f0d82728cb6a32e55f8ba9c666ba75a2bd99eb643228e3011c56bb5c4"},
 ]
 
 [package.dependencies]
@@ -419,13 +419,13 @@ files = [
 
 [[package]]
 name = "license-expression"
-version = "30.3.0"
+version = "30.3.1"
 description = "license-expression is a comprehensive utility library to parse, compare, simplify and normalize license expressions (such as SPDX license expressions) using boolean logic."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "license-expression-30.3.0.tar.gz", hash = "sha256:1295406f736b4f395ff069aec1cebfad53c0fcb3cf57df0f5ec58fc7b905aea5"},
-    {file = "license_expression-30.3.0-py3-none-any.whl", hash = "sha256:ae0ba9a829d6909c785dc2f0131f13d10d68318e4a5f28af5ef152d6b52f9b41"},
+    {file = "license_expression-30.3.1-py3-none-any.whl", hash = "sha256:97904b9185c7bbb1e98799606fa7424191c375e70ba63a524b6f7100e42ddc46"},
+    {file = "license_expression-30.3.1.tar.gz", hash = "sha256:60d5bec1f3364c256a92b9a08583d7ea933c7aa272c8d36d04144a89a3858c01"},
 ]
 
 [package.dependencies]
@@ -548,13 +548,13 @@ files = [
 
 [[package]]
 name = "nltk"
-version = "3.8.2"
+version = "3.9.1"
 description = "Natural Language Toolkit"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "nltk-3.8.2-py3-none-any.whl", hash = "sha256:bae044ae22ebe0b694a87c0012233373209f27d5c76d3572599c842740a62fe0"},
-    {file = "nltk-3.8.2.tar.gz", hash = "sha256:9c051aa981c6745894906d5c3aad27417f3d1c10d91eefca50382fc922966f31"},
+    {file = "nltk-3.9.1-py3-none-any.whl", hash = "sha256:4fa26829c5b00715afe3061398a8989dc643b92ce7dd93fb4585a70930d168a1"},
+    {file = "nltk-3.9.1.tar.gz", hash = "sha256:87d127bd3de4bd89a4f81265e5fa59cb1b199b27440175370f7417d2bc7ae868"},
 ]
 
 [package.dependencies]
@@ -1225,4 +1225,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.12"
-content-hash = "9554c39dbc512d01d4679862a4141e4dcc72e0a16c9685e5bea8de75b4b65d2b"
+content-hash = "eaffc25c98152dfd60172c7966e5d0416485844636904ea29f039b6ef4ece1a6"
