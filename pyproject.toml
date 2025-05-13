@@ -20,7 +20,7 @@ nltk = "3.9.1"
 wget = "3.2"
 huggingface-hub = "0.31.1"
 scipy = "1.15.3"
-numpy = "1.26.4"
+numpy = "2.0.2"
 
 
 [tool.poetry.group.dev.dependencies]
