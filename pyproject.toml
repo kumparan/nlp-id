@@ -9,7 +9,7 @@ maintainers = [
     "Dhanang Hadhi Sasmita <dhananghadhi@gmail.com>",
     "Aslam Hadi H<aslam.hadi@kumparan.com>",
     "Ghefira Nur Fatimah Widyasari<ghefira.fatimah@kumparan.com>"
-]s
+]
 license = "MIT"
 readme = "README.md"
 
