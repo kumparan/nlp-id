@@ -16,7 +16,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = ">=3.10,<3.13"
 scikit-learn = "1.6.1"
-nltk = "3.9.1"
+nltk = "3.9.4"
 wget = "3.2"
 huggingface-hub = "0.34.4"
 scipy = "1.15.3"
