@@ -24,7 +24,7 @@ numpy = "2.0.2"
 
 
 [tool.poetry.group.dev.dependencies]
-pytest = "8.2.2"
+pytest = "9.0.3"
 pip-audit = "2.7.3"
 black = "24.4.2"
 isort = "5.13.2"
