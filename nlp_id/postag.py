@@ -108,7 +108,7 @@ class PosTag:
                     if tokenized_word[i] in symbols:
                         result.append((tokenized_word[i], "SYM"))
                     else:
-                        result.append((tokenized_word[i], tags[i]))
+                        result.append((tokenized_word[i], str(tags[i])))
         return result
 
     def tree_to_list(self, tree_data):
