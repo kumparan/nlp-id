@@ -41,10 +41,12 @@ dev = [
 default-groups = "all"
 package = true
 
-[tool.uv-backend]
-wheel = ["nlp_id"]
-sdist = ["nlp_id"]
+[tool.hatch.build.targets.wheel]
+packages = ["nlp_id"]
+
+[tool.hatch.build.targets.sdist]
+include = ["nlp_id"]
 
 [build-system]
-requires = ["uv_build>=0.9.2,<0.12"]
-build-backend = "uv_build"
+requires = ["hatchling"]
+build-backend = "hatchling"
