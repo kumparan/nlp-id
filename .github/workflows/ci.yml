@@ -8,39 +8,44 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
-    - name: Setup Python 3.12
-      uses: actions/setup-python@v4
+    # 1. Setup uv and Python
+    - name: Setup uv
+      uses: astral-sh/setup-uv@v5
       with:
+        version: "latest"
+        enable-cache: true
         python-version: '3.12'
 
-    - name: Install Poetry
-      run: |
-        pip install poetry==2.1.3
-
+    # 2. Synchronize project
     - name: Install dependencies
       run: |
-        poetry config virtualenvs.create false && poetry install
-        python -m nltk.downloader punkt_tab
+        uv sync
+        uv run python -m nltk.downloader punkt_tab
 
+    # 3. Check for security vulnerabilities using pip-audit via uvx
     - name: Vulnerabilities checker
       run: |
-        poetry export --without-hashes --format=requirements.txt > requirements.txt
-        poetry run pip-audit -r requirements.txt
+        uv pip compile pyproject.toml -o requirements.txt
+        uvx pip-audit -r requirements.txt
 
+    # 4. Build the package
     - name: Build package
       run: |
-        poetry build
+        uv build
 
+    # 5. Verify the generated dist directory
     - name: Verify dist directory
       run: |
         ls -l dist
 
+    # 6. Install the newly built package into the environment
     - name: Install built package
       run: |
-        pip install dist/*.whl
+        uv pip install dist/*.whl
 
+    # 7. Run the test suite
     - name: Run tests
       run: |
-        make test
+        uv run make test
