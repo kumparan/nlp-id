@@ -105,7 +105,7 @@ Stopword Removal is used to remove every Indonesian stopword from the given text
     # Lionel Messi pergi pasar area Jakarta Pusat  
     
     paragraph = "Lionel Messi pergi Ke pasar di area Jakarta Pusat itu. Sedangkan Cristiano Ronaldo ke pasar Di area Jakarta Selatan. Dan mereka tidak bertemu begini-begitu."
-    stopword.remove_stopword(text)
+    stopword.remove_stopword(paragraph)
     # Lionel Messi pergi pasar area Jakarta Pusat. Cristiano Ronaldo pasar area Jakarta Selatan. bertemu.
     
 ## Training and Evaluation
