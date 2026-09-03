@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nlp-id"
-version = "0.1.22.0"
+version = "0.1.23.0"
 description = "kumparan's NLP Services"
 authors = ["Zavli Juwantara <zavli.juwantara@kumparan.com>"]
 repository = "https://github.com/kumparan/NLP-ID"
@@ -14,9 +14,9 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.11,<3.13"
+python = ">=3.11,<3.14"
 scikit-learn = "1.8.0"
-nltk = "3.9.4"
+nltk = "3.10.3"
 wget = "3.2"
 huggingface-hub = "1.14.0"
 scipy = "1.17.1"
